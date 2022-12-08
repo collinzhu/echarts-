@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import ReactEcharts from "echarts-for-react"; 
-import inboundJson from "./Data/inbound-message-counts.json"
+import ReactEcharts from "echarts-for-react";
+import inboundJson from "./Data/inbound-message-counts.json";
 import BarChart from "./Components/BarChart";
 
 // "totalthreat": 0,
@@ -10,24 +10,21 @@ import BarChart from "./Components/BarChart";
 // "totalclean": 72,
 // "totalallowpolicy": 357
 
-
 //state for the data
-interface IState{
+interface IState {
   totalThreat: number | any;
-  totalDenyPolicy:number | any;
+  totalDenyPolicy: number | any;
   domain: string | any;
   totalSpam: number | any;
   totalClean: number | any;
   totalAllowPolicy: number | any;
 }
 
-
-
-function App() {  
-
-return <div>
-  <BarChart imc = {inboundJson.data}></BarChart>
-  
-</div>;
-} 
+function App() {
+  return (
+    <div>
+      <BarChart imc={inboundJson.data}></BarChart>
+    </div>
+  );
+}
 export default App;

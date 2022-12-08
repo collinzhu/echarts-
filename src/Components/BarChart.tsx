@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import ReactEcharts from "echarts-for-react"; 
+import React, { useState, useEffect } from "react";
+import ReactEcharts from "echarts-for-react";
 import inboundMessageCounts from "../Data/inbound-message-counts.json";
 // "totalthreat": 0,
 // "totaldenypolicy": 0,
@@ -16,37 +16,58 @@ import inboundMessageCounts from "../Data/inbound-message-counts.json";
 //     totalClean: number | any;
 //     totalAllowPolicy: number | any;
 //   }
-interface IBarChartProps{
-    imc:any[];
+interface IBarChartProps {
+  imc: any[];
 }
-function BarChart(props:IBarChartProps) {
-    const [option, setOption] = useState({});
-    //const k = props.imc
-    console.log("DATA",props.imc);
-    useEffect(() => {
-        const head = ['product', 'total thread', 'total Deny policy', 'total spam', 'total clean', 'total allow policy'];
-        const body = props.imc.map(data=>{return [data.domain, data.totaldenypolicy,data.totalclean,data.totaldenypolicy,data.totalspam,data.totalthreat]});
-        const data = [head,...body];
-        //console.log(data);
-        const barChartOption = {
-            legend:{},
-            tooltip:{},
-            dataset: {
-              source: data
-            },
-            xAxis: { },
-            yAxis: {type: 'category' },
-            series: [{ type: 'bar' }, { type: 'bar' }, { type: 'bar' }, { type: 'bar' }, { type: 'bar' }]
-        }
-        setOption(barChartOption);
-    },[]);
+function BarChart(props: IBarChartProps) {
+  const [option, setOption] = useState({});
+  //const k = props.imc
+  console.log("DATA", props.imc);
+  useEffect(() => {
+    const head = [
+      "product",
+      "total thread",
+      "total Deny policy",
+      "total spam",
+      "total clean",
+      "total allow policy",
+    ];
+    const body = props.imc.map((data) => {
+      return [
+        data.domain,
+        data.totaldenypolicy,
+        data.totalclean,
+        data.totaldenypolicy,
+        data.totalspam,
+        data.totalthreat,
+      ];
+    });
+    const data = [head, ...body];
+    //console.log(data);
+    const barChartOption = {
+      legend: {},
+      tooltip: {},
+      dataset: {
+        source: data,
+      },
+      xAxis: {},
+      yAxis: { type: "category" },
+      series: [
+        { type: "bar" },
+        { type: "bar" },
+        { type: "bar" },
+        { type: "bar" },
+        { type: "bar" },
+      ],
+    };
+    setOption(barChartOption);
+  }, []);
 
-    return (
-          <div>
-            <ReactEcharts option={option} />;
-          </div>
-    
-    )
+  return (
+    <div>
+      <ReactEcharts option={option} />;
+    </div>
+  );
 }
 
-export default BarChart
+export default BarChart;
