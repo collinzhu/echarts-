@@ -3,7 +3,7 @@ import EChartsReact from 'echarts-for-react'
 // import inboundMessageCounts from '../Data/'
 
 interface LCProps {
-    data: []
+    data: any[]
     options: {}
 }
 
@@ -19,7 +19,7 @@ export default function LineChart(props: LCProps) {
             setOptions(props.options)
         } else {
             setOptions({
-                series: props.data.map((e) => { return {data: e} })
+                series: props.data.map((e) => { return {data: e, type: 'line'} })
             })
         }
     })
