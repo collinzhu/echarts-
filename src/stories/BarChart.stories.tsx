@@ -1,6 +1,12 @@
 import BarChart from "./BarChart";
 import { Story, ComponentMeta } from '@storybook/react';
+import data from '../Data/inbound-message-counts.json'
 
+
+
+const inbound = data.data
+
+console.log(data.data);
 
 const sample = [
         {
@@ -54,11 +60,6 @@ const Template: Story<typeof BarChart> = (args) => <BarChart imc = {sample}{...a
 
 export const sample1 = Template.bind({});
 sample1.args = {
-    imc:sample
+    imc:inbound[0]
 }
 
-// export const Primary = Template.bind({});
-// Primary.args = {
-//   primary: true,
-//   label: 'Button',
-// };
