@@ -1,0 +1,16 @@
+reports/inbound-message-counts?period=P1M&basetimestamp=
+reports/inbound-message-traffic?period=P1M&basetimestamp=
+reports/policyusage?period=P1M&eventtype=ALLOW_POLICY&direction=INBOUND&basetimestamp=
+reports/policyusage?period=P1M&eventtype=ALLOW_POLICY&direction=OUTBOUND&basetimestamp=
+reports/smartrules-usage?direction=inbound&period=P1M&granularity=DAILY&basetimestamp=
+reports/smartrules-usage?direction=outbound&period=P1M&granularity=DAILY&basetimestamp=
+reports/topdomains?direction=inbound&limit=10:SENDER&sort=CLEAN:count&period=P1M&basetimestamp=
+reports/topdomains?direction=outbound&limit=10:SENDER&sort=CLEAN:count&period=P1M&basetimestamp=
+reports/topdomains?direction=inbound&limit=10:RECIPIENT&sort=CLEAN:count&period=P1M&basetimestamp=
+reports/topdomains?direction=outbound&limit=10:RECIPIENT&sort=CLEAN:count&period=P1M&basetimestamp=
+reports/topusers?direction=inbound&limit=10:SENDER&sort=CLEAN:count&period=P1M&basetimestamp=
+reports/topusers?direction=outbound&limit=10:SENDER&sort=CLEAN:count&period=P1M&basetimestamp=
+reports/topusers?direction=inbound&limit=10:RECIPIENT&sort=CLEAN:count&period=P1M&basetimestamp=
+reports/topusers?direction=outbound&limit=10:RECIPIENT&sort=CLEAN:count&period=P1M&basetimestamp=
+reports/unusedpolicies?period=P1M&eventtype=ALLOW_POLICY&basetimestamp=
+reports/unusedpolicies?period=P1M&eventtype=DENY_POLICY&basetimestamp=
