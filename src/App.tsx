@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import ReactEcharts from "echarts-for-react";
-import inboundJson from "./Data/inbound-message-counts.json";
+import inboundJson from "../data/Set0/inbound-message-counts.json";
 import BarChart from "./Components/BarChart";
 
 // "totalthreat": 0,
