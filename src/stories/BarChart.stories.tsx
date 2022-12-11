@@ -1,5 +1,17 @@
+<<<<<<< HEAD
+import BarChart from "./BarChart";
+import { Story, ComponentMeta } from '@storybook/react';
+import data from '../Data/inbound-message-counts.json'
+
+=======
 import BarChart from "../Components/BarChart";
 import { Story, ComponentMeta } from "@storybook/react";
+>>>>>>> 7aee713c8d944c060f663fa3ca56fe8edcf8cced
+
+
+const inbound = data.data
+
+console.log(data.data);
 
 const sample = [
   {
@@ -54,6 +66,11 @@ const Template: Story<typeof BarChart> = (args) => (
 
 export const sample1 = Template.bind({});
 sample1.args = {
+<<<<<<< HEAD
+    imc:inbound[0]
+}
+
+=======
   imc: sample,
 };
 
@@ -62,3 +79,4 @@ sample1.args = {
 //   primary: true,
 //   label: 'Button',
 // };
+>>>>>>> 7aee713c8d944c060f663fa3ca56fe8edcf8cced
