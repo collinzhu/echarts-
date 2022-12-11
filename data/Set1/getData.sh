@@ -18,7 +18,7 @@ while IFS= read -r line
 do
     echo ${number}
     echo ${URL}${CUSTOMERID}"/"${line}${NOW}000
-    /usr/bin/curl ${URL}${CUSTOMERID}"/"${line}${NOW}000 -uroy.foubister@smxemail.com:ARsN3@ln4fr7 -A "Roys report tool" > ${number}.json
+    /usr/bin/curl ${URL}${CUSTOMERID}"/"${line}${NOW}000 -uroy.foubister@smxemail.com: -A "Roys report tool" > ${number}.json
     number=$((number+1))
 
 done < urls.txt
