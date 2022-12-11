@@ -1,4 +1,4 @@
-import BarChart from "./BarChart";
+import BarChart from "../Components/BarChart";
 import { Story, ComponentMeta } from '@storybook/react';
 
 
