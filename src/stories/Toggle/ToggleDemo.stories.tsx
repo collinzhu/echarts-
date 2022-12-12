@@ -1,4 +1,4 @@
-import ToggleDemo from "../Components/ToggleDemo";
+import ToggleDemo from "../../Components/Toggle/ToggleDemo";
 import { Story, Meta } from "@storybook/react";
 
 export default {

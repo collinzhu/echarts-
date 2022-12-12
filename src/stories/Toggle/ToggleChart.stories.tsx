@@ -1,4 +1,4 @@
-import ToggleChart from "../Components/ToggleChart";
+import ToggleChart from "../../Components/Toggle/ToggleChart";
 import { Story, Meta } from "@storybook/react";
 
 export default {

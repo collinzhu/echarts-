@@ -1,4 +1,4 @@
-import TogglePane from "../Components/TogglePane";
+import TogglePane from "../../Components/Toggle/TogglePane";
 import { Story, Meta } from "@storybook/react";
 
 export default {
