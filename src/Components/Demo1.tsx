@@ -1,35 +1,35 @@
 import ReactEcharts from "echarts-for-react";
 import unusedpolicies from "../data/Set0/unusedpolicies.json";
 
+type Props = {
+  title?: string;
+  description?: string;
+  displayMax?: number;
+  height?: number;
+};
+
 const Demo1 = ({
-  title,
-  description,
-  displayMax,
-  height,
-}: {
-  title: string;
-  description: string;
-  displayMax: number;
-  height: number;
-}) => {
+  title = "Unused Policies",
+  description = "Proportion of unused policies",
+  displayMax = 15,
+  height = 500,
+}: Props) => {
   const allData = unusedpolicies.data;
 
-  let policies = allData.map((data: any) => data.policyaction);
+  let policies = allData.map((data) => data.policyaction);
 
   // remove duplicates
   policies = policies.filter(
-    (value: string, index: number) => policies.indexOf(value) === index
+    (value, index) => policies.indexOf(value) === index
   );
 
   // take displayMax policies to process
-  policies = policies.filter(
-    (data: string, index: number) => index < displayMax
-  );
+  policies = policies.filter((data, index) => index < displayMax);
 
-  let amountOfEachPolicy = policies.map((policy: string) => {
+  let amountOfEachPolicy = policies.map((policy) => {
     // get all occurances
     const occuranceOfPolicy = allData.filter(
-      (data: any) => data.policyaction === policy
+      (data) => data.policyaction === policy
     );
 
     const value = occuranceOfPolicy.length;
