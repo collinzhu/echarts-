@@ -38,7 +38,7 @@ function PieChart(props: IPieChartProps){
           trigger: 'item'
         },
         legend: {
-          top: '5%',
+   
           left: 'center'
         },
         dataset:{
