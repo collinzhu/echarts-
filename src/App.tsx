@@ -1,4 +1,4 @@
-import PieChart from "./Components/PieChart";
+import PieChart from "./Components/Demo1";
 import useWindowDimensions from "./useWindowDimensions";
 
 function App() {

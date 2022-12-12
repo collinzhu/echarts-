@@ -1,7 +1,7 @@
 import ReactEcharts from "echarts-for-react";
 import unusedpolicies from "../data/Set0/unusedpolicies.json";
 
-const PieChart = ({
+const Demo1 = ({
   title,
   description,
   displayMax,
@@ -83,4 +83,4 @@ const PieChart = ({
   );
 };
 
-export default PieChart;
+export default Demo1;
