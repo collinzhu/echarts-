@@ -1,7 +1,8 @@
-import React, { useEffect } from "react";
-import ReactEcharts from "echarts-for-react";
+import React from "react";
 import inboundJson from "./Data/inbound-message-counts.json";
+import unusedPolicy from "./example/14.json"
 import BarChart from "./Components/BarChart";
+import PieChart from "./Components/PieChart";
 
 // "totalthreat": 0,
 // "totaldenypolicy": 0,
@@ -24,6 +25,7 @@ function App() {
   return (
     <div>
       <BarChart imc={inboundJson.data}></BarChart>
+       <PieChart up = {unusedPolicy.data}></PieChart>
     </div>
   );
 }
