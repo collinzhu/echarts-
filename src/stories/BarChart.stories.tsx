@@ -45,6 +45,7 @@ const sample = [
         }
     
 ]
+
 export default{
     title:'Barchart',
     component: BarChart

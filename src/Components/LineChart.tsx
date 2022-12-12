@@ -1,27 +1,29 @@
 import React, { useState, useEffect } from 'react'
 import EChartsReact from 'echarts-for-react'
-// import inboundMessageCounts from '../Data/'
 
 interface LCProps {
-    data: any[]
-    options: {}
+    title: string,
+    xAxisType: 'time' | 'value', // can add more as needed
+    yAxisType: 'value',
+    data: [],
 }
 
-// expects data as [[1, 2, 3]]
+
 export default function LineChart(props: LCProps) {
     const [options, setOptions] = useState({})
 
     // from what i gather, useEffect is work that gets done when the view loads
     useEffect(() => {
+        const opts = {
+            title: {text: props.title},
+            xAxis: { type: props.xAxisType, splitLine: { show: false } },
+            yAxis: { type: props.yAxisType, splitLine: { show: false } },
+            series: props.data.map( (element) => {
 
-        // if the options property is set, use that, else fallback to defaults
-        if (Object.keys(props.options).length != 0) {
-            setOptions(props.options)
-        } else {
-            setOptions({
-                series: props.data.map((e) => { return {data: e, type: 'line'} })
             })
         }
+
+        setOptions(opts)
     })
 
 
