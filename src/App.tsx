@@ -1,5 +1,5 @@
 import React from "react";
-import inboundJson from "./Data/inbound-message-counts.json";
+import inboundJson from "./example/inbound-message-counts.json"
 import unusedPolicy from "./example/14.json"
 import BarChart from "./Components/BarChart";
 import PieChart from "./Components/PieChart";

@@ -9,56 +9,44 @@ import ReactEcharts from "echarts-for-react";
 //     { value: 300, name: 'Video Ads' }
 //   ],
 interface IPieChartProps{
-    up:any[];
+    up:any;
 }
 
 function PieChart(props: IPieChartProps){
     const allData = props.up;
+    //console.log("data",allData);
 
-    let policies = allData.map((data) => data.policyaction);
-    console.log("lldata", policies)
-    const arr = [5, 5, 5, 2, 2, 2, 2, 2, 9, 4];
-const counts = {};
-
-for (const num of arr) {
-  counts[num] = counts[num] ? counts[num] + 1 : 1;
-}
-
-console.log(counts);
-console.log(counts[5], counts[2], counts[9], counts[4]);
+    const counting = new Map<string, number>();
+    for (const item of allData) {
+        //console.log("item",item.policyaction);
+        let count = counting.get(item.policyaction) || 0;
+        counting.set(item.policyaction, count + 1);
+    }
+   // console.log(counting);
+   const data = [];
+   for (const [key, value] of counting) {
+     data.push({
+       "value":value, "name": key
+     });
+   }
+   console.log(data);
   
-    // remove duplicates
-    //policies = [...new Set(policies)];
-  
-    // take displayMax policies to process
-    //policies = policies.filter((data, index) => index < displayMax);
-  
-    let amountOfEachPolicy = policies.map((policy) => {
-      // get all occurances
-      const occuranceOfPolicy = allData.filter(
-        (data) => data.policyaction === policy
-      );
-  
-      const value = occuranceOfPolicy.length;
-      const name = policy;
-  
-      return { value, name };
-    });
+   
    // const [option, setOption] = useState({});
     const option = {
-        // tooltip: {
-        //   trigger: 'item'
-        // },
-        // legend: {
-        //   top: '5%',
-        //   left: 'center'
-        // },
-        // dataset:{
-        //     source: data
-        // },
-        // series: [
-        //   {type: "pie"}
-        // ]
+        tooltip: {
+          trigger: 'item'
+        },
+        legend: {
+          top: '5%',
+          left: 'center'
+        },
+        dataset:{
+            source: data
+        },
+        series: [
+          {type: "pie"}
+        ]
       }
    // setOption(PieChartOptions)
  return (
