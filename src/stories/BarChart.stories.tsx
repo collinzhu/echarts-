@@ -1,8 +1,8 @@
-import BarChart from "../../Components/Collin/BarChart";
-import { Story, ComponentMeta } from "@storybook/react";
-import data from "../../data/set0/inbound-message-counts.json";
+import BarChart from "../Components/BarChart";
+import { Story, ComponentMeta } from '@storybook/react';
+import data from '../Data/inbound-message-counts.json'
 
-const inbound = data.data;
+const inbound = data.data
 
 console.log(data.data);
 
