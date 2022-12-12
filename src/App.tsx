@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import ReactEcharts from "echarts-for-react";
 import inboundJson from "./Data/inbound-message-counts.json";
 import BarChart from "./Components/BarChart";
+import { DataStore } from "./DataStore";
 
 // "totalthreat": 0,
 // "totaldenypolicy": 0,
@@ -23,7 +24,9 @@ interface IState {
 function App() {
   return (
     <div>
-      <BarChart imc={inboundJson.data}></BarChart>
+      {/* <BarChart imc={inboundJson.data}></BarChart> */}
+
+      { DataStore.global.request(1, "asdasd") }
     </div>
   );
 }

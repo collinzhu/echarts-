@@ -4,6 +4,8 @@ echo ${NOW}
 URL="https://portal.smxemail.com/api/customer/"
 CUSTOMERID='2017656'
 
+# example url: https://portal.smxemail.com/api/customer/2017656/reports/inbound-message-counts?period=P1M&basetimestamp=1670887416
+
 number=0
 # clean up
 
