@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import ReactEcharts from "echarts-for-react";
 import inboundJson from "./Data/inbound-message-counts.json";
-import BarChart from "./Components/BarChart";
+import BarChart from "./Components/Collin/BarChart";
 
 // "totalthreat": 0,
 // "totaldenypolicy": 0,
