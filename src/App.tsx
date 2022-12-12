@@ -1,7 +1,9 @@
+import TogglePane from "./Components/TogglePane";
+
 function App() {
   return (
     <>
-      <h1>npm run storybook</h1>
+      <TogglePane onChange={() => console.log("changed")} />
     </>
   );
 }

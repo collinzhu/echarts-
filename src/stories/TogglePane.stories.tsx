@@ -2,11 +2,13 @@ import TogglePane from "../Components/TogglePane";
 import { Story, Meta } from "@storybook/react";
 
 export default {
-  title: "Toggle/TogglePane",
+  title: "Toggle/Pane",
   component: TogglePane,
 } as Meta;
 
-const Template: Story = (args) => <TogglePane {...args} />;
+const Template: Story = (args) => (
+  <TogglePane onChange={() => console.log("changed")} {...args} />
+);
 
 export const basic = Template.bind({});
 basic.args = {};

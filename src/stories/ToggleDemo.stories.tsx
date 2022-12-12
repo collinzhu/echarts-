@@ -2,8 +2,21 @@ import ToggleDemo from "../Components/ToggleDemo";
 import { Story, Meta } from "@storybook/react";
 
 export default {
-  title: "Toggle/ToggleDemo",
+  title: "Toggle/Full Demonstration",
   component: ToggleDemo,
+  decorators: [
+    (story) => (
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+        }}
+      >
+        {story()}
+      </div>
+    ),
+  ],
 } as Meta;
 
 const Template: Story = (args) => <ToggleDemo {...args} />;
