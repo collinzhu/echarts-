@@ -1,29 +1,16 @@
 import React, { useEffect } from "react";
-import ReactEcharts from "echarts-for-react";
-import inboundJson from "./Data/inbound-message-counts.json";
-import BarChart from "./Components/BarChart";
-
-// "totalthreat": 0,
-// "totaldenypolicy": 0,
-// "domain": "fbl.vadesecure.com",
-// "totalspam": 0,
-// "totalclean": 72,
-// "totalallowpolicy": 357
-
-//state for the data
-interface IState {
-  totalThreat: number | any;
-  totalDenyPolicy: number | any;
-  domain: string | any;
-  totalSpam: number | any;
-  totalClean: number | any;
-  totalAllowPolicy: number | any;
-}
+import LineChart from './Components/LineChart'
+import smartRuleUsage from './4.json'
 
 function App() {
   return (
     <div>
-      <BarChart imc={inboundJson.data}></BarChart>
+        <LineChart
+            title={smartRuleUsage.title} 
+            xAxisType='time'
+            // yAxisType='value'
+            data={smartRuleUsage.data} />
+            
     </div>
   );
 }

@@ -3,18 +3,19 @@ import { Story, Meta } from '@storybook/react';
 import smartRuleUsage from '../../data/Set1/4.json'
 
 export default {
-    title: smartRuleUsage.title,
+    title: 'Line Charts',
     component: LineChart
 } as Meta
 
-const props = {
-
-}
-
 const Template: Story<typeof LineChart> = (args) => (
     <div>
-        <LineChart props={LCProps(props)}{...args} />
+        <LineChart
+            title={smartRuleUsage.title} 
+            xAxisType='time'
+            // yAxisType='value'
+            data={smartRuleUsage.data}
+            {...args} />
     </div>
 )
 
-export const LineChartExample = Template.bind({});
+export const LC1 = Template.bind({});
