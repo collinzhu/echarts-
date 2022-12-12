@@ -1,12 +1,12 @@
 import ReactEcharts from "echarts-for-react";
 import inboundMessageCounts from "../data/Set0/inbound-message-counts.json";
 
-type Props = {
+interface Props {
   title?: string;
   description?: string;
   displayMax?: number;
   height?: number;
-};
+}
 
 const Demo2 = ({
   title = "Inbound Message Counts",

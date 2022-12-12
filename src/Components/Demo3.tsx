@@ -1,11 +1,11 @@
 import ReactEcharts from "echarts-for-react";
 import policyUsage from "../data/Set0/policyusage.json";
 
-type Props = {
+interface Props {
   title?: string;
   description?: string;
   height?: number;
-};
+}
 
 const Demo3 = ({
   title = "Policy Usage",

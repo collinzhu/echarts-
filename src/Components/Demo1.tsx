@@ -1,12 +1,12 @@
 import ReactEcharts from "echarts-for-react";
 import unusedpolicies from "../data/Set0/unusedpolicies.json";
 
-type Props = {
+interface Props {
   title?: string;
   description?: string;
   displayMax?: number;
   height?: number;
-};
+}
 
 const Demo1 = ({
   title = "Unused Policies",
