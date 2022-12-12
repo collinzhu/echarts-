@@ -1,5 +1,5 @@
 import BarChart from "../Components/BarChart";
-import { Story, ComponentMeta } from '@storybook/react';
+import { Story } from '@storybook/react';
 
 
 const sample = [

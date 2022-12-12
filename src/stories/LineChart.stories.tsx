@@ -9,12 +9,7 @@ export default {
 
 const Template: Story<typeof LineChart> = (args) => (
     <div>
-        <LineChart
-            title={smartRuleUsage.title} 
-            xAxisType='time'
-            // yAxisType='value'
-            data={smartRuleUsage.data}
-            {...args} />
+       {LineChart(smartRuleUsage.title, 'time', smartRuleUsage.data)}
     </div>
 )
 
