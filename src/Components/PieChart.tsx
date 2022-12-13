@@ -29,7 +29,7 @@ function PieChart(props: IPieChartProps){
        "value":value, "name": key
      });
    }
-   console.log(data);
+   //console.log(data);
   
    
    // const [option, setOption] = useState({});
