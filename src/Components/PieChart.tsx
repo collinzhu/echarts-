@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import ReactEcharts from "echarts-for-react";
 
 // data: [
@@ -29,7 +29,7 @@ function PieChart(props: IPieChartProps){
        "value":value, "name": key
      });
    }
-   //console.log(data);
+   console.log(data);
   
    
    // const [option, setOption] = useState({});
@@ -38,8 +38,7 @@ function PieChart(props: IPieChartProps){
           trigger: 'item'
         },
         legend: {
-          top: '5%',
-          left: 'center'
+   
         },
         dataset:{
             source: data

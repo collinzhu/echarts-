@@ -21,8 +21,7 @@ interface IBarChartProps {
 }
 function BarChart(props: IBarChartProps) {
   const [option, setOption] = useState({});
-  //const k = props.imc
-  //console.log("DATA", props.imc);
+
   useEffect(() => {
     const head = [
       "product",
