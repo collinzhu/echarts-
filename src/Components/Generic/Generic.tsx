@@ -61,7 +61,7 @@ const Generic = ({
       },
     },
     legend: {
-      bottom: 10,
+      bottom: 0,
     },
     xAxis: {
       type: "value",
