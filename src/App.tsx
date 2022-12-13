@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import ReactEcharts from "echarts-for-react";
 import inboundJson from "./Data/inbound-message-counts.json";
 import BarChart from "./Components/BarChart";
@@ -22,13 +22,15 @@ interface IState {
 }
 
 function App() {
-  const d = DataStore.global.request(1, "asdasd")
+  const [data, setData] = useState('')
+
+  useEffect( () => {
+    DataStore.global.request(1, 'a').then( result => setData(result) )
+  })
 
   return (
     <div>
-      {/* <BarChart imc={inboundJson.data}></BarChart> */}
-
-      { d }
+      { data }
     </div>
   );
 }
