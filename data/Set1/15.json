@@ -1,0 +1,87 @@
+{
+    "id": "unusedpolicies",
+    "isEmpty": false,
+    "title": "Unused Policies",
+    "data": [
+        {
+            "policyoperand": "support@blueteez.com",
+            "policyaction": "DENY FROM USER"
+        },
+        {
+            "policyoperand": "peter.park@projectmanagementstudies.com",
+            "policyaction": "DENY FROM USER"
+        },
+        {
+            "policyoperand": "rosehill.datacenter@gmail.com",
+            "policyaction": "DENY FROM USER"
+        },
+        {
+            "policyoperand": "tmahoneynz@gmail.com",
+            "policyaction": "DENY FROM USER"
+        },
+        {
+            "policyoperand": "shameer.khan@userlane.com",
+            "policyaction": "DENY FROM USER"
+        },
+        {
+            "policyoperand": "ispio.com",
+            "policyaction": "DENY FROM DOMAIN"
+        },
+        {
+            "policyoperand": "nipamail.com",
+            "policyaction": "DENY FROM DOMAIN"
+        },
+        {
+            "policyoperand": "asean-cpa@tfac.or.th",
+            "policyaction": "DENY FROM USER"
+        },
+        {
+            "policyoperand": "ravidduck17@gmail.com",
+            "policyaction": "DENY FROM USER"
+        },
+        {
+            "policyoperand": "vincent.mountebank@gmail.com",
+            "policyaction": "DENY FROM USER"
+        },
+        {
+            "policyoperand": "profiles@zoominfo.com",
+            "policyaction": "DENY FROM USER"
+        },
+        {
+            "policyoperand": "smtpfox-yzfo8@xardam.com",
+            "policyaction": "DENY FROM USER"
+        },
+        {
+            "policyoperand": "noreply@m.zoominfo-privacy.com",
+            "policyaction": "DENY FROM USER"
+        },
+        {
+            "policyoperand": "info@nordicsteel.no",
+            "policyaction": "DENY FROM USER"
+        },
+        {
+            "policyoperand": "editorial@globalgovernmentforum.com",
+            "policyaction": "DENY FROM USER"
+        },
+        {
+            "policyoperand": "suzy@bm.co.nz",
+            "policyaction": "DENY FROM USER"
+        },
+        {
+            "policyoperand": "tuba.taraklioglu@solmaz.com",
+            "policyaction": "DENY FROM USER"
+        },
+        {
+            "policyoperand": "*.zoominfo.com",
+            "policyaction": "DENY FROM DOMAIN"
+        },
+        {
+            "policyoperand": "solution4u.com",
+            "policyaction": "DENY FROM DOMAIN"
+        },
+        {
+            "policyoperand": "pmta1021.dedicated.bmsend.com",
+            "policyaction": "DENY FROM DOMAIN"
+        }
+    ]
+}
