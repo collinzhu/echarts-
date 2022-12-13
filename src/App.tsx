@@ -13,14 +13,14 @@ import LineChart from "./Components/LineChart";
 // "totalallowpolicy": 357
 
 //state for the data
-interface IState {
-  totalThreat: number | any;
-  totalDenyPolicy: number | any;
-  domain: string | any;
-  totalSpam: number | any;
-  totalClean: number | any;
-  totalAllowPolicy: number | any;
-}
+// interface IState {
+//   totalThreat: number | any;
+//   totalDenyPolicy: number | any;
+//   domain: string | any;
+//   totalSpam: number | any;
+//   totalClean: number | any;
+//   totalAllowPolicy: number | any;
+// }
 
 function App() {
   return (

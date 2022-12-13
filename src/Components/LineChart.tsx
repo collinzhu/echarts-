@@ -2,13 +2,15 @@ import React from "react";
 import ReactEcharts from "echarts-for-react";
 
 function LineChart(){
+
+    const d = new Date(1668164400000);
+
+    console.log ("This is the date", d);
     const option = {
         tooltip: {
           trigger: 'item'
         },
         legend: {
-   
-         
         },
         xAxis: {},
         yAxis: { type: "category" },
