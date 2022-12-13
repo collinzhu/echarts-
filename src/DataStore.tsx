@@ -39,7 +39,7 @@ export class DataStore {
         let requestURL = `${baseURL}${customer}/reports/${requestID}`
 
         // url params
-        requestURL += '?' + `period=P${period}` + `&basetimestamp=${baseTime}`
+        requestURL +=  `?period=P${period}&basetimestamp=${baseTime}`
 
         requestURL = 'https://catfact.ninja/facts'
 
