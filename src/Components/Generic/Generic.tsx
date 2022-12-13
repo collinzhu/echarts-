@@ -13,10 +13,10 @@ const Generic = ({
   keyValue: string;
   data: { [index: string]: number | string }[];
 }) => {
-  // map the key field as categories
+  // map the keyValue as categories
   const categories = data.map((dataObject) => dataObject[keyValue]);
-  console.log(categories);
 
+  // remove the keyValue from the data set
   data = data.map((dataObject) => {
     let newDataObject: { [key: string]: number | string } = {};
     Object.keys(dataObject)
@@ -24,7 +24,6 @@ const Generic = ({
       .map((dataKey) => (newDataObject[dataKey] = dataObject[dataKey]));
     return newDataObject;
   });
-  console.log(data);
 
   // find the 'longest' (most fields) data object as reference for the fields
   let referenceDataObject: { [key: string]: number | string } = {};
