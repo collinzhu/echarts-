@@ -1,28 +1,33 @@
 import ReactEcharts from "echarts-for-react";
-import { StringLiteral } from "typescript";
-import { data as defaultData } from "../../data/Set1/0.json";
 
 const Generic = ({
   title = "Example Title",
   description = "Example Description",
   height = 500,
-  key = "domain",
-  data = defaultData,
+  keyValue,
+  data,
 }: {
   title?: string;
   description?: string;
   height?: number;
-  key?: string;
-  data?: any[];
+  keyValue: string;
+  data: { [index: string]: number | string }[];
 }) => {
   // map the key field as categories
-  const categories = data.map((dataObject) => dataObject[key]);
+  const categories = data.map((dataObject) => dataObject[keyValue]);
+  console.log(categories);
 
-  // delete the key from the data dictionary
-  data.map((dataObject) => delete dataObject[key]);
+  data = data.map((dataObject) => {
+    let newDataObject: { [key: string]: number | string } = {};
+    Object.keys(dataObject)
+      .filter((dataKey) => dataKey !== keyValue)
+      .map((dataKey) => (newDataObject[dataKey] = dataObject[dataKey]));
+    return newDataObject;
+  });
+  console.log(data);
 
   // find the 'longest' (most fields) data object as reference for the fields
-  let referenceDataObject: { [key: string]: number } = {};
+  let referenceDataObject: { [key: string]: number | string } = {};
   for (let i = 0; i < data.length; i++) {
     if (Object.keys(data[i]).length > Object.keys(referenceDataObject).length) {
       referenceDataObject = data[i];
