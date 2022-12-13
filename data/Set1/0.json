@@ -16,16 +16,24 @@
             "totaldenypolicy": 0,
             "domain": "fusion.education.govt.nz",
             "totalspam": 2,
-            "totalclean": 620,
-            "totalallowpolicy": 15
+            "totalclean": 679,
+            "totalallowpolicy": 17
+        },
+        {
+            "totalthreat": 0,
+            "totaldenypolicy": 0,
+            "domain": "mpi.govt.nz",
+            "totalspam": 0,
+            "totalclean": 1,
+            "totalallowpolicy": 0
         },
         {
             "totalthreat": 0,
             "totaldenypolicy": 5,
             "domain": "moe.govt.nz",
-            "totalspam": 25,
-            "totalclean": 8678,
-            "totalallowpolicy": 1
+            "totalspam": 24,
+            "totalclean": 9479,
+            "totalallowpolicy": 2
         },
         {
             "totalthreat": 0,
@@ -39,8 +47,8 @@
             "totalthreat": 0,
             "totaldenypolicy": 0,
             "domain": "esl.education.govt.nz",
-            "totalspam": 4,
-            "totalclean": 967,
+            "totalspam": 7,
+            "totalclean": 992,
             "totalallowpolicy": 0
         },
         {
@@ -48,7 +56,23 @@
             "totaldenypolicy": 0,
             "domain": "remediate.education.govt.nz",
             "totalspam": 0,
-            "totalclean": 219,
+            "totalclean": 224,
+            "totalallowpolicy": 0
+        },
+        {
+            "totalthreat": 0,
+            "totaldenypolicy": 0,
+            "domain": "oss.co.nz",
+            "totalspam": 0,
+            "totalclean": 2,
+            "totalallowpolicy": 0
+        },
+        {
+            "totalthreat": 0,
+            "totaldenypolicy": 0,
+            "domain": "s.seek.com.au",
+            "totalspam": 0,
+            "totalclean": 1,
             "totalallowpolicy": 0
         },
         {
@@ -56,7 +80,7 @@
             "totaldenypolicy": 0,
             "domain": "phishing.education.govt.nz",
             "totalspam": 0,
-            "totalclean": 3,
+            "totalclean": 2,
             "totalallowpolicy": 0
         },
         {
@@ -64,7 +88,7 @@
             "totaldenypolicy": 0,
             "domain": "taku.education.govt.nz",
             "totalspam": 0,
-            "totalclean": 5976,
+            "totalclean": 6201,
             "totalallowpolicy": 0
         },
         {
@@ -72,15 +96,31 @@
             "totaldenypolicy": 0,
             "domain": "news.education.govt.nz",
             "totalspam": 0,
-            "totalclean": 108,
-            "totalallowpolicy": 0
+            "totalclean": 133,
+            "totalallowpolicy": 1
+        },
+        {
+            "totalthreat": 0,
+            "totaldenypolicy": 0,
+            "domain": "smxemailassist.freshservice.com",
+            "totalspam": 0,
+            "totalclean": 0,
+            "totalallowpolicy": 1
         },
         {
             "totalthreat": 0,
             "totaldenypolicy": 0,
             "domain": "ppesl.education.govt.nz",
             "totalspam": 0,
-            "totalclean": 65,
+            "totalclean": 66,
+            "totalallowpolicy": 0
+        },
+        {
+            "totalthreat": 0,
+            "totaldenypolicy": 0,
+            "domain": "wesleyprimary.school.nz",
+            "totalspam": 0,
+            "totalclean": 1,
             "totalallowpolicy": 0
         },
         {
@@ -88,23 +128,23 @@
             "totaldenypolicy": 0,
             "domain": "ers.education.govt.nz",
             "totalspam": 0,
-            "totalclean": 9,
-            "totalallowpolicy": 532
+            "totalclean": 10,
+            "totalallowpolicy": 456
         },
         {
             "totalthreat": 0,
             "totaldenypolicy": 0,
             "domain": "kaingaora.org.nz",
             "totalspam": 0,
-            "totalclean": 31,
+            "totalclean": 34,
             "totalallowpolicy": 0
         },
         {
             "totalthreat": 0,
             "totaldenypolicy": 0,
             "domain": "education.org.nz",
-            "totalspam": 15,
-            "totalclean": 77,
+            "totalspam": 16,
+            "totalclean": 83,
             "totalallowpolicy": 0
         },
         {
@@ -118,9 +158,17 @@
         {
             "totalthreat": 0,
             "totaldenypolicy": 0,
+            "domain": "bishopdale.school.nz",
+            "totalspam": 0,
+            "totalclean": 1,
+            "totalallowpolicy": 0
+        },
+        {
+            "totalthreat": 0,
+            "totaldenypolicy": 0,
             "domain": "library.education.govt.nz",
             "totalspam": 2,
-            "totalclean": 586,
+            "totalclean": 645,
             "totalallowpolicy": 0
         },
         {
@@ -129,6 +177,14 @@
             "domain": "payroll.education.govt.nz",
             "totalspam": 0,
             "totalclean": 3,
+            "totalallowpolicy": 0
+        },
+        {
+            "totalthreat": 0,
+            "totaldenypolicy": 0,
+            "domain": "jeanbatten.school.nz",
+            "totalspam": 0,
+            "totalclean": 1,
             "totalallowpolicy": 0
         },
         {
@@ -148,20 +204,20 @@
             "totalallowpolicy": 0
         },
         {
-            "totalthreat": 18,
-            "totaldenypolicy": 80,
+            "totalthreat": 27,
+            "totaldenypolicy": 95,
             "domain": "minedu.govt.nz",
-            "totalspam": 45763,
-            "totalclean": 40759,
-            "totalallowpolicy": 28
+            "totalspam": 45418,
+            "totalclean": 42848,
+            "totalallowpolicy": 33
         },
         {
             "totalthreat": 0,
             "totaldenypolicy": 0,
             "domain": "training.education.govt.nz",
             "totalspam": 1,
-            "totalclean": 116,
-            "totalallowpolicy": 0
+            "totalclean": 124,
+            "totalallowpolicy": 2
         },
         {
             "totalthreat": 0,
@@ -191,15 +247,15 @@
             "totalthreat": 0,
             "totaldenypolicy": 0,
             "domain": "pmawards.education.govt.nz",
-            "totalspam": 4,
-            "totalclean": 15,
+            "totalspam": 5,
+            "totalclean": 17,
             "totalallowpolicy": 0
         },
         {
             "totalthreat": 0,
             "totaldenypolicy": 0,
             "domain": "educationalleaders.govt.nz",
-            "totalspam": 15,
+            "totalspam": 10,
             "totalclean": 4,
             "totalallowpolicy": 0
         },
@@ -208,7 +264,7 @@
             "totaldenypolicy": 0,
             "domain": "jobs.education.govt.nz",
             "totalspam": 6,
-            "totalclean": 513,
+            "totalclean": 523,
             "totalallowpolicy": 0
         },
         {
@@ -223,8 +279,8 @@
             "totalthreat": 0,
             "totaldenypolicy": 0,
             "domain": "unesco.org.nz",
-            "totalspam": 14,
-            "totalclean": 3,
+            "totalspam": 15,
+            "totalclean": 18,
             "totalallowpolicy": 0
         },
         {
@@ -246,18 +302,26 @@
         {
             "totalthreat": 0,
             "totaldenypolicy": 0,
-            "domain": "educationcounts.govt.nz",
-            "totalspam": 75,
-            "totalclean": 37,
+            "domain": "microsoft.com",
+            "totalspam": 0,
+            "totalclean": 1,
             "totalallowpolicy": 0
         },
         {
-            "totalthreat": 85,
-            "totaldenypolicy": 1863,
+            "totalthreat": 0,
+            "totaldenypolicy": 0,
+            "domain": "educationcounts.govt.nz",
+            "totalspam": 75,
+            "totalclean": 40,
+            "totalallowpolicy": 0
+        },
+        {
+            "totalthreat": 87,
+            "totaldenypolicy": 2007,
             "domain": "education.govt.nz",
-            "totalspam": 40947,
-            "totalclean": 957486,
-            "totalallowpolicy": 127500
+            "totalspam": 42464,
+            "totalclean": 1008052,
+            "totalallowpolicy": 131813
         },
         {
             "totalthreat": 0,

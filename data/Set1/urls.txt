@@ -14,3 +14,5 @@ reports/topusers?direction=inbound&limit=10:RECIPIENT&sort=CLEAN:count&period=P1
 reports/topusers?direction=outbound&limit=10:RECIPIENT&sort=CLEAN:count&period=P1M&basetimestamp=
 reports/unusedpolicies?period=P1M&eventtype=ALLOW_POLICY&basetimestamp=
 reports/unusedpolicies?period=P1M&eventtype=DENY_POLICY&basetimestamp=
+reports/policyusage?period=P1M&eventtype=DENY_POLICY&direction=INBOUND&basetimestamp=
+reports/policyusage?period=P1M&eventtype=DENY_POLICY&direction=OUTBOUND&basetimestamp=

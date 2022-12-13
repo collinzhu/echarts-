@@ -1,0 +1,2646 @@
+{
+    "id": "policyusage",
+    "isEmpty": false,
+    "title": "Policy Usage - Type of Events = Blacklist, Direction = INBOUND",
+    "data": [
+        {
+            "touser": "tania.wright@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "bounces+21447105-1fca-tania.wright=education.govt.nz@send.ksd3.klaviyomail.com",
+            "countofhits": 17,
+            "operand": "send.ksd3.klaviyomail.com"
+        },
+        {
+            "touser": "madison.smith@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "bounces+12632138-ba07-madison.smith=education.govt.nz@send.ksd3.klaviyomail.com",
+            "countofhits": 15,
+            "operand": "send.ksd3.klaviyomail.com"
+        },
+        {
+            "touser": "paige.stiles@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "bounces+12632138-5966-paige.stiles=education.govt.nz@send.ksd3.klaviyomail.com",
+            "countofhits": 13,
+            "operand": "send.ksd3.klaviyomail.com"
+        },
+        {
+            "touser": "marie.mitchell@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "bounces+20649396-a77f-marie.mitchell=education.govt.nz@send.ksd3.klaviyomail.com",
+            "countofhits": 12,
+            "operand": "send.ksd3.klaviyomail.com"
+        },
+        {
+            "touser": "kathryn.turner@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "bounces+20649396-c413-kathryn.turner=education.govt.nz@send.ksd3.klaviyomail.com",
+            "countofhits": 11,
+            "operand": "send.ksd3.klaviyomail.com"
+        },
+        {
+            "touser": "knisha.ruland@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "bounces+7360070-0926-knisha.ruland=education.govt.nz@send.ksd3.klaviyomail.com",
+            "countofhits": 10,
+            "operand": "send.ksd3.klaviyomail.com"
+        },
+        {
+            "touser": "brianna.craw@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "bounces+10198722-326b-brianna.craw=education.govt.nz@send.ksd3.klaviyomail.com",
+            "countofhits": 6,
+            "operand": "send.ksd3.klaviyomail.com"
+        },
+        {
+            "touser": "sean.torley@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axclx6ud72ylximpz4autha0r4b4l167fq2ud@bf06x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "jacqui.smith@minedu.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "bounces+14102615-107a-jacqui.smith=minedu.govt.nz@send.ksd3.klaviyomail.com",
+            "countofhits": 5,
+            "operand": "send.ksd3.klaviyomail.com"
+        },
+        {
+            "touser": "kelly.mitchell@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axchiip0ds5o4n3e4g3cbwbqckdl1mvz8ka2t@bf05x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "erna.cullen@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axchlwq4w91vgrigggz1wk9p97u3nc3hj16n8@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "matt.omara@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axchp0oajg3u88kpoqndoq15knuaon5cbsv53@bf08x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "fleet.management@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axchp356zookvmrei20qj2rpt5c4ro2ek9gi7@transactional.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "leah.haines@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axchpnt7yguzedmkvamxnw97wqxduoqg5ocn0@bf05x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "paul.monahan@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axchrbasgreczjnbdnoffs1c6q1nkxzuvfef8@bf05x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "jane.williamshill@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axchubdtivm7rxfl5i3e1kyna2s3kn80tlvdy@transactional.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "shaun.gear@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axchv4fe86206dlioxto6tsdfp3wgexxpc8zw@bf02x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "rose.carpenter@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axci0jac15c0m728xn19ywdw8e7nafrc9g2gy@bf02x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "lauren.curtis@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axci451j0bpzorufj1fp97ldy34kd875cw0nt@bf02x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "naomi.teta@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axci6yvftbcyacnfngwy2gky4fq2al6ku35wg@bf03.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "kishore.doddi@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axci8ndgb5rynbpq9zwkitx341e9hwl1kg83i@bf02x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "becky.urlwin@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axcihw6wotowgyb7g3lf9mg4i1w3y9mst49zw@bf06x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "johan.rall@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axciild7otyanrdfmmegnbzo7rzzwq4ub9j76@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "fleet.management@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axciuy5xiuii35az1samv6zku3zr17xt0il7n@transactional.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "carmen.o'meeghan@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axcixn0cvrokatzn16cngxpoj59d5z55wa767@bf07x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "mark.geddes@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axcj1tkpklj8upaxlqrht0wfhk0xvj8qkkrg2@bf02x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "rachel.leroy@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axcj2kdiqvxybwojcl0net0eu8kyh62y6lrta@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "zafar.naushad@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axcj31ciapcdriapo5i69a9hb3pp4rjlcqj5x@bf10x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "mark.grams@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axcj5c4h3l5lt2psl82ouxul6o0jbajzwwqdo@bf02x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "wayne.tan@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axcjb9hj5dym48pwlrs8mjssiuediige1bcl2@bf10x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "jason.ragg@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axcjcug08lqcrzx8bs9dqphq1jqohucpfhaik@bf10x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "angela.williams@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axcjnz9y7d3a1td0k87ja0mp1iknf12su4o7d@bf03.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "mark.carroll@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axcjq7g0k06xldmwesw11qptbt4vso3o70zy1@bf05x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "varun.gaur@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axcjvuoj78mfeu1kic2uouovt0815ecj85v1f@bf10x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "huriana.mcroberts@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axck8d4aaezkwoh84s5kabizw27lgo7ylw316@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "sine.stewart@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axckaavl4aqt43cge66lafvkylp3hlaqg3t7u@bf10x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "tara.tj@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axckbmap5duy3n06k4vqqzx7msfte8cle2ko8@bf04x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "mark.flintoff@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axckfpdj093eh7xnnbokf7q37tiym4mbvmvea@bf04x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "mae.pullar@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axckfrbyat7g3pfqy0beff9xg0yyoj14gnlkf@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "david.wales@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axckr8tfetll9ssc671188kxhr0emxww75578@bf10x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "fleet.management@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axcl2o4b747ycmnfc722ytqaccie4ut7xgd7n@transactional.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "deidre.alderson@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axclau2yv700q59m6ucqxrmgkrfwid76gv066@bf03.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "clare.ruru@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axclq48yhukw5o0j0nbx2nnd8g9zl4j7jghly@bf07.eu1.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "tom.obrien@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axclqp8p10p2slp4h0pieh89rcz8oxo49mz1s@bf02x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "usha.jeram@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "bounces+28329850-32d4-usha.jeram=education.govt.nz@send.ksd3.klaviyomail.com",
+            "countofhits": 5,
+            "operand": "send.ksd3.klaviyomail.com"
+        },
+        {
+            "touser": "gavin.carter@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb0emvm7mxwelrzh01bn17xjhu3fm7edxc2g@bf07x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "gennady.levine@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb0gfi2bc7dvu14tlzvyvynxrgkh5nqqlcpe@bf08x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "fleet.management@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb0h51gp5o0r04eju8tdglf175xc0x1t9cdv@transactional.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "hugh.sheppard@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb0hascfg4zhunv2gsk56gakcozvxx6xd8is@bf04x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "chris.casey@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb0m6nuweouk7pd3i89n0h40xrvioux6xmq5@bf05x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "rosemary.miller@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb0su1fyu238236y5p8380krpgw0jozbwtk4@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "amy.orr@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb0xhludxfnwwnxiaumxdaqy2m3e60989blc@bf05x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "alison.alchin@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb15tkfv1rvg2cu95gr6y22h37te764ypn57@bf05x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "dayton.hight@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb19ox21amwpts0x46nyg5gp1t9vwl47cu8s@bf04x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "john.daly@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb19vldxcz7pheq0z9ri328mn53gsqlylhyr@bf10x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "kevin.baldick@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb1c3cim0ej4nrxdq31i49gsl3vm4a04jkf7@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "glenn.peoples@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb1q5no95fqipf69d2iuc9phdwnj9blium6n@bf05x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "cyril.mako@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb1qorg7fy3dum36kzxiez4qnudu8mbw76us@bf02x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "tracy.cournane@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb216cl54qf309t0vppbobxk6wgha1623nh5@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "patsy.rose@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb24egp1y1erd3jxr3bk1ee8ta3u1mc0b070@bf04x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "nan.xu@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb2b7g9yfvztq25ocw476j9uao0fixnjqcf3@bf05x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "stacey.pene@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb2fcknvlxtiq3gclf8qbdpkghlmw0wcjge5@bf04x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "natasha.correa@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb2hegz4p5gcumkdnacklv10331uurxtnpmn@bf08x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "kearoa.mokaraka@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb2ijo3pji1mony5k28jzp8qnyi38kxvlx9f@bf01.eu1.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "trang.jones@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb2j55drc5hr7w1x7q7p0p4waguk0dktlp65@bf05.eu1.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "maria.love@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb2n8hhh4leq3shkrmih30g55a8izfneq2av@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "eva.monk@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb2v92yue0ci0ghlojoaokawo9vvrrafksbu@bf02x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "fleet.management@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb2xt33ap88znrehut4ineghqme6hstfsg6b@transactional.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "jozsef.ekart@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb2z7fz7ufatv0fwnovlphggnppriurkf3pd@bf03.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "rosie.crocker@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb32q7m3jou2idzc2uyxlyjaz3u0wo08w4s4@bf05x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "indira.parmar@minedu.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb34achtov6vv6e3yzlkw78o65ty0ip4xza7@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "angela.williams@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb39i8dh8djg04spsrddpc45y6iw1yvmzk3t@bf02x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "maree.paterson@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb3gp5w5usa6qqj1an9obrswbq00qcgt1zn4@bf01.eu1.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "andrew.stitt@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb3jsie9dmwc3ax5f9wqi3hicyitcxkmmr30@bf04x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "joseph.proctor@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb3nz9oxim82u6jvzhtbusoccifalv8yw2sy@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "debbie.needham@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb3p8acefeihcz0y6xw5us3izmnkg9f61y2f@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "nancy.bell@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb3ylyuila0urss6z4igl2hsnuruyi4kobzi@bf04x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "raelene.ellis@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb3zxh6rva9x6d1qlgzuw5y7tmmn58kc173b@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "stuart.wakefield@minedu.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb456eq0axx6jdzqw6fgmtpgt4meg8zy5oue@bf04x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "brett.dale@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb4e2pt13mca3rpz4jtsp69um35n4eq3ognm@bf07.eu1.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "parveen.tandon@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb4legbeo6j70twjgpp2jaxp2pv0n9jrj34q@bf04x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "angela.williams@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb4qne3hr7rcwp2xe0b5difdb1m283y0i0yh@bf08x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "alice.meredith@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb4u517yngef7svcxv0ha9twb0sm2v3e11nr@bf03.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "fleet.management@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb50bbklljmbcnbujfhjt5lbd7xkzazp4elv@transactional.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "delaney.myers@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb51el7hum9dopbltc8dfxgj0a3ukigc4243@bf02x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "mehrdad.fatemi@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb545oiy92zqzd0dkcf4w4lc50ogwslp4pxf@bf02x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "catherine.lightfoot@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb59idkuf6s8r90n2bp03ckedz1xa6as4hq4@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "sarah.hailes@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb5ifpexjy30vn1k61qna3c66vb2amaqz2uy@bf06x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "geoffry.billing@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb5ttgui95agyucar2w59pplkq8ubq0oybcq@bf04x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "katelyn.youngblood@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb5x4kkwvyguqx5s1qdr462o6huljm7nqtw0@bf10x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "curriculum.design@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb5xpof41i1spbq6vaywsruxiqzs61un95fh@bf02.eu1.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "moeapps.support@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb6090kyks9gulrcv8sp0wgikf3qdnoy10ul@bf03.eu1.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "jann.marshall@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb66o8nxaw1uiw1p3wp0f4fiwtp2ukazctey@bf05x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "maree.boyd@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb67gm9zufmqum0yfb5i2mn1a35hye76e6kb@bf02x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "fleet.management@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb6hxk67amrehccckn8a6wr29rdbe7udb727@transactional.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "celeste.wolfensberger@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb6qkgtjk46u43up7uripgu6cn8ctkfh821w@bf07x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "jane.chirnside@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb6wuzdfezbl99g7qpdrn3nkpt7gxdpqqoca@bf03.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "paul.fenton@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb6zan7n2pnb10qrimy5man7mn7wk80spfzg@bf04x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "nayan.gurung@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb768zcn4o32pasrgjzczh2fm20svnfxvve7@bf06x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "matthew.willey@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb78k9dgurcfv8bcuqwm59uowxoufqbpdk28@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "deborah.kelly@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb7f53zx7e0pueq9b7weml5a8lc4bc8teqz7@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "accountspayable.invoices@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb7rwna8b4kegwbblsaynhkuqjyzud7bmgud@bf10x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "baylee.martin@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb7s770ahsf2ri2yysgblik6dzalw43946ha@bf02x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "rebekah.zwies@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb7ts636d4dou9ky0gnhlwsc2vx69coxcohl@bf06x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "shreshtha.gupta@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb829jb87tnpyhs82qbs9iauglondk0j67q9@bf05x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "stephen.metherell@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb8bx7te2eui7gnvxcam85gg641ezveomj5z@bf05x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "denise.ririnui@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb8g8wrp84pq5m8949k2kk9a5bsmblsz9bxm@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "sonya.bishara@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb8gyt0z127kgimlzjya5czqwxnb3ffjwc5m@bf04x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "rita.mendes@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb8lkwqvbj0b9lbelftn3mbmcrw1e8up3xzh@bf02x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "dean.hollis@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb97b1y73292zw9i4gmy0oqlg3kgv3blpxyy@bf04x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "margaret.paiti@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb97ol0hze6c66rktbsbw15k0vlekqlmiddm@bf10x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "michael.mccauley@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb98sb7e0m60cwjp80u390h2rdu6d203foil@bf06x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "trish.jenkins@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb9i03p4gymocaetefe4u41jsz309lr4kee2@bf05x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "di.edlin@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb9l7a3oaem9fv9r4vkszd8z7a3auzqi749m@bf02x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "rowena.jackson@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb9xnz3p602vgypdscwol8egjf1h59uojdus@bf05x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "michelle.browning@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbg8y8f9u1caj8kdlrhmze1ey3kc795fj8vf@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "charlene.sinanan@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbgb1ytipb2z370g6yv5vj4ehx4oi8qv4w0b@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "paul.gordon@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbgdm63pcbykrzxjroz98383dimw1ypfqwo6@bf05x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "accountspayable.invoices@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbggj2c55g5oc98flw73aacqk3pd8e7dmpxh@bf02.eu1.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "shaun.gear@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbgka3o6kg85cgkyms53tfusc569lu3oaq4c@bf05x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "frances.waller@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbgmh66j50u7ym5x9rdsxsk960boxkv8ap4x@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "jessica.harris@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbgmt4q4g3gyhax97aznvqx2afnzb4ad7j0v@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "chris.tutty@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbgn4pthb3ralkw7h0w9ednx0uijfn2uo9br@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "pauline.long@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbgtdlrmbe1h21rf49i2v6bckg68trxxsd6p@bf03.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "muff.royal@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbgvvvnzby9o2uqxv9tgpvs4gym8edmzu2s2@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "srihari.krishna@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbgytb6b44j74o58sxbyyz5qx1ss48u1jg3c@bf05x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "beth.duplooy@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbh5f3m23roq5nsbk1f8syi7ghsxmk7kj3ho@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "marina.peters@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbh7v1s47kgnbwuy84e825sz4pou72rxd7h0@bf52x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "leanne.tewheoro@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbhb6x0i9ots6o0xubs9jbue9qqtksw6fv5c@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "steve.sheppard@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbhfyu3u5k74ayil6wdai6mejl5zd7yt14j7@transactional.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "mahina.melbourne@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbhsvepj6wys0mpgjv8pefukax5gncjjhcn8@bf04x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "fleet.management@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbhuyefs439ni0wtmwjou6t6npfccpfqjbv3@transactional.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "alicia.paulsen@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbhztnw9vbmm9lm85vp78bb9khxzc1scwv6q@bf08x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "alicia.bravo@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbi02jo2ic25oybcz3wqxqtummdnic4abn7u@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "barbara.mavor@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbi7vjykmnew7g327g4szcltz0q2bdjusupa@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "jira.admin@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbi8l6zrjric6bzjev7sxt8hx2oe5e3x3gzh@bf10x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "kiki.mudgway@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbi9f1ijk35u21m2elx0drsd61s8ybpphpy4@bf10x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "tane.walters@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbia7tauu2k71e7b98e7hmeuif25nyb1tzto@bf10x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "neil.hearn@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbigfxazb1ldnfll7rf346jf9v0lwki3v6bg@bf05x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "accountspayable.enquiries@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbimiayb6k16aq3yb6a9w1kub1djhjtmm404@bf10x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "nate.oakley@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbio15gr4dpwnen4wzskx65mlrmng076s0kx@bf05x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "fleet.management@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbiq4mjuyyhkkvp92px4qpxwz17p5ury2lmb@transactional.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "fleet.management@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbj0l08y3jrt6h2kiknetf077dd67qcl7kdv@transactional.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "lara.managhwilliams@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbj14mi1ujs3apykevaj4g5ms5wr7kghnzb5@bf06x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "liane.gallagher@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbj5drz94nvhwhkjscil9a8oyngnmew5afu2@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "fleet.management@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbj5x5b0hx4wmd8mizol1e61vhyfnb7q1uq7@transactional.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "rhiannon.webb@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbjeyk44kfafyzao492dk14hzndo4t98xz7l@bf02x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "karla.davidson-brown@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbjhgo4pqt9hgzdlxe9sq0qgmylhow345hcl@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "tariq.saiyad@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbjjcwwc9ru41u2720lojmfx3858mvxj0qmr@bf06x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "donald.peterkin@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbjpeulyijbj7a2338tn26b0akjc91gimb29@bf02x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "steve.sheppard@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbjsx2c48sjuq47udsnzoo22k59pmzwsg943@transactional.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "moana.waiwiri@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbjy5laebzecztty7ljlchcww7uwrnxxgev2@bf02x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "judith.forbes@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbk95x7tc01mrkjgwoigxwwj5soeicynkxtm@bf03.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "cassandra.chong@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbk99dshe994sg487vv9756jh90hnqbe73ey@bf08x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "helen.hodgkinson@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbkdc5htzjaj8unsi57tn4gt0pcwh9bbawle@bf04x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "moe.procurement@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbkharsoia175zdbgpdibrclmuvoevi9qxs8@bf10x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "phyllis.fitzgerald@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbkholt2j30h8c653t9ktytspfkfvhmxbytf@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "malapatir@moe.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbkontk3fehq7t2ip9robzxyvjuzoqg3c5xq-malapatir=moe.govt.nz@bf04x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "andrew.hood@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbkraevl5wm779in89um0wz4zlzf7xt7d67s@bf05x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "freisja.humphries@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbks4zc6hb4k5vnak9goqt35namtwhwhywij@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "duncan.tamati@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbkx2b8irsuv1o6pot652yub7urbjsysamj8@bf05x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "anjila.dixon@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbkx6g8ic3p1kujh0o1b3rnbj698uzzbrxnp@bf06x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "becky.chartered@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbkz60wqjg0tz2x271mugsgw887n94qyop9m@bf08.eu1.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "charelle.pere@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbl6j3yxtseazpecj9mkbs3ia0mdc54qiagg@bf02.eu1.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "wayne.mckoy@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbllblih6ewzjifv2fabf1kpm77xoftool2b@bf04x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "emma.medina@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbm0wha58lkqbptjaq0jenn9kj3bdc9ojfjc@bf10x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "kerri.keogh@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbm11e3egzal2yx3srgitfdmjr3uy4ju40la@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "georgina.rhynd@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbm4klszy8mpwcs46n9h71tyjbkcbfj2kj7k@transactional.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "clare.ruru@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbmah0ksaqrcpa18krg49h45blnymsxab93q@bf04x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "dallas.shadbolt@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbmd9ug88ja0xccpr9v175ca5756nqf4bqqj@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "cathy.diggins@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbmq8utczevdapq8jm9kcayl8gw77f4hi6m1@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "emma.roylance@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbms3xcl32jiskinjnhz4ucgvz3k1lkfx628@bf02x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "gwen.mann@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbmsisat4iq4xhoxmyq2zwp7nx4gspxvx6kp@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "jeremy.hayes@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbmx59alk51m4xr9rvs7g5u2ynnqgvufku4n@bf04.eu1.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "john.baron@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbmykd64snmjidscjj723338rxzi4gcglrxy@bf10x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "martin.rothbaum@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbn2j1mlbqczlg61a2tjped08k2tw1op7scv@bf02.eu1.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "fleet.management@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbn31xtm2gdulq3ve37zznb11a68l25tg2pf@transactional.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "paul.pearson@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbnakqhluauepqkz7o3le4wadouk8n6osysn@bf10x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "mark.corrigan@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbne84rxnuja3you817la9fffpufxht09g3t@bf02x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "di.thomas@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbnhj51fgk4nv2o4jl30nnonvm1dtjvxr0gn@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "alex.feinson@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbnhsc2chvm90vt7xvbzx1nt6co6r5n5d1r8@bf02x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "ryan.gillespie@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbnlpse55geeozx26at0xmkeieo47i3g3vg0@bf05.eu1.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "ruyang.shao@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbnm0gv08qeygw11ryglu7y3k10mgrqwe8ei@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "karla.davidsonbrown@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbnucp7i6guss5rnus9nquqvhfmwvk6z3zkb@bf08x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "lianne.huddleston@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbnunq7jf73pbx9pqx2hxbnckuey7q8o5ob9@bf08x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "hayley.davies@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbnv1kdncdnhpcttdjizbzmdwyuwm5jrvez7@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "fiona.oleary@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbnvf4vic9hnh0bohk168qx9qyvm2h8wr64d@bf04x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "vivienne.mulligan@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbo1zvejks5320bu20g5e9goyx94mtkjy93m@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "chris.ratcliffe@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbo32iq6h0b8o5tcebicr6kuas6wpbarcpf7@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "preetha.george@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbo4w0imnynhpja9snxkv3rmhx05vvda3jpz@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "debbie.oorjitham@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbock6inv56g60ttprip4huxe26wnlv6y17c@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "sandy.britain@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbohtkdmcgpeaccrcxjrg5hgn2vxh0aij5kk@bf05x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "fleet.management@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axboim4bp8i33pnqds3nqody1jk18im86kstv@transactional.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "steve.sheppard@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbol98jk1xcpxelwg9ret24g7p963g3jq9uf@transactional.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "neville.bannister@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbonrq6nqpjudcvkufqm6w6i4m8w2yfegm7u@bf06x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "mark.baylis@minedu.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbood7t34e69ecvey71rmvf8v6oh2gpgcghi@bf05x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "stephen.robinson@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axboulfiufhkoe78lri40jfl7isy24ie8ta0v@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "john.fisher@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbovqr9nhxwinic10t91wc46rd0h4m4wxcwo@bf02x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "dean.robinson@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbozf5syvjusui859odpi3twxrlsu5fe0xin@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "paul.stephen@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbozway6lep5bhfxg568vrwobabzyvb423px@bf02x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "michelle.strawbridge@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbp019kt8yfm9l0tx9vxsfc992mjqdv8sc30@bf10x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "monique.hinds@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbp7boi30pdocm4w9933y6koy3wbtlybkqoi@bf04x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "david.mcintosh@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbpg9hl24hp8cecup4ecmqc2xhhiyh3tjjsf@bf02x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "sue.sauia@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbpihu9omqaq6yjxubv65dkovv8ivrekhtba@bf02x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "afat.xiao@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbpntcmt5j3b250uetvqudzwbhqmvs7t9rhb@bf10x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "carol.trail@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbpoogbsyg0dy9gkwkpunpt671yaeoor5j5i@bf08.eu1.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "flora.wallace@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbpp23olx4bxe6yninq3nn8n1c7v39pp62f7@bf08x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "igor.pool@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbpsrr52d7fj16z0kfanse7rtaczmh891za5@bf04x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "rudi.bosman@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbptj1il5dom1k8ecrq95yltwidptkwcq5w8@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "fleet.management@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbq2xma9kxyz2x1jc1lik89vpgomfazd7zeb@transactional.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "rita.mendes@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbq7dm7lfkzn54dq363xtzou4xjzy90idx95@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "neville.bannister@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbqhtx3n4rux0k3xbm6lizcnloj467o29js6@bf05x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "valerie.smith@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbqmpkyyhltty1by7loozi3welur7ea5kjuk@transactional.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "sepi.firoozkoohi@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbqnss94lk2p81f6drv84zcf7sw92ica4b2l@bf04x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "eli.niktab@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbqoo2cvc48p86ppzb5s94rrq162l1rx8531@bf05x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "karla.davidson-brown@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbqpliujlg9lk1bb3pbvtvf81691neyhdf5x@bf08x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "andreas.kubisch@minedu.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbr1bp098eo919sc3fgp9qp7drg9yng017u1@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "lindsey.brittain@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbrc39gzrpl9gr2c3ilxe7230y0h83tiww51@bf05x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "ajay.singh@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbrdpbnrjz76qh2swh2n9ie5f0t4f301mv1c@bf04x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "ken.matheson@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbrfth0swjqepg8xkprddrhbgenig90h1d3n@bf05x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "kim.gibbs@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbrjgqdflevxj25i3nhhp652w6yveguhjc8e@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "yan.degraaf@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbrjnwoo7bo65ewk02at5qgd5i930tj7n1pg@bf10x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "fleet.management@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbrkh2vr7xl1n07ihm87fhunmbvm3dwmc6nn@transactional.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "fleet.management@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbrq7owecgiqql4nl5ruhkek4cerekxqpcdv@transactional.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "paul.monahan@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbrv6yczddu4h27t5pjeg67qnvsuwbrf64dk@bf02x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "mike.ness@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbrxqyks6nl5cgzytkq43oc5npa2w2wwm6ne@bf02x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "evan.lewis@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbs69j4655r8rbjyo19yaez2lty103jmvt8u@bf05x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "junior.ioane@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbsd5m95fmmp3etuqzro0b0pjxdt3ula4pek@bf10x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "allison.rangi@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbsi5lsvu20jg0y6x1nbq6xdmo8tk5qs6jqs@bf03.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "crystal.cui@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbsot34cu082449rmhf6vknoycjuj7bby5dv@bf05x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "jeena.baines@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbsqug0g3tlkoajto4n49ft5yff806qzymqp@bf02x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "ila.hema@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbss7a7khpp6srawwllc6qxgyj19wxulpa7n@bf04x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "frances.walsh@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbstsaymv9qsxjh190bgih39gb38gw9z180y@bf10x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "louise.yau@minedu.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbsvohvf74kh8qbm5ajxnclp913dzrry6cgb@bf07x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "zoe.griffiths@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbsxe51tue245wtkp39x3s1klx94lnx1jw05@bf05x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "prateek.godara@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbt9k5f5uatbam47fhiukrupjx8zdt125fkz@bf10x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "matthew.sell@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbtawp6x0mvh3eicuciuhhw5g2rqxcl9tqea@bf05x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "harry.lotz@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbtcvausgger7pvngkrlj4e8y29ubahgi13v@bf08x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "gavin.carter@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbtl0wmxpu5nulosknwruq7zwldm4zwfjl10@bf04x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "wayne.tan@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbto4bsvp4mti706chd15yf7sty9s3s5s0nu@bf05x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "ross.clapcott@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbtoz2xs7kf0a56qhjirq7twu5z99uamhu5q@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "richard.huddleston@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbu1h96wv4wanhw21n1npps1jxhf62s9pt9u@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "georgina.rhynd@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbu2fbs2dr1qooywuqoa8mqnezi5shlaopjk@transactional.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "georgina.leatitagaloa@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbu4lx44nilw3uaspfmgnnw58q8xpbpwjgqt@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "sara.kian@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbu8u6fxldvpqujzx58lv30h8j2vhgb4he4g@bf08x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "rod.wong-she@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbuux6v38gujb01smhg0cf634tge9f0yd8ok@bf02x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "margaret.paiti@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbuzagrum8r2s0cldbwor7fzeifkn4nf8coq@bf02x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "nick.taylor@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbvexii684y3zhq2dmkm0eogu3oig3z81yg5@bf05x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "moe.sau@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbvtkv36tm1lzylio3l2alf66ua36k60f3xl@bf04x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "judith.forbes@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbvzj3t3bmf2fy8kbl0a16yg2rarv4x6kh7u@bf03.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "emily.santosjackson@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbwd5ktsv6g0fcicti0zfu7r5dvbfza49ugq@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "martin.rothbaum@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbwewz3ehjtwtud258pf8uilgzf59fzdl6vj@bf02x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "denise.arnerich@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbwmq0ufxixr5mrmjbofwim1kbcmgmbzfwpi@bf02x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "vanitha.govini@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbwn0h5t8bfdl583yj24ehxfee75jdpfps8c@bf02x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "natasha.dissanayake@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbwq52edjp4gy59rpxo7bk1iep0jf2as7mnn@bf05x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "agate.pondersutton@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbwqseucnqs107c3zdysifj88l1nz701bcfw@bf05x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "agate.pondersutton@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbwv68rsv8t1b84hegpmweozds4u7yrkjst4@bf05x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "fleet.management@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbwvls98lwo6qhp0dt4135p6zu929iby3z6r@transactional.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "ryan.mcfarlane@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbwwcpiqtrhv8qkg49661rnywuk1o59ifpgz@bf05x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "drew.preddy@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbwxbqel5w0lg67h6xvhgam4je7653v2dv3m@bf04x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "kate.wheeler@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbx4mlmcv65ay7l2055vj9s498p51fpzwdnk@bf08x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "aditi.cook@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbx67txwxde4yguadwa487be395ohsjs8hxj@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "philip.berry@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbx7eqg20vvhr4b6262zxk6u5xrx2lrb0mnk@bf04x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "kershni.naidoo@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbxaifr55j85dgmdhh0cozoy0w4hqgy1i6j4@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "amy.stewart@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbxb39suit9am61sc9p6w1eumq4twj4hxzo5@bf05x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "delcye.chesney@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbxel7d7d5dc8qqv7f9zvjgkcjo9jh4ctj80@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "harry.lotz@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbxhr0cmt9ifs2dxcfwe4h19qcakju4jp9gr@bf03.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "selena.smeaton@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbxvlo1dzekbh8upf10w0mu46aiuizd1mcq8@bf05x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "sophie.isaacs@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbxxfiys1wgdcm3hzjretqqsnktksukz9gpc@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "suzanne.holyoak@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axby0jdmyvix7s9aiif4lkdpkvh1fkvtlje8r@bf05x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "brad.attelacrouche@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axby18uci854309xcnw77jg001ohhudjhpkyk@bf04x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "kuvern.kisten-nair@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axby22x0esxkwvch49rb5o0pde26c8xmgt87g@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "amanda.kirby@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axby3q8s15dxhy7h2ddfgo2t0prl1hmdsdzl1@bf10x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "fleet.management@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axby4rhov1l5fxa9jv2fpkzs9s4qebarv8327@transactional.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "emma.murray@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axby9sl6pr38hzdq6tjngrco94fa1k9bbtspv@bf03.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "dean.robinson@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbykv95c46dummib06m2osnpptlq89p00xwv@bf04x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "jeff.lean@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbyve4p55kkcxkw3hvur1bq615esg6cx06ar@bf05x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "jason.parry@minedu.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbyy4soha200rtjhqxx320nsfr1wd9gbt2bx@bf10x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "louise.hull@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbyyi43844l6cypwxicgjoln0zcp330sfk0g@bf02x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "yvonne.paul@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbz2wllyvwkiaxn1t4ykj9j7ou3cv8s3mfds@bf02.eu1.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "ray.brownhill@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbza8ar65gpwp0c1o9v1az6lmhlzv393f9c2@bf04x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "mereana.dillon@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbzgc4sgmsnp01f9xc2q9fsgywe6dctxlzxt@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "mark.brumby@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbzh9msz1rhmtthunvk8oz0u7yvq4mi88jr8@bf02x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "lindsey.brittain@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbzhsej267tt6dz0zxctcdileq52urh54lwp@bf10x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "linda.terry@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbzitsiwvi11rnxkb35z651vk227gzh9oadj@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "leanne.peterson@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbzlbg5ljnv1jocfnubgfj4z2qjxf2c1i6m8@bf06x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "aneta.white@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbzll1w8wxxexncffeddiqnbpm6fmtfh8hdl@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "raymond.kaiki@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbzu52wijznyalidf248ryv9vq2fl30wqm93@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "louise.turner@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbzvtob9y2j2cgonjt5oh4xglb7v0k3seohl@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "zaid.aldabbagh@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axca2qqfdmi74valukhit19yglpgsslh9bv3x@bf06x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "mercy.mhuru@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axca3810c80goqbec4mzgji3phudma8n9tz1t@bf10x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "simon.rodger@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axca53vbsylbg0niq341t3ogaqaxcb8mphp12@bf08x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "laurie.lucarelli@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axca5w30iyfcjfcesuilq73qgjal6ig5tabey@bf06x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "john.wood@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axcaaw67asrh27b2wtrsg48ky9ie2ssw04t77@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "peter.cannon@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axcadva75aa7slb2y2vu6uofzqd1s9bi2z8gy@bf05x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "neelesh.jain@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axcar5aod46py02anaq21pyctip4s2k7xdoaa@bf05x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "jane.williamshill@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axcav4uyqhwtj1euqwnd8zjz7dxm77i1ivkfa@transactional.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "paul.stephen@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axcb40jzih07moxceopdd30gj3arwe38ks6k1@bf02x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "stuart.mcgrigor@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axcb7u4suem7am2lzmu7genkfgo2gdq22n7zu@bf07x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "denise.tetzlaff@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axcbb76ifm9w59eduj2s81b90nd4vjs2at1on@bf01.eu1.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "thomas.paenga@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axcbg7bgmuizjn9cmlhl1hyde3bo51bprc7cu@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "jan.dobson@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axcbtzvq6tasm51bconpf1hkpoz8livr6izi0@bf10x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "gerry.lyth@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axcbw9ofcrbt8fwv28oh4hr24zjamnkfrhhxb@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "trish.burgesspuketapu@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axcc1pcyg00gp5xa9jjvtmk452fk8gwsyqy9g@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "usha.mohan@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axccecsrxnv4iuh3tovqgomlegl3rh6qfr7aa@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "anna.lugt@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axccwzpq3gqx1q7ug1qfqbct5nac9800q6kde@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "karen.mccrae@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axccy4q9zt6hpox9hkm5gayt282rmotawojfm@bf05x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "claire.mclean@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axcd5nus9kd0lg5pbovrd3nykzhsss74txob9@bf05x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "catherine.peake@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axcd7xrbltg5onckichpuv2ooad9d71i0bddb@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "kate.findlay@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axcd84fhm5f4k99l3t6fwrdhzsio46aknupny@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "meierm@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axcdcl6flv6dcob7ml5pbcavt2xmn6dxtu3d3-meierm=education.govt.nz@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "stephanie.sommerville@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axcddtylcp4vn3hbspf6za6hhxrh6az77x9ab@bf04x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "margaret.crosswell@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axcdjsbr9pbt96zwppa7h5lrjuz1escc12gfk@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "fleet.management@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axcdkwf5z42v0vtvhran1z4vul2tf0ujz89mb@transactional.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "jane.sheward@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axcdlh3fr2yz4ktq9z50nwczlx0zyu1qh95sz@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "stacey.fellows@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axcdqzo5wpqlmagqwrrbk7t5w6h026gggagaz@bf08x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "yifan.lu@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axcdtyw9mhuzeb1ydl21wurfsuszm5kdmcz41@bf05x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "caroline.taylorlevey@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axcdusbtxb45zjfauiqfuxm3lt9i01u0qevl7@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "mike.kitchen@minedu.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axcdv30i774yz5jp1oatm4x8a2yjo5b4sfp6k@bf06x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "georgina.rhynd@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axcdxrbecdlz0ffronm9kvdodj6wgcs57j4z0@transactional.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "daniel.rivers@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axce1tlu0q72oqcrxoufod61q6s06rphb4szd@bf02x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "martina.mcvey@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axce2vd8tdt0c5z2k7h5o6js6jpmo7awinunl@bf10x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "michelle.mcleod@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axce4t2crlq8o37ags4nlaocc8ukz41bmtl5e@bf08x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "eduardo.fullero@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axcem4d844hmq66ognc3xfzv6mem4mfylvhza@bf08x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "robert.weston@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axcenqmkf2p026jd94sh7cxtp8qzeuemssy5n@bf06.eu1.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "natasha.correa@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axceypc81ngtydcbvveita438ixzg9oousqdb@bf08x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "rachel.bird@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axcf3ve33iwts0mu3dhb2ig5771voyc25e8n4@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "christine.whittaker@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axcf412heam1m0jpiwgqd6snj0rwl8plrkzdg@bf06x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "julia.cheng@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axcfbx8nbbsb458uu6s6gnva8rbwx4tk4u9j7@bf10x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "flora.wallace@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axcfhz6uoehtw8iyouv2l5e9op8n2t63k6vjb@notify.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "georgina.rhynd@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axcfib5ksikgyd6n909nffshmarqji5nfwje4@transactional.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "sarah.mcgregor@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axcflv9q8xxafeg911c6klzej99zyi31js25f@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "brenda.stevens@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axcfmcwhjipw8uido2wir28qkna5r0nh91h8z@bf04x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "hyrum.reynolds@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axcfnognkfo9o9afd9li8oit9hno8wqxz56yu@bf04x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "sophie.coombes@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axcg3t6cc5th2nivq5bmib6kec6fz79x3ym1w@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "yvette.guttenbeil-po'uhila@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axcghzvr5apc46kcpzpwby7ups0fcidhod9n7@transactional.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "pld.enquiries@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axcgjj3r3a0iw7f2f1466w7z3iuwaw79xwns0@bf02x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "matthew.dwyer@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axcgomxpkk1rxfbookclt2o6inp064zsihufb@bf04x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "brenda.newton@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axchakb5webxhppmwiidhps2hja6ge0vwqtms@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "john.anderson@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axchanlkwx8ksk1be1etpmwqdwmhixpk2qaaz@bf04x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "rob.reid@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axchcmq2mpuu9vqb6koqy3p78hgdf1h13w1h6@bf10x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "gabi.downes@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axchhzj3977lki02fbftz42vi8kk8b6kiovjy@bf01x.hubspotemail.net",
+            "countofhits": 5,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "kieran.parsons@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbmecowzwlrboyieb8qxc5eg39334peqakcf@bf05x.hubspotemail.net",
+            "countofhits": 4,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "stefan.segedin@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axcgoi9v78h6aac2h9dzohmqzum3o7te4xxgv@bf10x.hubspotemail.net",
+            "countofhits": 4,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "karla.fcips@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axcdch96p2do6h3waqvg8pdvj2ovf9jpcej7h@bf08x.hubspotemail.net",
+            "countofhits": 4,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "tommy.mcloughlin@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbrap9t51d4hq4rzuzf1qwembg5l27iuudyk@bf08x.hubspotemail.net",
+            "countofhits": 4,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "rota.carrington@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "bounces+29566456-2509-rota.carrington=education.govt.nz@send.ksd3.klaviyomail.com",
+            "countofhits": 4,
+            "operand": "send.ksd3.klaviyomail.com"
+        },
+        {
+            "touser": "anca.slusanschi@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "bounces+12606335-aace-anca.slusanschi=education.govt.nz@send.ksd3.klaviyomail.com",
+            "countofhits": 4,
+            "operand": "send.ksd3.klaviyomail.com"
+        },
+        {
+            "touser": "aditi.mcips@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axcb2b7p9vmqaaylg42zjnb1e4hf2ivo1zfxb@bf08x.hubspotemail.net",
+            "countofhits": 4,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "keith.pittams@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axcc7ezldyktrqvu6i66odf3m2ri1jgf6udh5@bf08x.hubspotemail.net",
+            "countofhits": 4,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "maree.paterson@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "bounces+17065220-3198-maree.paterson=education.govt.nz@send.ksd3.klaviyomail.com",
+            "countofhits": 4,
+            "operand": "send.ksd3.klaviyomail.com"
+        },
+        {
+            "touser": "aditi.cook@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbsj1w8wi9k7lokw87imq40fimb5g6b1m7bb@bf08x.hubspotemail.net",
+            "countofhits": 4,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "andy.suhan@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbgo9h8t60alccn5dqqydx22wg3w3vp030sy@bf06x.hubspotemail.net",
+            "countofhits": 4,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "matt.horwell@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axb7x3hfb7l0id49nyseqlk8pxmn1542lmdvn@bf08x.hubspotemail.net",
+            "countofhits": 4,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "jackie.power@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axcgm87vdxsld7wqkwyty4jkub93ryww0unjt@bf08x.hubspotemail.net",
+            "countofhits": 3,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "eileen.turner@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "bounces+13958601-fff5-eileen.turner=education.govt.nz@send.ksd3.klaviyomail.com",
+            "countofhits": 3,
+            "operand": "send.ksd3.klaviyomail.com"
+        },
+        {
+            "touser": "hannah.smith@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "bounces+22082685-ddbb-hannah.smith=education.govt.nz@send.ksd3.klaviyomail.com",
+            "countofhits": 3,
+            "operand": "send.ksd3.klaviyomail.com"
+        },
+        {
+            "touser": "andrew.rae@minedu.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "bounces+20175115-4c23-andrew.rae=minedu.govt.nz@send.ksd3.klaviyomail.com",
+            "countofhits": 3,
+            "operand": "send.ksd3.klaviyomail.com"
+        },
+        {
+            "touser": "helen.hodgkinson@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axbycb6ayvsa9dwmvccdixkzba6pjyhn29saq@bf08x.hubspotemail.net",
+            "countofhits": 3,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "corey.krygsman@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "bounces+10321765-4a78-corey.krygsman=education.govt.nz@send.ksd3.klaviyomail.com",
+            "countofhits": 2,
+            "operand": "send.ksd3.klaviyomail.com"
+        },
+        {
+            "touser": "knisha.ruland@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "bounces+20175115-f7d0-knisha.ruland=education.govt.nz@send.ksd3.klaviyomail.com",
+            "countofhits": 2,
+            "operand": "send.ksd3.klaviyomail.com"
+        },
+        {
+            "touser": "aimee.chalmers@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "bounces+18447671-10a9-aimee.chalmers=education.govt.nz@send.ksd3.klaviyomail.com",
+            "countofhits": 2,
+            "operand": "send.ksd3.klaviyomail.com"
+        },
+        {
+            "touser": "ngarimu.scholarship@minedu.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "support@huangbo.icu",
+            "countofhits": 2,
+            "operand": "*.icu"
+        },
+        {
+            "touser": "heather.clayton@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "wendymilne@gmx.com",
+            "countofhits": 1,
+            "operand": "gmx.com"
+        },
+        {
+            "touser": "jacquie.mannes@education.govt.nz",
+            "action": "ALLOW TO DOMAIN",
+            "fromuser": "bounce-mc.us5_163674406.9278419-1cbb35ed91@mail225.sea71.mcsv.net",
+            "countofhits": 1,
+            "operand": "wdc.govt.nz"
+        },
+        {
+            "touser": "margaret-anne.barnett@minedu.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "bounces+23712204-b7ea-margaret-anne.barnett=minedu.govt.nz@send.ksd3.klaviyomail.com",
+            "countofhits": 1,
+            "operand": "send.ksd3.klaviyomail.com"
+        },
+        {
+            "touser": "tamara.clemett@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "lisa-aikin@gmx.com",
+            "countofhits": 1,
+            "operand": "gmx.com"
+        },
+        {
+            "touser": "lynn.bradbent@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "bounces+8905964-e526-lynn.bradbent=education.govt.nz@send.ksd3.klaviyomail.com",
+            "countofhits": 1,
+            "operand": "send.ksd3.klaviyomail.com"
+        },
+        {
+            "touser": "rebecca.sinclair@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "bounces+29528051-63ef-rebecca.sinclair=education.govt.nz@send.ksd3.klaviyomail.com",
+            "countofhits": 1,
+            "operand": "send.ksd3.klaviyomail.com"
+        },
+        {
+            "touser": "rob.mcips@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "1axby7yuv0mbtnhlo3mz6bl5vsm1pxp73hgfff@bf08x.hubspotemail.net",
+            "countofhits": 1,
+            "operand": "*.hubspotemail.net"
+        },
+        {
+            "touser": "nick.oakes@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "bounces+29284442-7191-nick.oakes=education.govt.nz@send.ksd3.klaviyomail.com",
+            "countofhits": 1,
+            "operand": "send.ksd3.klaviyomail.com"
+        },
+        {
+            "touser": "christine.dew@minedu.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "bounces+28146051-8d0c-christine.dew=minedu.govt.nz@send.ksd3.klaviyomail.com",
+            "countofhits": 1,
+            "operand": "send.ksd3.klaviyomail.com"
+        },
+        {
+            "touser": "taofia.bryce@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "bounces+28071625-f6cf-taofia.bryce=education.govt.nz@send.ksd3.klaviyomail.com",
+            "countofhits": 1,
+            "operand": "send.ksd3.klaviyomail.com"
+        },
+        {
+            "touser": "doreen.mckenzie@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "bounces+28071625-5ac8-doreen.mckenzie=education.govt.nz@send.ksd3.klaviyomail.com",
+            "countofhits": 1,
+            "operand": "send.ksd3.klaviyomail.com"
+        },
+        {
+            "touser": "louis.perez@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "bounces+24371400-c7dc-louis.perez=education.govt.nz@send.ksd3.klaviyomail.com",
+            "countofhits": 1,
+            "operand": "send.ksd3.klaviyomail.com"
+        },
+        {
+            "touser": "nickie.andrews@minedu.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "bounces+23712204-eadb-nickie.andrews=minedu.govt.nz@send.ksd3.klaviyomail.com",
+            "countofhits": 1,
+            "operand": "send.ksd3.klaviyomail.com"
+        },
+        {
+            "touser": "peter.wang@education.govt.nz",
+            "action": "DENY FROM DOMAIN",
+            "fromuser": "ms10@gmx.com",
+            "countofhits": 1,
+            "operand": "gmx.com"
+        }
+    ]
+}
