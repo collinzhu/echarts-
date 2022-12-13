@@ -1,10 +1,17 @@
 import ReactEcharts from "echarts-for-react";
-import { data as defaultData } from "../../data/Set1/1.json";
+import { StringLiteral } from "typescript";
+import { data as defaultData } from "../../data/Set1/0.json";
 
 const Generic = ({
+  title = "Example Title",
+  description = "Example Description",
+  height = 500,
   key = "domain",
   data = defaultData,
 }: {
+  title?: string;
+  description?: string;
+  height?: number;
   key?: string;
   data?: any[];
 }) => {
@@ -14,8 +21,16 @@ const Generic = ({
   // delete the key from the data dictionary
   data.map((dataObject) => delete dataObject[key]);
 
+  // find the 'longest' (most fields) data object as reference for the fields
+  let referenceDataObject: { [key: string]: number } = {};
+  for (let i = 0; i < data.length; i++) {
+    if (Object.keys(data[i]).length > Object.keys(referenceDataObject).length) {
+      referenceDataObject = data[i];
+    }
+  }
+
   // map the remaining fields as bar graphs
-  const series = Object.keys(data[0]).map((dataField: string) => {
+  const series = Object.keys(referenceDataObject).map((dataField: string) => {
     return {
       name: dataField,
       type: "bar",
@@ -28,8 +43,8 @@ const Generic = ({
       containLabel: true,
     },
     title: {
-      text: "VOID",
-      subtext: "VOID",
+      text: title,
+      subtext: description,
       left: "center",
       top: 10,
     },
