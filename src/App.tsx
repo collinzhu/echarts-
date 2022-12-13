@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { DataStore, Period } from "./DataStore";
 
+type APIData = {id: string, isEmpty: boolean, title: string, data: object[]}
+
 function App() {
   // const [data, setData] = useState(Object)
   const [graphData, setGraphData] = useState(Object)
@@ -19,7 +21,7 @@ function App() {
   return (
     <div>
       {/* { data.first_page_url  } */}
-      {/* { data.map ( (el: object) => { <div>el.fact</div> } ) } */}
+      {/* { graphData.data.map( () => <div>thing</div> )} */}
     </div>
   );
 }

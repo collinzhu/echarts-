@@ -1,4 +1,5 @@
 import axios from "axios"
+import data from './Data/inbound-message-counts.json'
 
 export enum Period {
     W1 = '1W',
@@ -39,7 +40,7 @@ export class DataStore {
         let requestURL = `${baseURL}${customer}/reports/${requestID}`
 
         // url params
-        requestURL +=  `?period=P${period}&basetimestamp=${baseTime}`
+        requestURL += `?period=P${period}&basetimestamp=${baseTime}`
 
         requestURL = 'https://catfact.ninja/facts'
 
@@ -48,10 +49,15 @@ export class DataStore {
 
         // if the store does not contain the id, fetch data from api and keep it in the store
         if (!this.store.has(key)) {
-            await axios.get(requestURL)
-                            .then( (result) => {
-                                this.store.set(key, result.data)
-                            })
+            // UNCOMMENT FOR REAL FETCH
+            //  await axios.get(requestURL)
+            //                 .then( (result) => {
+            //                     this.store.set(key, result.data)
+            //                 })
+            
+            // simulate latency
+            await new Promise( resolve => setTimeout(resolve, 500))
+            this.store.set(key, data)
         }
 
         return this.store.get(key) ?? { error: true }
