@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import ReactEcharts from "echarts-for-react";
 import inboundJson from "./Data/inbound-message-counts.json";
 import BarChart from "./Components/BarChart";
-import { DataStore } from "./DataStore";
+import { DataStore, Period } from "./DataStore";
 
 // "totalthreat": 0,
 // "totaldenypolicy": 0,
@@ -25,13 +25,13 @@ function App() {
   const [data, setData] = useState(Object)
 
   useEffect( () => {
-    DataStore.global.request(1, 'a').then( result => setData(result) )
-    console.log(data)
+    DataStore.global.request(1, 'a', Period.M1).then( result => setData(result) )
+    console.log('data: ', data)
   })
 
   return (
     <div>
-      { data.first_name }
+      {/* { data.map ( (el: object) => { <div>el.fact</div> } ) } */}
     </div>
   );
 }
