@@ -14,7 +14,12 @@ const Generic = ({
   data: { [index: string]: number | string }[];
 }) => {
   // map the keyValue as categories
-  const categories = data.map((dataObject) => dataObject[keyValue]);
+  let categories: any[] = data.map((dataObject) => dataObject[keyValue]);
+
+  // apply formatting to the categories
+  categories = categories.map((category) => {
+    return { value: category, textStyle: { width: 100, overflow: "truncate" } };
+  });
 
   // remove the keyValue from the data set
   data = data.map((dataObject) => {
@@ -43,9 +48,6 @@ const Generic = ({
   });
 
   const option = {
-    grid: {
-      containLabel: true,
-    },
     title: {
       text: title,
       subtext: description,
