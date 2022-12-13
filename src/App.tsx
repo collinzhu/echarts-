@@ -22,15 +22,16 @@ interface IState {
 }
 
 function App() {
-  const [data, setData] = useState('')
+  const [data, setData] = useState(Object)
 
   useEffect( () => {
     DataStore.global.request(1, 'a').then( result => setData(result) )
+    console.log(data)
   })
 
   return (
     <div>
-      { data }
+      { data.first_name }
     </div>
   );
 }
