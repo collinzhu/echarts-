@@ -1,20 +1,30 @@
 import ReactEcharts from "echarts-for-react";
 
+interface GenericProps {
+  title?: string;
+  description?: string;
+  barHeight?: number;
+  displayMax?: number;
+  keyValue: string;
+  data: { [index: string]: number | string }[];
+}
+
 const Generic = ({
   title = "Example Title",
   description = "Example Description",
-  height = 500,
+  barHeight = 50,
+  displayMax = 8,
   keyValue,
   data,
-}: {
-  title?: string;
-  description?: string;
-  height?: number;
-  keyValue: string;
-  data: { [index: string]: number | string }[];
-}) => {
+}: GenericProps) => {
+  // extract displayMax data items from the data
+  data = data.filter((dataObject, index) => index < displayMax);
+
   // map the keyValue as categories
   let categories: any[] = data.map((dataObject) => dataObject[keyValue]);
+
+  // set the chart height to accomodate the categories
+  const height = categories.length * barHeight;
 
   // apply formatting to the categories
   categories = categories.map((category) => {
@@ -74,14 +84,7 @@ const Generic = ({
     series,
   };
 
-  return (
-    <ReactEcharts
-      option={option}
-      style={{
-        height: 500,
-      }}
-    />
-  );
+  return <ReactEcharts option={option} style={{ height }} />;
 };
 
 export default Generic;
