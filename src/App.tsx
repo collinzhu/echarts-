@@ -26,6 +26,11 @@ function App() {
 
   useEffect( () => {
     DataStore.global.request(1, 'a', Period.M1).then( result => setData(result) )
+
+    if ('error' in data || !('data' in data)) {
+      console.log("Failed to load data")
+    }
+
     console.log('data: ', data)
   })
 

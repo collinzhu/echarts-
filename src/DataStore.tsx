@@ -36,10 +36,10 @@ export class DataStore {
 
         // TODO: form URL for API
         // main url
-        let requestURL = baseURL + customer + '/reports/' + requestID
+        let requestURL = `${baseURL}${customer}/reports/${requestID}`
 
         // url params
-        requestURL += '?' 
+        requestURL += '?' + `period=P${period}` + `&basetimestamp=${baseTime}`
 
         requestURL = 'https://catfact.ninja/facts'
 
