@@ -21,13 +21,13 @@ export class DataStore {
 
         // if the store does not contain the id, fetch data from api and keep it in the store
         if (!this.store.has(key)) {
-            await axios.get('https://random-data-api.com/api/v2/users')
+            await axios.get(baseURL + customer + requestID)
                             .then( (result) => {
                                 this.store.set(key, result.data)
                             })
         }
 
-        return this.store.get(key)!  // force unwrap okay bc we already know there should be something there
+        return this.store.get(key) ?? { error: true }
     }
 
 }
