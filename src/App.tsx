@@ -22,11 +22,13 @@ interface IState {
 }
 
 function App() {
+  const d = DataStore.global.request(1, "asdasd")
+
   return (
     <div>
       {/* <BarChart imc={inboundJson.data}></BarChart> */}
 
-      { DataStore.global.request(1, "asdasd") }
+      { d }
     </div>
   );
 }
