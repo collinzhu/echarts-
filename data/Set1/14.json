@@ -64,14 +64,24 @@
             "policyaction": "ALLOW FROM USER"
         },
         {
+<<<<<<< HEAD
             "policyoperand": "libraryrsvps@dcc.govt.nz",
             "policyaction": "ALLOW FROM USER"
         },
         {
+=======
+>>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
             "policyoperand": "dimensiondata.com",
             "policyaction": "ALLOW TO DOMAIN"
         },
         {
+<<<<<<< HEAD
+=======
+            "policyoperand": "libraryrsvps@dcc.govt.nz",
+            "policyaction": "ALLOW FROM USER"
+        },
+        {
+>>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
             "policyoperand": "jules@jhaconsulting.org",
             "policyaction": "ALLOW TO USER"
         },
@@ -132,6 +142,13 @@
             "policyaction": "ALLOW FROM USER"
         },
         {
+<<<<<<< HEAD
+=======
+            "policyoperand": "im-c.com",
+            "policyaction": "ALLOW FROM DOMAIN"
+        },
+        {
+>>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
             "policyoperand": "reservations@bayplaza.co.nz",
             "policyaction": "ALLOW FROM USER"
         },
@@ -232,10 +249,13 @@
             "policyaction": "ALLOW TO USER"
         },
         {
+<<<<<<< HEAD
             "policyoperand": "sue.thomas@education.govt.nz",
             "policyaction": "ALLOW FROM USER"
         },
         {
+=======
+>>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
             "policyoperand": "neville.robb@nz.rlb.com",
             "policyaction": "ALLOW TO USER"
         },

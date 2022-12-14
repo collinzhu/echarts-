@@ -4,6 +4,7 @@
     "title": "Top Users - Limit By = Top 10 Recipient Users",
     "data": [
         {
+<<<<<<< HEAD
             "allow_policy:size": 473467123,
             "clean:count": 28978,
             "deny_policy:count": 0,
@@ -11,32 +12,57 @@
             "allow_policy:count": 22834,
             "spam:count": 0,
             "clean:size": 607584201,
+=======
+            "allow_policy:size": 561346178,
+            "clean:count": 25333,
+            "deny_policy:count": 0,
+            "address": "fmstats@oss.co.nz",
+            "allow_policy:count": 27652,
+            "spam:count": 0,
+            "clean:size": 532688586,
+>>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
             "spam:size": 0,
             "deny_policy:size": 0,
             "threat:size": 0,
             "threat:count": 0
         },
         {
+<<<<<<< HEAD
             "clean:count": 23139,
+=======
+            "clean:count": 21748,
+>>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
             "allow_policy:size": 0,
             "deny_policy:count": 0,
             "address": "xiv-callhome-eastern-hemisphere@vnet.ibm.com",
             "spam:count": 0,
             "allow_policy:count": 0,
+<<<<<<< HEAD
             "clean:size": 116935020,
+=======
+            "clean:size": 110964146,
+>>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
             "spam:size": 0,
             "deny_policy:size": 0,
             "threat:size": 0,
             "threat:count": 0
         },
         {
+<<<<<<< HEAD
             "clean:count": 18687,
+=======
+            "clean:count": 20495,
+>>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
             "allow_policy:size": 0,
             "deny_policy:count": 0,
             "address": "ectq.fa.sender@workflow.mail.ap1.cloud.oracle.com",
             "spam:count": 0,
             "allow_policy:count": 0,
+<<<<<<< HEAD
             "clean:size": 765639141,
+=======
+            "clean:size": 800459028,
+>>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
             "spam:size": 0,
             "deny_policy:size": 0,
             "threat:size": 0,
@@ -56,6 +82,7 @@
             "threat:count": 0
         },
         {
+<<<<<<< HEAD
             "allow_policy:size": 63692734,
             "clean:count": 7412,
             "deny_policy:count": 0,
@@ -70,25 +97,53 @@
         },
         {
             "clean:count": 7110,
+=======
+            "clean:count": 7144,
+>>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
             "allow_policy:size": 0,
             "deny_policy:count": 0,
             "address": "kaitiaki@kupu.maori.nz",
             "spam:count": 0,
             "allow_policy:count": 0,
+<<<<<<< HEAD
             "clean:size": 101157697,
+=======
+            "clean:size": 101377657,
+>>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
             "spam:size": 0,
             "deny_policy:size": 0,
             "threat:size": 0,
             "threat:count": 0
         },
         {
+<<<<<<< HEAD
             "clean:count": 4787,
+=======
+            "allow_policy:size": 64391143,
+            "clean:count": 6385,
+            "deny_policy:count": 0,
+            "address": "networks.voiceanddata@education.govt.nz",
+            "allow_policy:count": 5464,
+            "spam:count": 0,
+            "clean:size": 217795400,
+            "spam:size": 0,
+            "deny_policy:size": 0,
+            "threat:size": 0,
+            "threat:count": 0
+        },
+        {
+            "clean:count": 5112,
+>>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
             "allow_policy:size": 0,
             "deny_policy:count": 0,
             "address": "ectq.fa.incoming@workflow.mail.ap1.cloud.oracle.com",
             "spam:count": 0,
             "allow_policy:count": 0,
+<<<<<<< HEAD
             "clean:size": 60507712,
+=======
+            "clean:size": 66607561,
+>>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
             "spam:size": 0,
             "deny_policy:size": 0,
             "threat:size": 0,
@@ -108,6 +163,7 @@
             "threat:count": 0
         },
         {
+<<<<<<< HEAD
             "allow_policy:size": 7428221,
             "clean:count": 2620,
             "deny_policy:count": 0,
@@ -115,6 +171,15 @@
             "allow_policy:count": 1791,
             "spam:count": 0,
             "clean:size": 7064057,
+=======
+            "allow_policy:size": 8519654,
+            "clean:count": 2467,
+            "deny_policy:count": 0,
+            "address": "fm-auto-inputs@oss.co.nz",
+            "allow_policy:count": 2112,
+            "spam:count": 0,
+            "clean:size": 6652753,
+>>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
             "spam:size": 0,
             "deny_policy:size": 0,
             "threat:size": 0,

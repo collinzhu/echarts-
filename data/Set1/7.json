@@ -4,6 +4,7 @@
     "title": "Top Domains - Limit By = Top 10 Sender Domains",
     "data": [
         {
+<<<<<<< HEAD
             "unknown:size": 2738506,
             "deny_policy:count": 0,
             "address": "education.govt.nz",
@@ -31,18 +32,56 @@
             "spam:count": 614,
             "spam:size": 38982487,
             "unknown:count": 884,
+=======
+            "unknown:size": 0,
+            "deny_policy:count": 0,
+            "address": "education.govt.nz",
+            "clean:size": 332171400042,
+            "deny_policy:size": 0,
+            "threat:count": 0,
+            "allow_policy:size": 3960623214,
+            "clean:count": 658831,
+            "allow_policy:count": 9019,
+            "spam:count": 71,
+            "spam:size": 117308472,
+            "unknown:count": 1337,
+            "threat:size": 0
+        },
+        {
+            "unknown:size": 4346943,
+            "deny_policy:count": 0,
+            "address": "<>",
+            "clean:size": 9160428531,
+            "deny_policy:size": 0,
+            "threat:count": 0,
+            "allow_policy:size": 2638617,
+            "clean:count": 110531,
+            "allow_policy:count": 93,
+            "spam:count": 628,
+            "spam:size": 40247474,
+            "unknown:count": 1379,
+>>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
             "threat:size": 0
         },
         {
             "unknown:size": 0,
             "deny_policy:count": 0,
             "address": "minedu.govt.nz",
+<<<<<<< HEAD
             "clean:size": 617213001,
             "deny_policy:size": 0,
             "threat:count": 0,
             "allow_policy:size": 479472127,
             "clean:count": 31663,
             "allow_policy:count": 24104,
+=======
+            "clean:size": 541812079,
+            "deny_policy:size": 0,
+            "threat:count": 0,
+            "allow_policy:size": 558155918,
+            "clean:count": 27866,
+            "allow_policy:count": 28063,
+>>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
             "spam:count": 0,
             "spam:size": 0,
             "unknown:count": 1,
@@ -52,10 +91,17 @@
             "unknown:size": 0,
             "deny_policy:count": 0,
             "address": "pact.education.govt.nz",
+<<<<<<< HEAD
             "clean:size": 47800809,
             "deny_policy:size": 0,
             "threat:count": 0,
             "clean:count": 16216,
+=======
+            "clean:size": 45741513,
+            "deny_policy:size": 0,
+            "threat:count": 0,
+            "clean:count": 15460,
+>>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
             "allow_policy:size": 0,
             "spam:count": 0,
             "allow_policy:count": 0,
@@ -64,13 +110,21 @@
             "threat:size": 0
         },
         {
+<<<<<<< HEAD
             "clean:count": 7643,
+=======
+            "clean:count": 6602,
+>>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
             "allow_policy:size": 0,
             "deny_policy:count": 0,
             "address": "solarwinds.com",
             "spam:count": 0,
             "allow_policy:count": 0,
+<<<<<<< HEAD
             "clean:size": 228140006,
+=======
+            "clean:size": 225881965,
+>>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
             "spam:size": 0,
             "deny_policy:size": 0,
             "threat:size": 0,
@@ -80,10 +134,17 @@
             "unknown:size": 0,
             "deny_policy:count": 0,
             "address": "aces.school.nz",
+<<<<<<< HEAD
             "clean:size": 1725072,
             "deny_policy:size": 0,
             "threat:count": 0,
             "clean:count": 253,
+=======
+            "clean:size": 1854002,
+            "deny_policy:size": 0,
+            "threat:count": 0,
+            "clean:count": 273,
+>>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
             "allow_policy:size": 0,
             "spam:count": 0,
             "allow_policy:count": 0,
@@ -92,6 +153,7 @@
             "threat:size": 0
         },
         {
+<<<<<<< HEAD
             "clean:count": 238,
             "allow_policy:size": 0,
             "deny_policy:count": 0,
@@ -112,6 +174,15 @@
             "deny_policy:size": 0,
             "threat:count": 0,
             "clean:count": 217,
+=======
+            "unknown:size": 0,
+            "deny_policy:count": 0,
+            "address": "ngapuhi.org",
+            "clean:size": 722494,
+            "deny_policy:size": 0,
+            "threat:count": 0,
+            "clean:count": 235,
+>>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
             "allow_policy:size": 0,
             "spam:count": 0,
             "allow_policy:count": 0,
@@ -120,6 +191,7 @@
             "threat:size": 0
         },
         {
+<<<<<<< HEAD
             "clean:count": 188,
             "allow_policy:size": 0,
             "deny_policy:count": 0,
@@ -127,12 +199,22 @@
             "spam:count": 0,
             "allow_policy:count": 0,
             "clean:size": 493756,
+=======
+            "clean:count": 230,
+            "allow_policy:size": 0,
+            "deny_policy:count": 0,
+            "address": "teorahou.org.nz",
+            "spam:count": 0,
+            "allow_policy:count": 0,
+            "clean:size": 615287,
+>>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
             "spam:size": 0,
             "deny_policy:size": 0,
             "threat:size": 0,
             "threat:count": 0
         },
         {
+<<<<<<< HEAD
             "clean:count": 178,
             "allow_policy:size": 0,
             "deny_policy:count": 0,
@@ -141,6 +223,29 @@
             "allow_policy:count": 0,
             "clean:size": 32488957,
             "spam:size": 0,
+=======
+            "clean:count": 201,
+            "allow_policy:size": 0,
+            "deny_policy:count": 0,
+            "address": "bluelight.co.nz",
+            "spam:count": 0,
+            "allow_policy:count": 0,
+            "clean:size": 527973,
+            "spam:size": 0,
+            "deny_policy:size": 0,
+            "threat:size": 0,
+            "threat:count": 0
+        },
+        {
+            "clean:count": 181,
+            "allow_policy:size": 0,
+            "deny_policy:count": 0,
+            "address": "gmail.com",
+            "spam:count": 1,
+            "allow_policy:count": 0,
+            "clean:size": 32769765,
+            "spam:size": 4601,
+>>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
             "deny_policy:size": 0,
             "threat:size": 0,
             "threat:count": 0
