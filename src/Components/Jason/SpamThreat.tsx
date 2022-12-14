@@ -1,10 +1,28 @@
 import ReactEcharts from "echarts-for-react";
+import SpamThreatStories from "../../stories/Jason/SpamThreat.stories";
 
-const SpamThreat = ({ height = 500 }: { height?: number }) => {
+interface SpamThreatProps {
+  data: any;
+  scope: "domain" | "users";
+  direction: "sender" | "recipient";
+  height?: number;
+}
+
+const SpamThreat = ({
+  data,
+  scope,
+  direction,
+  height = 500,
+}: SpamThreatProps) => {
+  // narrow data
+  data = data[scope][direction];
+  console.log(data);
+
+  // display data
   const option = {
     title: {
-      text: "TITLE",
-      subtext: "DESCRIPTION",
+      text: `Top ten ${direction}`,
+      subtext: `Limited by ${scope}`,
       left: "center",
       top: 10,
     },
