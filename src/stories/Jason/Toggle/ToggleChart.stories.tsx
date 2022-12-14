@@ -2,7 +2,7 @@ import ToggleChart from "../../../Components/Jason/Toggle/ToggleChart";
 import { Story, Meta } from "@storybook/react";
 
 export default {
-  title: "Toggle/Chart",
+  title: "OLD/Toggle/Chart",
   component: ToggleChart,
 } as Meta;
 

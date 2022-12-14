@@ -3,7 +3,7 @@ import { Story, ComponentMeta } from "@storybook/react";
 import data from "../../example/14.json";
 
 export default {
-  title: "Piechart",
+  title: "OLD/Piechart",
   component: PieChart,
 };
 

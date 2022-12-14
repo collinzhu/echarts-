@@ -2,7 +2,7 @@ import ToggleDemo from "../../../Components/Jason/Toggle/ToggleDemo";
 import { Story, Meta } from "@storybook/react";
 
 export default {
-  title: "Toggle/Full Demonstration",
+  title: "OLD/Toggle/Full Demonstration",
   component: ToggleDemo,
   decorators: [
     (story) => (

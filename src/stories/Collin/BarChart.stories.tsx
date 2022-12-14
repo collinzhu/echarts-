@@ -49,7 +49,7 @@ const sample = [
   },
 ];
 export default {
-  title: "Barchart",
+  title: "OLD/Barchart",
   component: BarChart,
 };
 

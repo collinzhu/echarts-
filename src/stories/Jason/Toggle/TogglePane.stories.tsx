@@ -2,7 +2,7 @@ import TogglePane from "../../../Components/Jason/Toggle/TogglePane";
 import { Story, Meta } from "@storybook/react";
 
 export default {
-  title: "Toggle/Pane",
+  title: "OLD/Toggle/Pane",
   component: TogglePane,
 } as Meta;
 
