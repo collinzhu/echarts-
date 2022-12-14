@@ -1,5 +1,6 @@
 import ReactEcharts from "echarts-for-react";
 import SpamThreatStories from "../../stories/Jason/SpamThreat.stories";
+import { useState } from "react";
 
 interface SpamThreatProps {
   data: any;
@@ -15,8 +16,8 @@ const SpamThreat = ({
   height = 500,
 }: SpamThreatProps) => {
   // narrow data
-  data = data[scope][direction];
-  console.log(data);
+  const [graphData, setGraphData] = useState(data[scope][direction]);
+  console.log(graphData);
 
   // display data
   const option = {
@@ -44,18 +45,18 @@ const SpamThreat = ({
     },
     yAxis: {
       type: "category",
-      data: data.map((dataObject: any) => dataObject.address),
+      data: graphData.map((dataObject: any) => dataObject.address),
     },
     series: [
       {
         name: "SPAM",
         type: "bar",
-        data: data.map((dataObject: any) => dataObject["spam:count"]),
+        data: graphData.map((dataObject: any) => dataObject["spam:count"]),
       },
       {
         name: "THREAT",
         type: "bar",
-        data: data.map((dataObject: any) => dataObject["threat:count"]),
+        data: graphData.map((dataObject: any) => dataObject["threat:count"]),
       },
     ],
   };
