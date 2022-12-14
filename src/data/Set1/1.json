@@ -1,0 +1,343 @@
+{
+    "id": "inbound-message-traffic",
+    "isEmpty": false,
+    "title": "Inbound Message Traffic (MB)",
+    "data": [
+        {
+            "totalthreat": 0,
+            "totaldenypolicy": 0,
+            "domain": "uat.tahurangi.education.govt.nz",
+            "totalspam": 0,
+            "totalclean": 0.007455,
+            "totalallowpolicy": 0
+        },
+        {
+            "totalthreat": 0,
+            "totaldenypolicy": 0,
+            "domain": "fusion.education.govt.nz",
+            "totalspam": 0.104749,
+            "totalclean": 29.830553,
+            "totalallowpolicy": 1.547524
+        },
+        {
+            "totalthreat": 0,
+            "totaldenypolicy": 0,
+            "domain": "mpi.govt.nz",
+            "totalspam": 0,
+            "totalclean": 0.023261,
+            "totalallowpolicy": 0
+        },
+        {
+            "totalthreat": 0,
+            "totaldenypolicy": 0.510251,
+            "domain": "moe.govt.nz",
+            "totalspam": 1.575908,
+            "totalclean": 577.07433,
+            "totalallowpolicy": 0.165549
+        },
+        {
+            "totalthreat": 0,
+            "totaldenypolicy": 0,
+            "domain": "webchannel.education.govt.nz",
+            "totalspam": 0.041959,
+            "totalclean": 0,
+            "totalallowpolicy": 0
+        },
+        {
+            "totalthreat": 0,
+            "totaldenypolicy": 0,
+            "domain": "esl.education.govt.nz",
+            "totalspam": 0.346364,
+            "totalclean": 50.994521,
+            "totalallowpolicy": 0
+        },
+        {
+            "totalthreat": 0,
+            "totaldenypolicy": 0,
+            "domain": "remediate.education.govt.nz",
+            "totalspam": 0,
+            "totalclean": 122.868073,
+            "totalallowpolicy": 0
+        },
+        {
+            "totalthreat": 0,
+            "totaldenypolicy": 0,
+            "domain": "oss.co.nz",
+            "totalspam": 0,
+            "totalclean": 0.004899,
+            "totalallowpolicy": 0
+        },
+        {
+            "totalthreat": 0,
+            "totaldenypolicy": 0,
+            "domain": "s.seek.com.au",
+            "totalspam": 0,
+            "totalclean": 0.010946,
+            "totalallowpolicy": 0
+        },
+        {
+            "totalthreat": 0,
+            "totaldenypolicy": 0,
+            "domain": "phishing.education.govt.nz",
+            "totalspam": 0,
+            "totalclean": 0.126258,
+            "totalallowpolicy": 0
+        },
+        {
+            "totalthreat": 0,
+            "totaldenypolicy": 0,
+            "domain": "taku.education.govt.nz",
+            "totalspam": 0,
+            "totalclean": 496.144115,
+            "totalallowpolicy": 0
+        },
+        {
+            "totalthreat": 0,
+            "totaldenypolicy": 0,
+            "domain": "news.education.govt.nz",
+            "totalspam": 0,
+            "totalclean": 3.900235,
+            "totalallowpolicy": 0.014281
+        },
+        {
+            "totalthreat": 0,
+            "totaldenypolicy": 0,
+            "domain": "smxemailassist.freshservice.com",
+            "totalspam": 0,
+            "totalclean": 0,
+            "totalallowpolicy": 0.005685
+        },
+        {
+            "totalthreat": 0,
+            "totaldenypolicy": 0,
+            "domain": "ppesl.education.govt.nz",
+            "totalspam": 0,
+            "totalclean": 2.384934,
+            "totalallowpolicy": 0
+        },
+        {
+            "totalthreat": 0,
+            "totaldenypolicy": 0,
+            "domain": "wesleyprimary.school.nz",
+            "totalspam": 0,
+            "totalclean": 0.022867,
+            "totalallowpolicy": 0
+        },
+        {
+            "totalthreat": 0,
+            "totaldenypolicy": 0,
+            "domain": "ers.education.govt.nz",
+            "totalspam": 0,
+            "totalclean": 0.136929,
+            "totalallowpolicy": 3.054222
+        },
+        {
+            "totalthreat": 0,
+            "totaldenypolicy": 0,
+            "domain": "kaingaora.org.nz",
+            "totalspam": 0,
+            "totalclean": 56.010241,
+            "totalallowpolicy": 0
+        },
+        {
+            "totalthreat": 0,
+            "totaldenypolicy": 0,
+            "domain": "education.org.nz",
+            "totalspam": 1.675049,
+            "totalclean": 41.389672,
+            "totalallowpolicy": 0
+        },
+        {
+            "totalthreat": 0,
+            "totaldenypolicy": 0,
+            "domain": "gold.tahurangi.education.govt.nz",
+            "totalspam": 0,
+            "totalclean": 0.007459,
+            "totalallowpolicy": 0
+        },
+        {
+            "totalthreat": 0,
+            "totaldenypolicy": 0,
+            "domain": "bishopdale.school.nz",
+            "totalspam": 0,
+            "totalclean": 0.377001,
+            "totalallowpolicy": 0
+        },
+        {
+            "totalthreat": 0,
+            "totaldenypolicy": 0,
+            "domain": "library.education.govt.nz",
+            "totalspam": 0.010617,
+            "totalclean": 2.579581,
+            "totalallowpolicy": 0
+        },
+        {
+            "totalthreat": 0,
+            "totaldenypolicy": 0,
+            "domain": "payroll.education.govt.nz",
+            "totalspam": 0,
+            "totalclean": 0.017513,
+            "totalallowpolicy": 0
+        },
+        {
+            "totalthreat": 0,
+            "totaldenypolicy": 0,
+            "domain": "jeanbatten.school.nz",
+            "totalspam": 0,
+            "totalclean": 0.022867,
+            "totalallowpolicy": 0
+        },
+        {
+            "totalthreat": 0,
+            "totaldenypolicy": 0,
+            "domain": "bt.tahurangi.education.govt.nz",
+            "totalspam": 0,
+            "totalclean": 0.007451,
+            "totalallowpolicy": 0
+        },
+        {
+            "totalthreat": 0,
+            "totaldenypolicy": 0,
+            "domain": "sit.tahurangi.education.govt.nz",
+            "totalspam": 0,
+            "totalclean": 0.007455,
+            "totalallowpolicy": 0
+        },
+        {
+            "totalthreat": 5.648522,
+            "totaldenypolicy": 20.021082,
+            "domain": "minedu.govt.nz",
+            "totalspam": 5500.150686,
+            "totalclean": 5465.080805,
+            "totalallowpolicy": 10.337522
+        },
+        {
+            "totalthreat": 0,
+            "totaldenypolicy": 0,
+            "domain": "training.education.govt.nz",
+            "totalspam": 0.003782,
+            "totalclean": 2.381895,
+            "totalallowpolicy": 0.033609
+        },
+        {
+            "totalthreat": 0,
+            "totaldenypolicy": 0,
+            "domain": "hltv.co.nz",
+            "totalspam": 0.004299,
+            "totalclean": 0.01281,
+            "totalallowpolicy": 0
+        },
+        {
+            "totalthreat": 0,
+            "totaldenypolicy": 0,
+            "domain": "tahurangi.education.govt.nz",
+            "totalspam": 0,
+            "totalclean": 0.007437,
+            "totalallowpolicy": 0
+        },
+        {
+            "totalthreat": 0,
+            "totaldenypolicy": 0,
+            "domain": "demo.tahurangi.education.govt.nz",
+            "totalspam": 0,
+            "totalclean": 0.007459,
+            "totalallowpolicy": 0
+        },
+        {
+            "totalthreat": 0,
+            "totaldenypolicy": 0,
+            "domain": "pmawards.education.govt.nz",
+            "totalspam": 0.093093,
+            "totalclean": 0.941031,
+            "totalallowpolicy": 0
+        },
+        {
+            "totalthreat": 0,
+            "totaldenypolicy": 0,
+            "domain": "educationalleaders.govt.nz",
+            "totalspam": 0.086,
+            "totalclean": 0.03175,
+            "totalallowpolicy": 0
+        },
+        {
+            "totalthreat": 0,
+            "totaldenypolicy": 0,
+            "domain": "jobs.education.govt.nz",
+            "totalspam": 0.034516,
+            "totalclean": 58.36546,
+            "totalallowpolicy": 0
+        },
+        {
+            "totalthreat": 0,
+            "totaldenypolicy": 0,
+            "domain": "dev.tahurangi.education.govt.nz",
+            "totalspam": 0,
+            "totalclean": 0.007455,
+            "totalallowpolicy": 0
+        },
+        {
+            "totalthreat": 0,
+            "totaldenypolicy": 0,
+            "domain": "unesco.org.nz",
+            "totalspam": 1.144824,
+            "totalclean": 12.584694,
+            "totalallowpolicy": 0
+        },
+        {
+            "totalthreat": 0,
+            "totaldenypolicy": 0,
+            "domain": "st.tahurangi.education.govt.nz",
+            "totalspam": 0,
+            "totalclean": 0.007451,
+            "totalallowpolicy": 0
+        },
+        {
+            "totalthreat": 0,
+            "totaldenypolicy": 0,
+            "domain": "ece.govt.nz",
+            "totalspam": 0,
+            "totalclean": 0.492468,
+            "totalallowpolicy": 0
+        },
+        {
+            "totalthreat": 0,
+            "totaldenypolicy": 0,
+            "domain": "microsoft.com",
+            "totalspam": 0,
+            "totalclean": 0.011729,
+            "totalallowpolicy": 0
+        },
+        {
+            "totalthreat": 0,
+            "totaldenypolicy": 0,
+            "domain": "educationcounts.govt.nz",
+            "totalspam": 2.54061,
+            "totalclean": 0.821614,
+            "totalallowpolicy": 0
+        },
+        {
+            "totalthreat": 30.967193,
+            "totaldenypolicy": 238.998184,
+            "domain": "education.govt.nz",
+            "totalspam": 3538.385061,
+            "totalclean": 335342.575022,
+            "totalallowpolicy": 23278.705754
+        },
+        {
+            "totalthreat": 0,
+            "totaldenypolicy": 0,
+            "domain": "och.education.govt.nz",
+            "totalspam": 0,
+            "totalclean": 0.007084,
+            "totalallowpolicy": 0
+        },
+        {
+            "totalthreat": 0,
+            "totaldenypolicy": 0,
+            "domain": "preprod.tahurangi.education.govt.nz",
+            "totalspam": 0,
+            "totalclean": 0.007443,
+            "totalallowpolicy": 0
+        }
+    ]
+}
