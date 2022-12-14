@@ -26,6 +26,39 @@ const SpamThreat = ({
       left: "center",
       top: 10,
     },
+    tooltip: {
+      trigger: "axis",
+      axisPointer: {
+        type: "shadow",
+      },
+    },
+    legend: {},
+    grid: {
+      left: "3%",
+      right: "4%",
+      bottom: "3%",
+      containLabel: true,
+    },
+    xAxis: {
+      type: "value",
+      boundaryGap: [0, 0.01],
+    },
+    yAxis: {
+      type: "category",
+      data: data.map((dataObject: any) => dataObject.address),
+    },
+    series: [
+      {
+        name: "SPAM",
+        type: "bar",
+        data: data.map((dataObject: any) => dataObject["spam:count"]),
+      },
+      {
+        name: "THREAT",
+        type: "bar",
+        data: data.map((dataObject: any) => dataObject["threat:count"]),
+      },
+    ],
   };
 
   return <ReactEcharts option={option} style={{ height }} />;
