@@ -1,3 +1,4 @@
+<<<<<<< HEAD:src/stories/BarChart.stories.tsx
 import BarChart from "../Components/BarChart";
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10,8 +11,13 @@ import data from '../Data/inbound-message-counts.json'
 import { Story, ComponentMeta } from '@storybook/react';
 import data from '../example/inbound-message-counts.json'
 >>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
+=======
+import BarChart from "../../Components/Collin/BarChart";
+import { Story, ComponentMeta } from "@storybook/react";
+import data from "../../example/inbound-message-counts.json";
+>>>>>>> ac03b7f0ef5cb022a067e3a59b34f386a6b4d1fd:src/stories/Collin/BarChart.stories.tsx
 
-const inbound = data.data
+const inbound = data.data;
 
 console.log(data.data);
 

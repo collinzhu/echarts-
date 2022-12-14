@@ -1,0 +1,4025 @@
+{
+  "id": "policyusage",
+  "isEmpty": false,
+  "title": "Policy Usage - Type of Events = Whitelist, Direction = INBOUND",
+  "data": [
+    {
+      "touser": "postgres+az1dns01@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "postgres+az1dns01@servers.smxemail.com",
+      "countofhits": 669,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "postgres+az1dns02@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "postgres+az1dns02@servers.smxemail.com",
+      "countofhits": 669,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "staff@hotmail.com",
+      "countofhits": 284,
+      "operand": "*_fbl@smxemail.com"
+    },
+    {
+      "touser": "smx_fbl@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "staff@hotmail.com",
+      "countofhits": 284,
+      "operand": "*_fbl@smxemail.com"
+    },
+    {
+      "touser": "backup+az1bak01@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "backup+az1bak01@servers.smxemail.com",
+      "countofhits": 196,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "root+au3log01@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+au3log01@servers.smxemail.com",
+      "countofhits": 194,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "backup+xm1log01@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "backup+xm1log01@servers.smxemail.com",
+      "countofhits": 188,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "root+sp1obs03@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+sp1obs03@servers.smxemail.com",
+      "countofhits": 175,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "root+sp1obs04@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+sp1obs04@servers.smxemail.com",
+      "countofhits": 175,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "root+sp1obs05@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+sp1obs05@servers.smxemail.com",
+      "countofhits": 175,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "root+sp1obs06@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+sp1obs06@servers.smxemail.com",
+      "countofhits": 175,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "root+sp1obs01@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+sp1obs01@servers.smxemail.com",
+      "countofhits": 175,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "root+sp1obs02@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+sp1obs02@servers.smxemail.com",
+      "countofhits": 175,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "jonathonh+xm1log01@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "jonathonh+xm1log01@servers.smxemail.com",
+      "countofhits": 115,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "richardg+xm1log01@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "richardg+xm1log01@servers.smxemail.com",
+      "countofhits": 82,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW FROM USER",
+      "fromuser": "feedback@arf.mail.yahoo.com",
+      "countofhits": 70,
+      "operand": "feedback@arf.mail.yahoo.com"
+    },
+    {
+      "touser": "smx_fbl@smxemail.com",
+      "action": "ALLOW FROM USER",
+      "fromuser": "feedback@arf.mail.yahoo.com",
+      "countofhits": 70,
+      "operand": "feedback@arf.mail.yahoo.com"
+    },
+    {
+      "touser": "smxprospam@fbl.vadesecure.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "spamsupport@smxemail.com",
+      "countofhits": 61,
+      "operand": "spamsupport@smxemail.com"
+    },
+    {
+      "touser": "spamsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "spamsupport@smxemail.com",
+      "countofhits": 61,
+      "operand": "spamsupport@smxemail.com"
+    },
+    {
+      "touser": "smx-spam@feedback.cloudmark.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "spamsupport@smxemail.com",
+      "countofhits": 61,
+      "operand": "spamsupport@smxemail.com"
+    },
+    {
+      "touser": "root+xm1log01@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+xm1log01@servers.smxemail.com",
+      "countofhits": 55,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "root+sp1log01@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+sp1log01@servers.smxemail.com",
+      "countofhits": 49,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "root+hu1log01@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+hu1log01@servers.smxemail.com",
+      "countofhits": 49,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "escalation@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "support@vadesecure.com",
+      "countofhits": 37,
+      "operand": "escalation@smxemail.com"
+    },
+    {
+      "touser": "mailtools+az1bst01@servers.smxemail.com",
+      "action": "ALLOW FROM USER",
+      "fromuser": "mailtools+az1bst01@servers.smxemail.com",
+      "countofhits": 35,
+      "operand": "mailtools+az1bst01@servers.smxemail.com"
+    },
+    {
+      "touser": "mailtools+az1bst01@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "<>@<>",
+      "countofhits": 35,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "smx+sp1sdb02@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "smx+sp1sdb02@servers.smxemail.com",
+      "countofhits": 34,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "root+au4log01@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+au4log01@servers.smxemail.com",
+      "countofhits": 28,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "smx+au3stp01@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "smx+au3stp01@servers.smxemail.com",
+      "countofhits": 27,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "ict.servicedesk@mercury.co.nz",
+      "countofhits": 23,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "ict.servicedesk@mercury.co.nz",
+      "countofhits": 23,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "root+az1log01@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+az1log01@servers.smxemail.com",
+      "countofhits": 21,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "root+sp1sup01@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+sp1sup01@servers.smxemail.com",
+      "countofhits": 21,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "root+xm1sup01@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+xm1sup01@servers.smxemail.com",
+      "countofhits": 21,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "emailsupport@smxemail.com",
+      "countofhits": 20,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "emailsupport@smxemail.com",
+      "countofhits": 20,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "helpdesk@harcourts.net",
+      "action": "ALLOW TO USER",
+      "fromuser": "staff@hotmail.com",
+      "countofhits": 16,
+      "operand": "*_fbl@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "spam@acquireglobal.com",
+      "countofhits": 15,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "spam@acquireglobal.com",
+      "countofhits": 15,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "root+az1ids02@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+az1ids02@servers.smxemail.com",
+      "countofhits": 14,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "root+az1zbx01@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+az1zbx01@servers.smxemail.com",
+      "countofhits": 14,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "root+az2log01@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+az2log01@servers.smxemail.com",
+      "countofhits": 14,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "mail@smxemail.com",
+      "action": "ALLOW FROM USER",
+      "fromuser": "mailtools+az1bst01@servers.smxemail.com",
+      "countofhits": 14,
+      "operand": "mailtools+az1bst01@servers.smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "coffee6001@gmail.com",
+      "countofhits": 14,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "postgres+hu1sdb01@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "postgres+hu1sdb01@servers.smxemail.com",
+      "countofhits": 14,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "coffee6001@gmail.com",
+      "countofhits": 14,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "helpdesk@smxemail.com",
+      "action": "ALLOW FROM USER",
+      "fromuser": "mailtools+az1bst01@servers.smxemail.com",
+      "countofhits": 14,
+      "operand": "mailtools+az1bst01@servers.smxemail.com"
+    },
+    {
+      "touser": "root+az1ids01@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+az1ids01@servers.smxemail.com",
+      "countofhits": 14,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "gordon.king@smxemail.com",
+      "action": "ALLOW FROM DOMAIN",
+      "fromuser": "michael.hanly@spark.co.nz",
+      "countofhits": 13,
+      "operand": "spark.co.nz"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "<>@<>",
+      "countofhits": 12,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "<>@<>",
+      "countofhits": 12,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "beef6001@gmail.com",
+      "countofhits": 10,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "beef6001@gmail.com",
+      "countofhits": 10,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "root+az1pki01@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+az1pki01@servers.smxemail.com",
+      "countofhits": 10,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "andrew.thompson-davies@smxemail.com",
+      "countofhits": 9,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "andrew.thompson-davies@smxemail.com",
+      "countofhits": 9,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "root+az1bst01@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+az1bst01@servers.smxemail.com",
+      "countofhits": 9,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "spamsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "sarah.reynolds@codc.govt.nz",
+      "countofhits": 9,
+      "operand": "spamsupport@smxemail.com"
+    },
+    {
+      "touser": "spamreport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "sarah.reynolds@codc.govt.nz",
+      "countofhits": 9,
+      "operand": "spamsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "diane.crawford@education.govt.nz",
+      "countofhits": 8,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "jaise.paul@buchangroup.co.nz",
+      "countofhits": 8,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "jaise.paul@buchangroup.co.nz",
+      "countofhits": 8,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "diane.crawford@education.govt.nz",
+      "countofhits": 8,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "root+au4nva01@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+au4nva01@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "root+au3nva02@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+au3nva02@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "root+au3key01@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+au3key01@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "root+au3nva01@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+au3nva01@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "root+au3mta07@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+au3mta07@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "root+au3mta08@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+au3mta08@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "zabbix+sp1acp01@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+sp1acp01@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "kafka+sp1acp01@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+sp1acp01@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "root+hu1sec02@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+hu1sec02@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "smx+xm1stp01@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "smx+xm1stp01@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "root+hu1sec01@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+hu1sec01@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "zabbix+sp1acp03@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+sp1acp03@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "kafka+sp1acp03@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+sp1acp03@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "root+sp1acp04@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+sp1acp04@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "south6001@gmail.com",
+      "countofhits": 7,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "south6001@gmail.com",
+      "countofhits": 7,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "zabbix+sp1acp04@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+sp1acp04@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "root+sp1adb04@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+sp1adb04@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "root+az1ssc01@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+az1ssc01@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "root+sp2ary04@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+sp2ary04@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "root+xm1pxy01@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+xm1pxy01@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "root+xm1obs10@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+xm1obs10@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "root+xm1obs09@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+xm1obs09@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "root+xm1obs08@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+xm1obs08@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "root+xm1obs07@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+xm1obs07@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "root+sp2bak01@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+sp2bak01@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "kafka+xm1dcp01@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+xm1dcp01@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "root+xm1obs06@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+xm1obs06@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "root+xm1obs05@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+xm1obs05@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "root+xm1obs04@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+xm1obs04@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "root+xm1obs03@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+xm1obs03@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "root+xm1obs02@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+xm1obs02@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "root+xm1obs01@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+xm1obs01@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "root+az1iam01@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+az1iam01@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "zabbix+xm1dcp06@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+xm1dcp06@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "root+xm1dcp06@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+xm1dcp06@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "kafka+xm1dcp05@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+xm1dcp05@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "root+az1ger01@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+az1ger01@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "root+az1fmn01@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+az1fmn01@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "kafka+xm1dcp04@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+xm1dcp04@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "kafka+xm1dcp03@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+xm1dcp03@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "root+az1dns02@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+az1dns02@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "root+az1dns01@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+az1dns01@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "richard.gray@smxemail.com",
+      "action": "ALLOW FROM USER",
+      "fromuser": "metabase@smxemail.com",
+      "countofhits": 7,
+      "operand": "metabase@smxemail.com"
+    },
+    {
+      "touser": "andrew.carter@smxemail.com",
+      "action": "ALLOW SUBJECT",
+      "fromuser": "reports@smxemail.com",
+      "countofhits": 7,
+      "operand": "Subscription: Outbound Rejections*"
+    },
+    {
+      "touser": "vanroe.stone@smxemail.com",
+      "action": "ALLOW SUBJECT",
+      "fromuser": "reports@smxemail.com",
+      "countofhits": 7,
+      "operand": "Subscription: Outbound Rejections*"
+    },
+    {
+      "touser": "helpdesk@smxemail.com",
+      "action": "ALLOW SUBJECT",
+      "fromuser": "webservices@sparkbusinessmail.co.nz",
+      "countofhits": 7,
+      "operand": "Subscription: Outbound Rejections*"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "alicia.moller@smxemail.com",
+      "countofhits": 7,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "zabbix+sp1acp02@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+sp1acp02@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "backup+sp1log01@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "backup+sp1log01@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "alicia.moller@smxemail.com",
+      "countofhits": 7,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "cassandra+xm1cas01@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "cassandra+xm1cas01@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "cassandra+xm1cas02@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "cassandra+xm1cas02@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "cassandra+xm1cas03@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "cassandra+xm1cas03@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "cassandra+xm1cas04@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "cassandra+xm1cas04@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "cassandra+xm1cas05@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "cassandra+xm1cas05@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "cassandra+xm1cas06@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "cassandra+xm1cas06@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "cassandra+xm1dst01@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "cassandra+xm1dst01@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "cassandra+xm1dst02@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "cassandra+xm1dst02@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "cassandra+xm1dst03@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "cassandra+xm1dst03@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "cassandra+xm1dst04@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "cassandra+xm1dst04@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "cassandra+xm1dst05@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "cassandra+xm1dst05@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "cassandra+xm1dst06@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "cassandra+xm1dst06@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "kafka+xm1dcp02@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+xm1dcp02@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "root+az1bak01@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+az1bak01@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "kafka+au3dcp01@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "kafka+au3dcp01@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "kafka+au3dcp02@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "kafka+au3dcp02@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "kafka+au3dcp03@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "kafka+au3dcp03@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "kafka+hu1dcp01@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "kafka+hu1dcp01@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "kafka+hu1dcp02@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "kafka+hu1dcp02@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "kafka+hu1dcp03@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "kafka+hu1dcp03@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "postgres+au3stp01@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "postgres+au3stp01@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "root+au4nva02@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+au4nva02@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "kafka+sp1acp02@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+sp1acp02@servers.smxemail.com",
+      "countofhits": 7,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "root+xm1adb06@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "root+xm1adb06@servers.smxemail.com",
+      "countofhits": 6,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "colin.print@smxemail.com",
+      "action": "ALLOW FROM DOMAIN",
+      "fromuser": "michael.hanly@spark.co.nz",
+      "countofhits": 6,
+      "operand": "spark.co.nz"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "suspiciousemails@dia.govt.nz",
+      "countofhits": 6,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "suspiciousemails@dia.govt.nz",
+      "countofhits": 6,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "michael@m31.com.au",
+      "countofhits": 6,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "michael@m31.com.au",
+      "countofhits": 6,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "exteriorcleanz@gmail.com",
+      "countofhits": 5,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "zabbix+xm1mta07@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "zabbix+xm1mta07@servers.smxemail.com",
+      "countofhits": 5,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "compu.it@stdc.govt.nz",
+      "countofhits": 5,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "compu.it@stdc.govt.nz",
+      "countofhits": 5,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "exteriorcleanz@gmail.com",
+      "countofhits": 5,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "frank@mprove.co.nz",
+      "countofhits": 4,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "bounces+2752257-3706-emailsupport=smxemail.com@email.on.spiceworks.com",
+      "countofhits": 4,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "webservices@spark.co.nz",
+      "countofhits": 4,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "webservices@spark.co.nz",
+      "countofhits": 4,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "servicedesk@northcloud.co.nz",
+      "countofhits": 4,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "servicedesk@northcloud.co.nz",
+      "countofhits": 4,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "bcldlnz@gmail.com",
+      "countofhits": 4,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "bcldlnz@gmail.com",
+      "countofhits": 4,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "shishirp@connectnz.co.nz",
+      "countofhits": 4,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "shishirp@connectnz.co.nz",
+      "countofhits": 4,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "bounces+2752257-3706-emailsupport=smxemail.com@email.on.spiceworks.com",
+      "countofhits": 4,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "zabbix+au4mta08@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "zabbix+au4mta08@servers.smxemail.com",
+      "countofhits": 4,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "spam@ncc.govt.nz",
+      "countofhits": 4,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "spam@ncc.govt.nz",
+      "countofhits": 4,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "deepak.udhani@education.govt.nz",
+      "countofhits": 4,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "deepak.udhani@education.govt.nz",
+      "countofhits": 4,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "rosehill.datacenter@gmail.com",
+      "countofhits": 4,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "escalation@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "cm_support@proofpoint.com",
+      "countofhits": 4,
+      "operand": "escalation@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "rosehill.datacenter@gmail.com",
+      "countofhits": 4,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "frank@mprove.co.nz",
+      "countofhits": 4,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "spamsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "pam.watson@jmiwealth.co.nz",
+      "countofhits": 4,
+      "operand": "spamsupport@smxemail.com"
+    },
+    {
+      "touser": "spamreport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "pam.watson@jmiwealth.co.nz",
+      "countofhits": 4,
+      "operand": "spamsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "sam.raney@itco.co.nz",
+      "countofhits": 3,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "bounce@esquire.co.za",
+      "countofhits": 3,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "bounce@esquire.co.za",
+      "countofhits": 3,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "david@stratusblue.co.nz",
+      "countofhits": 3,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "david@stratusblue.co.nz",
+      "countofhits": 3,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "sam.raney@itco.co.nz",
+      "countofhits": 3,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "david.thode@pfolsen.com",
+      "countofhits": 3,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "servicedesk@intellium.co.nz",
+      "countofhits": 3,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "servicedesk@intellium.co.nz",
+      "countofhits": 3,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "david.thode@pfolsen.com",
+      "countofhits": 3,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "david.wiman@airways.co.nz",
+      "countofhits": 3,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "shayna.bryers@smxemail.com",
+      "countofhits": 3,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "shayna.bryers@smxemail.com",
+      "countofhits": 3,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "david.wiman@airways.co.nz",
+      "countofhits": 3,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "carolyn.hughes@pfolsen.com",
+      "countofhits": 3,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "carolyn.hughes@pfolsen.com",
+      "countofhits": 3,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "esrsecurityteam@esr.cri.nz",
+      "countofhits": 3,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "esrsecurityteam@esr.cri.nz",
+      "countofhits": 3,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "alicia.moller@smxemail.com",
+      "action": "ALLOW FROM DOMAIN",
+      "fromuser": "invoices@spark.co.nz",
+      "countofhits": 3,
+      "operand": "spark.co.nz"
+    },
+    {
+      "touser": "alicia.moller@smxemail.com",
+      "action": "ALLOW FROM DOMAIN",
+      "fromuser": "michael.hanly@spark.co.nz",
+      "countofhits": 3,
+      "operand": "spark.co.nz"
+    },
+    {
+      "touser": "richard.gray@smxemail.com",
+      "action": "ALLOW FROM DOMAIN",
+      "fromuser": "michael.hanly@spark.co.nz",
+      "countofhits": 3,
+      "operand": "spark.co.nz"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "kit.richards@pfolsen.com",
+      "countofhits": 3,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "kit.richards@pfolsen.com",
+      "countofhits": 3,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "kouji.charun@fireandemergency.nz",
+      "countofhits": 3,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "kouji.charun@fireandemergency.nz",
+      "countofhits": 3,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "gareth.edwards@medenterprises.com",
+      "countofhits": 3,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "helpdesk@harcourts.net",
+      "action": "ALLOW FROM USER",
+      "fromuser": "feedback@arf.mail.yahoo.com",
+      "countofhits": 3,
+      "operand": "feedback@arf.mail.yahoo.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "linda.watson@gallagher.com",
+      "countofhits": 3,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "linda.watson@gallagher.com",
+      "countofhits": 3,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "gareth.edwards@medenterprises.com",
+      "countofhits": 3,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "murray@terabyte.co.nz",
+      "countofhits": 3,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "murray@terabyte.co.nz",
+      "countofhits": 3,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "tasha.pearson@spark.co.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "tasha.pearson@spark.co.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "chene.meyer@northcloud.co.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "steve@stevebarker.com.au",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "steve@stevebarker.com.au",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "stephen.ruth@psa.org.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "stephen.ruth@psa.org.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "jos@macandco.co.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "ariel@arg.co.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "ariel@arg.co.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "jerry.zhang@theheartgroup.co.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "jerry.zhang@theheartgroup.co.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "junaid.ansorali@hpsnz.org.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "junaid.ansorali@hpsnz.org.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "kayla.miller@sportnz.org.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "kayla.miller@sportnz.org.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "jarroddc@babbage.co.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "iffat.azeem@avancecro.com",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "matthew.bell@northcloud.co.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "matthew.bell@northcloud.co.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "eva.monk@education.govt.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "eva.monk@education.govt.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "jarroddc@babbage.co.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "bsargison@rfh.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "bronwyn.print@smxemail.com",
+      "action": "ALLOW FROM DOMAIN",
+      "fromuser": "michael.hanly@spark.co.nz",
+      "countofhits": 2,
+      "operand": "spark.co.nz"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "andrea.campbell@tararuadc.govt.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "andrea.campbell@tararuadc.govt.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "jamie.callaghan@smxemail.com",
+      "action": "ALLOW FROM DOMAIN",
+      "fromuser": "michael.hanly@spark.co.nz",
+      "countofhits": 2,
+      "operand": "spark.co.nz"
+    },
+    {
+      "touser": "richard.fraser@smxemail.com",
+      "action": "ALLOW FROM DOMAIN",
+      "fromuser": "michael.hanly@spark.co.nz",
+      "countofhits": 2,
+      "operand": "spark.co.nz"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "bsargison@rfh.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "alison.tong@kapiticoast.govt.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "alison.tong@kapiticoast.govt.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "jalen.massey@itco.co.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "kishan.dhameliya@buchangroup.com.au",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "damian.stefadouros@itco.co.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "accounts@smxemail.com",
+      "action": "ALLOW FROM DOMAIN",
+      "fromuser": "sparkebillsupport@spark.co.nz",
+      "countofhits": 2,
+      "operand": "spark.co.nz"
+    },
+    {
+      "touser": "accounts@smxemail.com",
+      "action": "ALLOW FROM DOMAIN",
+      "fromuser": "t250326@spark.co.nz",
+      "countofhits": 2,
+      "operand": "spark.co.nz"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "michelle.blackwell@lucirahealth.com",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "michelle.blackwell@lucirahealth.com",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "neal.qin@babbage.co.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "ben.parry@rakon.com",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "jalen.massey@itco.co.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "jacob.mclean@pricespider.com",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "jacob.mclean@pricespider.com",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "ithelp@nztertiarycollege.ac.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "ithelp@nztertiarycollege.ac.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "callum.knox@buchangroup.com.au",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "callum.knox@buchangroup.com.au",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "darren@circleit.co.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "reagan.fonseca@aswilcox.co.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "reagan.fonseca@aswilcox.co.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "qirx@wwcc.nsw.edu.au",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "qirx@wwcc.nsw.edu.au",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "damian.stefadouros@itco.co.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "pete@cnx.co.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "ben.parry@rakon.com",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "pete@cnx.co.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "nate.m@convex.co.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "paul.jackson@lesmills.com",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "paul.jackson@lesmills.com",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "parkin.low@water.co.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "parkin.low@water.co.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "nate.m@convex.co.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "ln@flex-box.com",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "ln@flex-box.com",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "neal.qin@babbage.co.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "gemma.slade@smxemail.com",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "gemma.slade@smxemail.com",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "darren@circleit.co.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "luke.ataera@rakon.com",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "luke.ataera@rakon.com",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "iffat.azeem@avancecro.com",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "colin.print@smxemail.com",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "mailer@nestarter.com",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "mailer@nestarter.com",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "colin.print@smxemail.com",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "nthomas@mcveaghfleming.co.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "mama.secretary.ru@gmail.com",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "mama.secretary.ru@gmail.com",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "nthomas@mcveaghfleming.co.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "bounces+syd.1.1944095.12313-itsupport=rbservices.co.nz@emailaus.freshdesk.com",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "mark.henderson@neweratech.com",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "mark.henderson@neweratech.com",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "mark.sanders@elite.co.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "mark.sanders@elite.co.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "bounces+syd.1.1944095.12313-itsupport=rbservices.co.nz@emailaus.freshdesk.com",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "hayden.mclennan@codc.govt.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "hayden.mclennan@codc.govt.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "jos@macandco.co.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "jordan.martin@codeblue.co.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "jordan.martin@codeblue.co.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "wadeed@manson.co.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "wadeed@manson.co.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "vicki.somberg@endace.com",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "vicki.somberg@endace.com",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "vicki.grace@harcourtsgold.co.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "vicki.grace@harcourtsgold.co.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "two_gems@yahoo.com",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "two_gems@yahoo.com",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "enquiries.christchurch@education.govt.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "enquiries.christchurch@education.govt.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "john@ryders.co.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "john@ryders.co.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "chene.meyer@northcloud.co.nz",
+      "countofhits": 2,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "martinhighgate@live.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "1axb5azvhgld4sey4aohdz98wren6vgd0gw35c-emailsupport=smxemail.com@bf01.hubspotstarter.net",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "1axb5azvhgld4sey4aohdz98wren6vgd0gw35c-emailsupport=smxemail.com@bf01.hubspotstarter.net",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "1axbgkp32r01c7mhgql1ggvycjdkm1wg5cou18-emailsupport=smxemail.com@bf01x.hubspotemail.net",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "1axbgkp32r01c7mhgql1ggvycjdkm1wg5cou18-emailsupport=smxemail.com@bf01x.hubspotemail.net",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "58638-93744-404958-13471-emailsupport=smxemail.com@mail.deltaairline.today",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "58638-93744-404958-13471-emailsupport=smxemail.com@mail.deltaairline.today",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "58642-93744-404958-13051-emailsupport=smxemail.com@mail.deltaairline.today",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "58642-93744-404958-13051-emailsupport=smxemail.com@mail.deltaairline.today",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "58758-93744-404958-13888-emailsupport=smxemail.com@mail.amazonsurvey.today",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "58758-93744-404958-13888-emailsupport=smxemail.com@mail.amazonsurvey.today",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "58792-93744-404958-8182-emailsupport=smxemail.com@mail.samsclubsurvey.today",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "58792-93744-404958-8182-emailsupport=smxemail.com@mail.samsclubsurvey.today",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "aaron.gillgren@edpay.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "aaron.gillgren@edpay.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "accounts@prored.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "accounts@prored.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "acullen@mcnz.org.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "acullen@mcnz.org.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "admin@hillcrestspinal.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "admin@hillcrestspinal.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "a.james@gns.cri.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "a.james@gns.cri.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "alex@exactestimators.info",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "alex@exactestimators.info",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "andrew.sutherland@education.govt.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "andrew.sutherland@education.govt.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "barbara.mcdermott@nwm.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "barbara.mcdermott@nwm.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "bounce-emailsupport=smxemail.com-emailsupport=smxemail.com@cashcowstock.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "bounce-emailsupport=smxemail.com-emailsupport=smxemail.com@cashcowstock.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "bounce-emailsupport=smxemail.com-emailsupport=smxemail.com@nasdaqdeal.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "bounce-emailsupport=smxemail.com-emailsupport=smxemail.com@nasdaqdeal.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "bounces+012a06a0-7105-11ed-bf82-525400d6cd4f_vt1@desk-mailer.zohodesk.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "bounces+012a06a0-7105-11ed-bf82-525400d6cd4f_vt1@desk-mailer.zohodesk.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "bounces-1710541541044461568-emailsupport=smxemail.com@turbo-smtp.info",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "bounces-1710541541044461568-emailsupport=smxemail.com@turbo-smtp.info",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "bounces+21998668-6a9e-emailsupport=smxemail.com@em3210.excellentpublicity3.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "bounces+21998668-6a9e-emailsupport=smxemail.com@em3210.excellentpublicity3.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "bounces+3d104370-7103-11ed-8ff3-525400e3c1b1_vt1@desk-mailer.zohodesk.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "bounces+3d104370-7103-11ed-8ff3-525400e3c1b1_vt1@desk-mailer.zohodesk.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "bounces+syd.1.1944095.12247-itsupport=rbservices.co.nz@emailaus.freshdesk.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "bounces+syd.1.1944095.12247-itsupport=rbservices.co.nz@emailaus.freshdesk.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "brent.mcleod@yahoo.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "brent.mcleod@yahoo.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "brett@tnz.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "brett@tnz.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "bronwyn@debtworks.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "bronwyn@debtworks.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "cameron.bailey@harcourtsgold.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "cameron.bailey@harcourtsgold.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "cameron.dobson@pfolsen.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "cameron.dobson@pfolsen.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "catherine.kightley@smxemail.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "catherine.kightley@smxemail.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "cayden.howes@liquidit.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "cayden.howes@liquidit.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "chris.watson@kilimanjaro-consulting.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "chris.watson@kilimanjaro-consulting.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "claire.taylor@henryscheinone.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "claire.taylor@henryscheinone.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "clarklewispersonalemail@gmail.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "clarklewispersonalemail@gmail.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "cole.hammond@northcloud.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "cole.hammond@northcloud.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "corey.edgarton@spark.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "corey.edgarton@spark.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "cullum.vibert@pfolsen.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "cullum.vibert@pfolsen.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "damian.byrne@pfolsen.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "damian.byrne@pfolsen.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "danielb@aligntechnology.com.au",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "danielb@aligntechnology.com.au",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "darrell.trebucias@rakon.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "darrell.trebucias@rakon.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "darryl@mskills.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "darryl@mskills.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "david.bennett@pfolsen.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "david.bennett@pfolsen.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "declan.pitts@edpay.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "declan.pitts@edpay.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "dennis.hengeveld@wwwinc.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "dennis.hengeveld@wwwinc.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "dosinvestigator@gmail.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "dosinvestigator@gmail.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "doug@terabyte.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "doug@terabyte.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "dylan@cliqueit.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "dylan@cliqueit.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "enquiries.redwood@harcourtsgold.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "enquiries.redwood@harcourtsgold.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "evelyn.emldata@outlook.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "evelyn.emldata@outlook.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "fleur.kent@pfolsen.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "fleur.kent@pfolsen.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "frank.chen@elite.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "frank.chen@elite.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "geoff.swain@pfolsen.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "geoff.swain@pfolsen.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "gerald@vetplus.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "gerald@vetplus.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "grant.cleaver@pfolsen.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "grant.cleaver@pfolsen.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "hamish@itcloud.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "hamish@itcloud.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "hazem.mourad@mercury.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "hazem.mourad@mercury.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "help@trt.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "help@trt.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "helpdesk@fliway.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "helpdesk@fliway.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "hennies@intralan.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "hennies@intralan.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "holly.burnett@harcourtsgold.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "holly.burnett@harcourtsgold.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "info@ipca.govt.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "info@ipca.govt.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "informacionalcliente@bazar-virtual.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "informacionalcliente@bazar-virtual.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "jack@novatec.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "jack@novatec.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "james@bigredit.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "james@bigredit.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "james.agnew@aroabio.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "james.agnew@aroabio.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "jameskorospencer@gmail.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "jameskorospencer@gmail.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "james.lowen@fliway.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "james.lowen@fliway.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "jason@scipad.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "jason@scipad.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "jenny@humentic.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "jenny@humentic.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "jgsmith94@xtra.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "jgsmith94@xtra.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "jodiem@aligntechnology.com.au",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "jodiem@aligntechnology.com.au",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "joel.turner@pfolsen.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "joel.turner@pfolsen.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "joe.pearson@mercyascot.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "joe.pearson@mercyascot.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "john.krech@smxemail.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "john.krech@smxemail.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "jonathanbird@built.net.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "jonathanbird@built.net.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "jo.way.diesel@gmail.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "jo.way.diesel@gmail.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "kelsey.johnson@pfolsen.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "kelsey.johnson@pfolsen.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "ken@epinz.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "ken@epinz.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "kimg@datacom.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "kimg@datacom.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "kirsty.mcdiarmid@kindrik.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "kirsty.mcdiarmid@kindrik.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "kishan.dhameliya@buchangroup.com.au",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "kumari.valentine@gmail.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "kumari.valentine@gmail.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "leanne.cooper@pfolsen.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "leanne.cooper@pfolsen.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "lewis.pilley@akolade.co",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "lewis.pilley@akolade.co",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "lorraine.shepherd@aroabio.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "lorraine.shepherd@aroabio.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "lovecambod@gmail.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "lovecambod@gmail.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "luke.kelly@metservice.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "luke.kelly@metservice.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "mailguard@cisco.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "mailguard@cisco.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "margaret.danzer@harcourtsgold.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "margaret.danzer@harcourtsgold.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "accounts@smxemail.com",
+      "action": "ALLOW FROM DOMAIN",
+      "fromuser": "customerservice@zintel.co.nz",
+      "countofhits": 1,
+      "operand": "zintel.co.nz"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "martinhighgate@live.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "mary.turnbull@harcourtsgold.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "mary.turnbull@harcourtsgold.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "myservice@myservicegov.datacom.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "myservice@myservicegov.datacom.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "ned@boggsinc.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "ned@boggsinc.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "nick.davidson@opticdigital.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "nick.davidson@opticdigital.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "nicky@distil.net.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "nicky@distil.net.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "nicole.alldatabase@outlook.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "nicole.alldatabase@outlook.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "nikki.wheaton@taskaprosthetics.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "nikki.wheaton@taskaprosthetics.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "parabeam.accounts@protonmail.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "parabeam.accounts@protonmail.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "richard.gray@smxemail.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "richard.gray@smxemail.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "rob.daunton@pfolsen.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "rob.daunton@pfolsen.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "ryan@circleit.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "ryan@circleit.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "ryan.zhao@alaska.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "ryan.zhao@alaska.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "sales01@keyuan-metalparts.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "sales01@keyuan-metalparts.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "sam.adams-fahey@estaronline.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "sam.adams-fahey@estaronline.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "sara.gipton@pfolsen.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "sara.gipton@pfolsen.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "seline@aquaair.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "seline@aquaair.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "shaun.collett@highlandgroup.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "shaun.collett@highlandgroup.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "smxciscosupport+srs=fjhx1=4d=cisco.com=cisco-pps-notification@spark.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "ops@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "smxciscosupport+srs=fjhx1=4d=cisco.com=cisco-pps-notification@spark.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "smxciscosupport+srs=fjhx1=4d=cisco.com=cisco-pps-notification@spark.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "smxciscosupport+srs=gfa/9=4d=partnermarketing.cisco.com=bounce@spark.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "ops@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "smxciscosupport+srs=gfa/9=4d=partnermarketing.cisco.com=bounce@spark.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "smxciscosupport+srs=gfa/9=4d=partnermarketing.cisco.com=bounce@spark.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "smxciscosupport+srs=ngflg=36=partnermarketing.cisco.com=bounce@spark.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "ops@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "smxciscosupport+srs=ngflg=36=partnermarketing.cisco.com=bounce@spark.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "smxciscosupport+srs=ngflg=36=partnermarketing.cisco.com=bounce@spark.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "smxciscosupport+srs=o1pwo=35=partnermarketing.cisco.com=bounce@spark.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "ops@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "smxciscosupport+srs=o1pwo=35=partnermarketing.cisco.com=bounce@spark.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "smxciscosupport+srs=o1pwo=35=partnermarketing.cisco.com=bounce@spark.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "support@adc.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "support@adc.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "tadcloud@temprecord.online",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "tadcloud@temprecord.online",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "tania@apm.kiwi",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "tania@apm.kiwi",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "terrim@itlive.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "thye.wong@endace.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "thye.wong@endace.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "tiffany.pellow@gazeburt.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "tiffany.pellow@gazeburt.co.nz",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "tim.garlick@pfolsen.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "tim.garlick@pfolsen.com",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "emailsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "wendy@riverinafp.com.au",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "smxemailcomemailsupport@smxemailassist.freshservice.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "wendy@riverinafp.com.au",
+      "countofhits": 1,
+      "operand": "emailsupport@smxemail.com"
+    },
+    {
+      "touser": "ecuser+au4mta08@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "ecuser+au4mta08@servers.smxemail.com",
+      "countofhits": 1,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "zabbix+hu1mta03@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "zabbix+hu1mta03@servers.smxemail.com",
+      "countofhits": 1,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "zabbix+xm1aps06@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "zabbix+xm1aps06@servers.smxemail.com",
+      "countofhits": 1,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "zabbix+xm1mta02@servers.smxemail.com",
+      "action": "ALLOW TO DOMAIN",
+      "fromuser": "zabbix+xm1mta02@servers.smxemail.com",
+      "countofhits": 1,
+      "operand": "servers.smxemail.com"
+    },
+    {
+      "touser": "escalation@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "cm_support=proofpoint.com__0-2w58y3mi0jdb08.rjbu4leuubl2qsbn@salesforce.com",
+      "countofhits": 1,
+      "operand": "escalation@smxemail.com"
+    },
+    {
+      "touser": "escalation@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "cm_support=proofpoint.com__0-reh8ybfmmau91f.x7f8u9glfg1is4wm@salesforce.com",
+      "countofhits": 1,
+      "operand": "escalation@smxemail.com"
+    },
+    {
+      "touser": "escalation@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "cm_support=proofpoint.com__lvrqz5jaqs0fe6jn.h74iisft6f0kdqaa@salesforce.com",
+      "countofhits": 1,
+      "operand": "escalation@smxemail.com"
+    },
+    {
+      "touser": "escalation@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "cm_support=proofpoint.com__xdjsi8oiduk87h65.eur26sxeo5j4fu2m@salesforce.com",
+      "countofhits": 1,
+      "operand": "escalation@smxemail.com"
+    },
+    {
+      "touser": "alicia.moller@smxemail.com",
+      "action": "ALLOW FROM DOMAIN",
+      "fromuser": "alex.mcbryde@spark.co.nz",
+      "countofhits": 1,
+      "operand": "spark.co.nz"
+    },
+    {
+      "touser": "shayna.bryers@smxemail.com",
+      "action": "ALLOW FROM DOMAIN",
+      "fromuser": "elaine.dupreez@spark.co.nz",
+      "countofhits": 1,
+      "operand": "spark.co.nz"
+    },
+    {
+      "touser": "alicia.moller@smxemail.com",
+      "action": "ALLOW FROM DOMAIN",
+      "fromuser": "jenni.roby@spark.co.nz",
+      "countofhits": 1,
+      "operand": "spark.co.nz"
+    },
+    {
+      "touser": "gordon.king@smxemail.com",
+      "action": "ALLOW FROM DOMAIN",
+      "fromuser": "kiw@spark.co.nz",
+      "countofhits": 1,
+      "operand": "spark.co.nz"
+    },
+    {
+      "touser": "richard.gray@smxemail.com",
+      "action": "ALLOW FROM DOMAIN",
+      "fromuser": "kiw@spark.co.nz",
+      "countofhits": 1,
+      "operand": "spark.co.nz"
+    },
+    {
+      "touser": "david.selby@smxemail.com",
+      "action": "ALLOW FROM DOMAIN",
+      "fromuser": "sdcm@spark.co.nz",
+      "countofhits": 1,
+      "operand": "spark.co.nz"
+    },
+    {
+      "touser": "ian.mcdonald@smxemail.com",
+      "action": "ALLOW FROM DOMAIN",
+      "fromuser": "sdcm@spark.co.nz",
+      "countofhits": 1,
+      "operand": "spark.co.nz"
+    },
+    {
+      "touser": "lenka.labajova@smxemail.com",
+      "action": "ALLOW FROM DOMAIN",
+      "fromuser": "sdcm@spark.co.nz",
+      "countofhits": 1,
+      "operand": "spark.co.nz"
+    },
+    {
+      "touser": "neil.townsend@smxemail.com",
+      "action": "ALLOW FROM DOMAIN",
+      "fromuser": "sdcm@spark.co.nz",
+      "countofhits": 1,
+      "operand": "spark.co.nz"
+    },
+    {
+      "touser": "richard.gray@smxemail.com",
+      "action": "ALLOW FROM DOMAIN",
+      "fromuser": "sdcm@spark.co.nz",
+      "countofhits": 1,
+      "operand": "spark.co.nz"
+    },
+    {
+      "touser": "spamreport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "alex.semprini@mrinz.ac.nz",
+      "countofhits": 1,
+      "operand": "spamsupport@smxemail.com"
+    },
+    {
+      "touser": "spamsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "alex.semprini@mrinz.ac.nz",
+      "countofhits": 1,
+      "operand": "spamsupport@smxemail.com"
+    },
+    {
+      "touser": "spamreport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "bcoles@stratford.govt.nz",
+      "countofhits": 1,
+      "operand": "spamsupport@smxemail.com"
+    },
+    {
+      "touser": "spamsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "bcoles@stratford.govt.nz",
+      "countofhits": 1,
+      "operand": "spamsupport@smxemail.com"
+    },
+    {
+      "touser": "spamreport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "beau.mallett@summitforest.co.nz",
+      "countofhits": 1,
+      "operand": "spamsupport@smxemail.com"
+    },
+    {
+      "touser": "spamsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "beau.mallett@summitforest.co.nz",
+      "countofhits": 1,
+      "operand": "spamsupport@smxemail.com"
+    },
+    {
+      "touser": "spamreport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "shelley.liu@opticsecuritygroup.com",
+      "countofhits": 1,
+      "operand": "spamsupport@smxemail.com"
+    },
+    {
+      "touser": "spamsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "shelley.liu@opticsecuritygroup.com",
+      "countofhits": 1,
+      "operand": "spamsupport@smxemail.com"
+    },
+    {
+      "touser": "spamreport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "vfischer@stratford.govt.nz",
+      "countofhits": 1,
+      "operand": "spamsupport@smxemail.com"
+    },
+    {
+      "touser": "spamsupport@smxemail.com",
+      "action": "ALLOW TO USER",
+      "fromuser": "vfischer@stratford.govt.nz",
+      "countofhits": 1,
+      "operand": "spamsupport@smxemail.com"
+    },
+    {
+      "touser": "pavel.kravtsov@smxemail.com",
+      "action": "ALLOW FROM USER",
+      "fromuser": "metabase@smxemail.com",
+      "countofhits": 1,
+      "operand": "metabase@smxemail.com"
+    },
+    {
+      "touser": "laetitia.fort@smxemail.com",
+      "action": "ALLOW SUBJECT",
+      "fromuser": "01000184c7192c15-6f24b19b-e4af-4c92-9160-c3699eac1041-000000@ses.rtrt.me",
+      "countofhits": 1,
+      "operand": "*Round the Bays*"
+    },
+    {
+      "touser": "laetitia.fort@smxemail.com",
+      "action": "ALLOW SUBJECT",
+      "fromuser": "bounces+1884556-1811-laetitia.fort=smxemail.com@em8205.director.nz",
+      "countofhits": 1,
+      "operand": "*Round the Bays*"
+    },
+    {
+      "touser": "gemma.slade@smxemail.com",
+      "action": "ALLOW SUBJECT",
+      "fromuser": "bounces+1884556-961c-gemma.slade=smxemail.com@em8205.director.nz",
+      "countofhits": 1,
+      "operand": "*Round the Bays*"
+    },
+    {
+      "touser": "andrew.carter@smxemail.com",
+      "action": "ALLOW SUBJECT",
+      "fromuser": "bounces+1884556-f27f-andrew.carter=smxemail.com@em8205.director.nz",
+      "countofhits": 1,
+      "operand": "*Round the Bays*"
+    }
+  ]
+}
