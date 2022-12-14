@@ -1,5 +1,5 @@
 import ReactEcharts from "echarts-for-react";
-import inboundMessageCounts from "../../data/Set0/inbound-message-counts.json";
+import inboundMessageCounts from "../../../data/Set0/inbound-message-counts.json";
 
 interface Props {
   title?: string;

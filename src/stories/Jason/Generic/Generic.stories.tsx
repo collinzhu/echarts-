@@ -1,14 +1,14 @@
-import { data as data0 } from "../../data/Set1/0.json";
-import { data as data1 } from "../../data/Set1/1.json";
-import { data as data6 } from "../../data/Set1/6.json";
-import { data as data7 } from "../../data/Set1/7.json";
-import { data as data8 } from "../../data/Set1/8.json";
-import { data as data9 } from "../../data/Set1/9.json";
-import { data as data10 } from "../../data/Set1/10.json";
-import { data as data11 } from "../../data/Set1/11.json";
-import { data as data12 } from "../../data/Set1/12.json";
-import { data as data13 } from "../../data/Set1/13.json";
-import Generic from "../../Components/Generic/Generic";
+import { data as data0 } from "../../../data/Set1/0.json";
+import { data as data1 } from "../../../data/Set1/1.json";
+import { data as data6 } from "../../../data/Set1/6.json";
+import { data as data7 } from "../../../data/Set1/7.json";
+import { data as data8 } from "../../../data/Set1/8.json";
+import { data as data9 } from "../../../data/Set1/9.json";
+import { data as data10 } from "../../../data/Set1/10.json";
+import { data as data11 } from "../../../data/Set1/11.json";
+import { data as data12 } from "../../../data/Set1/12.json";
+import { data as data13 } from "../../../data/Set1/13.json";
+import Generic from "../../../Components/Jason/Generic/Generic";
 import { Story, Meta } from "@storybook/react";
 
 export default {

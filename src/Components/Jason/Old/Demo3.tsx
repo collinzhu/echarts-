@@ -1,5 +1,5 @@
 import ReactEcharts from "echarts-for-react";
-import policyUsage from "../../data/Set0/policyusage.json";
+import policyUsage from "../../../data/Set0/policyusage.json";
 
 interface Props {
   title?: string;
