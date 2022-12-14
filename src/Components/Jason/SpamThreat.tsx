@@ -32,11 +32,10 @@ const SpamThreat = ({
         type: "shadow",
       },
     },
-    legend: {},
+    legend: {
+      bottom: 10,
+    },
     grid: {
-      left: "3%",
-      right: "4%",
-      bottom: "3%",
       containLabel: true,
     },
     xAxis: {
@@ -61,7 +60,15 @@ const SpamThreat = ({
     ],
   };
 
-  return <ReactEcharts option={option} style={{ height }} />;
+  const onEvents = {
+    legendselectchanged: (args: any) => {
+      console.log(args);
+    },
+  };
+
+  return (
+    <ReactEcharts option={option} style={{ height }} onEvents={onEvents} />
+  );
 };
 
 export default SpamThreat;
