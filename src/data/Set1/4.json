@@ -4,67 +4,11 @@
     "title": "SmartRules Usage - Direction = Inbound",
     "data": [
         {
-            "date": 1668164400000,
-            "ruleset": "Inbound Attachment Checks",
-            "rule": "Inbound - Quarantine Unscannable Attachments",
-            "ruleid": "2040795",
-            "executioncount": 7
-        },
-        {
-            "date": 1668164400000,
-            "ruleset": "Inbound Blanket Blocking",
-            "rule": "Inbound - Explicit Address Block List",
-            "ruleid": "2041295",
-            "executioncount": 19
-        },
-        {
-            "date": 1668164400000,
-            "ruleset": "Inbound Blanket Blocking",
-            "rule": "Drop Emails",
-            "ruleid": "2045245",
-            "executioncount": 1
-        },
-        {
-            "date": 1668250800000,
-            "ruleset": "Inbound Attachment Checks",
-            "rule": "Inbound - Quarantine Unscannable Attachments",
-            "ruleid": "2040795",
-            "executioncount": 12
-        },
-        {
-            "date": 1668250800000,
-            "ruleset": "Inbound Attachment Checks",
-            "rule": "Inbound - Quarantine Executables",
-            "ruleid": "2040797",
-            "executioncount": 1
-        },
-        {
-            "date": 1668250800000,
-            "ruleset": "Inbound Blanket Blocking",
-            "rule": "Inbound - Explicit Address Block List",
-            "ruleid": "2041295",
-            "executioncount": 52
-        },
-        {
-            "date": 1668250800000,
-            "ruleset": "Inbound Blanket Blocking",
-            "rule": "Inbound - Bypass Explicit Address Block List",
-            "ruleid": "2041442",
-            "executioncount": 2
-        },
-        {
-            "date": 1668250800000,
-            "ruleset": "Inbound Blanket Blocking",
-            "rule": "Drop Emails",
-            "ruleid": "2045245",
-            "executioncount": 2
-        },
-        {
             "date": 1668337200000,
             "ruleset": "Inbound Attachment Checks",
             "rule": "Inbound - Quarantine Unscannable Attachments",
             "ruleid": "2040795",
-            "executioncount": 42
+            "executioncount": 31
         },
         {
             "date": 1668337200000,
@@ -85,35 +29,28 @@
             "ruleset": "Inbound Offensive Content",
             "rule": "Bypass Offensive Content Filter for Scheduled Reports",
             "ruleid": "2041250",
-            "executioncount": 1246
+            "executioncount": 623
         },
         {
             "date": 1668337200000,
             "ruleset": "Inbound Blanket Blocking",
             "rule": "Inbound - Explicit Address Block List",
             "ruleid": "2041295",
-            "executioncount": 168
+            "executioncount": 143
         },
         {
             "date": 1668337200000,
             "ruleset": "Inbound Blanket Blocking",
             "rule": "Inbound - Bypass Explicit Address Block List",
             "ruleid": "2041442",
-            "executioncount": 25
-        },
-        {
-            "date": 1668337200000,
-            "ruleset": "Inbound Blanket Blocking",
-            "rule": "Drop Emails",
-            "ruleid": "2045245",
-            "executioncount": 2
+            "executioncount": 9
         },
         {
             "date": 1668337200000,
             "ruleset": "Inbound Blanket Blocking",
             "rule": "Gmail Spam",
             "ruleid": "2046297",
-            "executioncount": 13
+            "executioncount": 3
         },
         {
             "date": 1668423600000,
@@ -1163,7 +1100,7 @@
             "ruleset": "Inbound Attachment Checks",
             "rule": "Inbound - Quarantine Unscannable Attachments",
             "ruleid": "2040795",
-            "executioncount": 2
+            "executioncount": 119
         },
         {
             "date": 1670756400000,
@@ -1174,24 +1111,150 @@
         },
         {
             "date": 1670756400000,
+            "ruleset": "Inbound Attachment Checks",
+            "rule": "Inbound - Strip oledata files",
+            "ruleid": "2040956",
+            "executioncount": 2
+        },
+        {
+            "date": 1670756400000,
             "ruleset": "Inbound Offensive Content",
             "rule": "Bypass Offensive Content Filter for Scheduled Reports",
             "ruleid": "2041250",
-            "executioncount": 552
+            "executioncount": 904
         },
         {
             "date": 1670756400000,
             "ruleset": "Inbound Blanket Blocking",
             "rule": "Inbound - Explicit Address Block List",
             "ruleid": "2041295",
-            "executioncount": 8
+            "executioncount": 48
         },
         {
             "date": 1670756400000,
             "ruleset": "Inbound Blanket Blocking",
             "rule": "Inbound - Bypass Explicit Address Block List",
             "ruleid": "2041442",
-            "executioncount": 16
+            "executioncount": 50
+        },
+        {
+            "date": 1670756400000,
+            "ruleset": "Inbound Blanket Blocking",
+            "rule": "Drop Emails",
+            "ruleid": "2045245",
+            "executioncount": 6
+        },
+        {
+            "date": 1670842800000,
+            "ruleset": "Inbound Attachment Checks",
+            "rule": "Inbound - Quarantine Unscannable Attachments",
+            "ruleid": "2040795",
+            "executioncount": 197
+        },
+        {
+            "date": 1670842800000,
+            "ruleset": "Inbound Attachment Checks",
+            "rule": "Inbound - Strip oledata files",
+            "ruleid": "2040956",
+            "executioncount": 38
+        },
+        {
+            "date": 1670842800000,
+            "ruleset": "Inbound Offensive Content",
+            "rule": "Bypass Offensive Content Filter for Scheduled Reports",
+            "ruleid": "2041250",
+            "executioncount": 764
+        },
+        {
+            "date": 1670842800000,
+            "ruleset": "Inbound Blanket Blocking",
+            "rule": "Inbound - Explicit Address Block List",
+            "ruleid": "2041295",
+            "executioncount": 214
+        },
+        {
+            "date": 1670842800000,
+            "ruleset": "Inbound Blanket Blocking",
+            "rule": "Inbound - Bypass Explicit Address Block List",
+            "ruleid": "2041442",
+            "executioncount": 29
+        },
+        {
+            "date": 1670842800000,
+            "ruleset": "Inbound Blanket Blocking",
+            "rule": "Drop Emails",
+            "ruleid": "2045245",
+            "executioncount": 12
+        },
+        {
+            "date": 1670842800000,
+            "ruleset": "Inbound Blanket Blocking",
+            "rule": "Gmail Spam",
+            "ruleid": "2046297",
+            "executioncount": 7
+        },
+        {
+            "date": 1670929200000,
+            "ruleset": "Inbound Attachment Checks",
+            "rule": "Inbound - Quarantine Unscannable Attachments",
+            "ruleid": "2040795",
+            "executioncount": 100
+        },
+        {
+            "date": 1670929200000,
+            "ruleset": "Inbound Attachment Checks",
+            "rule": "Inbound - Quarantine Suspicious Attachments",
+            "ruleid": "2040802",
+            "executioncount": 4
+        },
+        {
+            "date": 1670929200000,
+            "ruleset": "Inbound Attachment Checks",
+            "rule": "Inbound - Strip oledata files",
+            "ruleid": "2040956",
+            "executioncount": 3
+        },
+        {
+            "date": 1670929200000,
+            "ruleset": "Whaling Rule",
+            "rule": "Whaling Protection",
+            "ruleid": "2045355",
+            "executioncount": 1
+        },
+        {
+            "date": 1670929200000,
+            "ruleset": "Inbound Offensive Content",
+            "rule": "Bypass Offensive Content Filter for Scheduled Reports",
+            "ruleid": "2041250",
+            "executioncount": 547
+        },
+        {
+            "date": 1670929200000,
+            "ruleset": "Inbound Blanket Blocking",
+            "rule": "Inbound - Explicit Address Block List",
+            "ruleid": "2041295",
+            "executioncount": 127
+        },
+        {
+            "date": 1670929200000,
+            "ruleset": "Inbound Blanket Blocking",
+            "rule": "Inbound - Bypass Explicit Address Block List",
+            "ruleid": "2041442",
+            "executioncount": 18
+        },
+        {
+            "date": 1670929200000,
+            "ruleset": "Inbound Blanket Blocking",
+            "rule": "Gmail Spam",
+            "ruleid": "2046297",
+            "executioncount": 1
+        },
+        {
+            "date": 1670929200000,
+            "ruleset": "Inbound Blanket Blocking",
+            "rule": "icloud Spam",
+            "ruleid": "2047142",
+            "executioncount": 7
         }
     ]
 }
