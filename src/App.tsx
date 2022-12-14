@@ -3,7 +3,9 @@ import inboundJson from "./example/inbound-message-counts.json"
 import unusedPolicy from "./example/14.json"
 import BarChart from "./Components/BarChart";
 import PieChart from "./Components/PieChart";
-
+import TypeOfEvent from "./Components/TypeOfEvent";
+import inboundpo from "./data/Set1/2.json"
+import outboundpo from "./data/Set1/3.json"
 // "totalthreat": 0,
 // "totaldenypolicy": 0,
 // "domain": "fbl.vadesecure.com",
@@ -26,6 +28,7 @@ function App() {
     <div>
       <BarChart imc={inboundJson.data}></BarChart>
        <PieChart up = {unusedPolicy.data}></PieChart>
+       <TypeOfEvent inbound={inboundpo.data} outbound = {outboundpo.data}></TypeOfEvent>
     </div>
   );
 }
