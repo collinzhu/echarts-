@@ -24,3 +24,16 @@ Blended reports
 - Count of hits for each smart rule? (bar)
 - Amount of inbound spam messages over a time period (heatmap/line)
 - Overlap for white and black lists
+
+### Pradyun
+- Inbound/outbound message counts at a specific period (bar)
+- Smart rules filtered by type, plotted against time (line?)
+- Count of hits for each smart rule? (bar)
+
+### Jason
+- top targets for spam/threat
+- policy usage
+
+### Haotian
+- Count of hits for each smart rule? (bar)
+- Amount of inbound spam messages over a time period (heatmap/line)
