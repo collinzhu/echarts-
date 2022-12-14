@@ -1,6 +1,6 @@
 import BarChart from "../Components/BarChart";
 import { Story, ComponentMeta } from '@storybook/react';
-import data from '../Data/inbound-message-counts.json'
+import data from '../example/inbound-message-counts.json'
 
 const inbound = data.data
 
