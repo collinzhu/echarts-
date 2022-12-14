@@ -5,6 +5,9 @@
     "data": [
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "clean:count": 64700,
             "allow_policy:size": 0,
             "deny_policy:count": 0,
@@ -13,6 +16,7 @@
             "allow_policy:count": 0,
             "clean:size": 4169852777,
             "spam:size": 6709691,
+<<<<<<< HEAD
 =======
             "clean:count": 64579,
             "allow_policy:size": 0,
@@ -23,26 +27,36 @@
             "clean:size": 4127632276,
             "spam:size": 6187801,
 >>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
+=======
+>>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "deny_policy:size": 0,
             "threat:size": 0,
             "threat:count": 0
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             "clean:count": 55156,
 =======
             "clean:count": 59537,
 >>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
+=======
+            "clean:count": 55156,
+>>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "allow_policy:size": 0,
             "deny_policy:count": 0,
             "address": "email.teams.microsoft.com",
             "spam:count": 0,
             "allow_policy:count": 0,
 <<<<<<< HEAD
+<<<<<<< HEAD
             "clean:size": 4137795222,
 =======
             "clean:size": 4472246259,
 >>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
+=======
+            "clean:size": 4137795222,
+>>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "spam:size": 0,
             "deny_policy:size": 0,
             "threat:size": 0,
@@ -50,20 +64,28 @@
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             "clean:count": 48423,
 =======
             "clean:count": 49164,
 >>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
+=======
+            "clean:count": 48423,
+>>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "allow_policy:size": 0,
             "deny_policy:count": 0,
             "address": "microsoft.com",
             "spam:count": 2,
             "allow_policy:count": 0,
 <<<<<<< HEAD
+<<<<<<< HEAD
             "clean:size": 4048169385,
 =======
             "clean:size": 3976295952,
 >>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
+=======
+            "clean:size": 4048169385,
+>>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "spam:size": 57966,
             "deny_policy:size": 0,
             "threat:size": 0,
@@ -72,6 +94,9 @@
         {
             "dmarc_spam:size": 6707,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "deny_policy:count": 605,
             "address": "gmail.com",
             "clean:size": 44199710077,
@@ -93,6 +118,7 @@
             "allow_policy:count": 59793,
             "spam:count": 0,
             "clean:size": 8562888827,
+<<<<<<< HEAD
 =======
             "deny_policy:count": 655,
             "unknown:size": 625023,
@@ -118,6 +144,8 @@
             "spam:count": 0,
             "clean:size": 9193529541,
 >>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
+=======
+>>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "spam:size": 0,
             "deny_policy:size": 0,
             "threat:size": 0,
@@ -125,6 +153,9 @@
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "clean:count": 19531,
             "allow_policy:size": 0,
             "deny_policy:count": 0,
@@ -133,6 +164,7 @@
             "allow_policy:count": 0,
             "clean:size": 2612435033,
             "spam:size": 21432325,
+<<<<<<< HEAD
 =======
             "clean:count": 20851,
             "allow_policy:size": 0,
@@ -143,11 +175,14 @@
             "clean:size": 2804401053,
             "spam:size": 24036833,
 >>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
+=======
+>>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "deny_policy:size": 0,
             "threat:size": 0,
             "threat:count": 0
         },
         {
+<<<<<<< HEAD
 <<<<<<< HEAD
             "clean:count": 18437,
 =======
@@ -170,16 +205,23 @@
         {
             "clean:count": 18429,
 >>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
+=======
+            "clean:count": 18437,
+>>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "allow_policy:size": 0,
             "deny_policy:count": 0,
             "address": "kupu.maori.nz",
             "spam:count": 0,
             "allow_policy:count": 0,
 <<<<<<< HEAD
+<<<<<<< HEAD
             "clean:size": 81795409,
 =======
             "clean:size": 81398415,
 >>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
+=======
+            "clean:size": 81795409,
+>>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "spam:size": 0,
             "deny_policy:size": 0,
             "threat:size": 0,
@@ -187,6 +229,9 @@
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "dmarc_spam:size": 5496034,
             "deny_policy:count": 0,
             "address": "<>",
@@ -227,6 +272,7 @@
             "allow_policy:count": 0,
             "clean:size": 547952228,
             "spam:size": 4874925,
+<<<<<<< HEAD
 =======
             "clean:count": 15099,
             "allow_policy:size": 0,
@@ -250,6 +296,8 @@
             "clean:size": 57878509,
             "spam:size": 0,
 >>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
+=======
+>>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "deny_policy:size": 0,
             "threat:size": 0,
             "threat:count": 0

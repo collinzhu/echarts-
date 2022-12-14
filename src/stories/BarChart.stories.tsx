@@ -1,16 +1,22 @@
 import BarChart from "../Components/BarChart";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Story } from '@storybook/react';
 =======
 import { Story, ComponentMeta } from '@storybook/react';
 import data from '../Data/inbound-message-counts.json'
 >>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
+=======
+import { Story, ComponentMeta } from '@storybook/react';
+import data from '../example/inbound-message-counts.json'
+>>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
 
 const inbound = data.data
 
 console.log(data.data);
 
 const sample = [
+<<<<<<< HEAD
 <<<<<<< HEAD
         {
             "totalthreat": 0,
@@ -60,6 +66,8 @@ export default{
     component: BarChart
 }
 =======
+=======
+>>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
   {
     totalthreat: 0,
     totaldenypolicy: 0,
@@ -105,7 +113,10 @@ export default {
   title: "Barchart",
   component: BarChart,
 };
+<<<<<<< HEAD
 >>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
+=======
+>>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
 
 const Template: Story<typeof BarChart> = (args) => (
   <BarChart imc={sample} {...args} />

@@ -13,14 +13,6 @@ reports/topusers?direction=outbound&limit=10:SENDER&sort=CLEAN:count&period=P1M&
 reports/topusers?direction=inbound&limit=10:RECIPIENT&sort=CLEAN:count&period=P1M&basetimestamp=
 reports/topusers?direction=outbound&limit=10:RECIPIENT&sort=CLEAN:count&period=P1M&basetimestamp=
 reports/unusedpolicies?period=P1M&eventtype=ALLOW_POLICY&basetimestamp=
-<<<<<<< HEAD
-<<<<<<< HEAD
-reports/unusedpolicies?period=P1M&eventtype=DENY_POLICY&basetimestamp=
-=======
 reports/unusedpolicies?period=P1M&eventtype=DENY_POLICY&basetimestamp=
 reports/policyusage?period=P1M&eventtype=DENY_POLICY&direction=INBOUND&basetimestamp=
 reports/policyusage?period=P1M&eventtype=DENY_POLICY&direction=OUTBOUND&basetimestamp=
->>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
-=======
-reports/unusedpolicies?period=P1M&eventtype=DENY_POLICY&basetimestamp=
->>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4

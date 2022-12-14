@@ -5,6 +5,9 @@
     "data": [
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "allow_policy:size": 28120089,
             "clean:count": 61643,
             "deny_policy:count": 0,
@@ -13,6 +16,7 @@
             "spam:count": 18,
             "clean:size": 30348001535,
             "spam:size": 45987877,
+<<<<<<< HEAD
 =======
             "allow_policy:size": 28204394,
             "clean:count": 66456,
@@ -23,26 +27,36 @@
             "clean:size": 34480401389,
             "spam:size": 45376279,
 >>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
+=======
+>>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "deny_policy:size": 0,
             "threat:size": 0,
             "threat:count": 0
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             "clean:count": 32951,
 =======
             "clean:count": 35081,
 >>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
+=======
+            "clean:count": 32951,
+>>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "allow_policy:size": 0,
             "deny_policy:count": 0,
             "address": "workflow.mail.ap1.cloud.oracle.com",
             "spam:count": 0,
             "allow_policy:count": 0,
 <<<<<<< HEAD
+<<<<<<< HEAD
             "clean:size": 1390258450,
 =======
             "clean:size": 1431135444,
 >>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
+=======
+            "clean:size": 1390258450,
+>>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "spam:size": 0,
             "deny_policy:size": 0,
             "threat:size": 0,
@@ -50,6 +64,9 @@
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "allow_policy:size": 493682969,
             "clean:count": 31686,
             "deny_policy:count": 0,
@@ -57,6 +74,7 @@
             "allow_policy:count": 24702,
             "spam:count": 0,
             "clean:size": 624363758,
+<<<<<<< HEAD
 =======
             "allow_policy:size": 584123408,
             "clean:count": 27877,
@@ -66,6 +84,8 @@
             "spam:count": 0,
             "clean:size": 547602054,
 >>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
+=======
+>>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "spam:size": 0,
             "deny_policy:size": 0,
             "threat:size": 0,
@@ -73,20 +93,28 @@
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             "clean:count": 23139,
 =======
             "clean:count": 21748,
 >>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
+=======
+            "clean:count": 23139,
+>>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "allow_policy:size": 0,
             "deny_policy:count": 0,
             "address": "vnet.ibm.com",
             "spam:count": 0,
             "allow_policy:count": 0,
 <<<<<<< HEAD
+<<<<<<< HEAD
             "clean:size": 116935020,
 =======
             "clean:size": 110964146,
 >>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
+=======
+            "clean:size": 116935020,
+>>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "spam:size": 0,
             "deny_policy:size": 0,
             "threat:size": 0,
@@ -94,6 +122,9 @@
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "unknown:size": 448723,
             "deny_policy:count": 0,
             "address": "education.govt.nz",
@@ -116,6 +147,7 @@
             "allow_policy:count": 71,
             "spam:count": 4,
             "clean:size": 6589749722,
+<<<<<<< HEAD
 =======
             "unknown:size": 2704867,
             "deny_policy:count": 0,
@@ -140,6 +172,8 @@
             "spam:count": 4,
             "clean:size": 7286545236,
 >>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
+=======
+>>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "spam:size": 192078,
             "deny_policy:size": 0,
             "threat:size": 0,
@@ -147,6 +181,9 @@
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "allow_policy:size": 1127816,
             "clean:count": 9252,
             "deny_policy:count": 0,
@@ -154,6 +191,7 @@
             "allow_policy:count": 6,
             "spam:count": 0,
             "clean:size": 3690479502,
+<<<<<<< HEAD
 =======
             "allow_policy:size": 794596,
             "clean:count": 9969,
@@ -163,6 +201,8 @@
             "spam:count": 0,
             "clean:size": 3989107208,
 >>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
+=======
+>>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "spam:size": 0,
             "deny_policy:size": 0,
             "threat:size": 0,
@@ -170,6 +210,9 @@
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "allow_policy:size": 71501928,
             "clean:count": 8807,
             "deny_policy:count": 0,
@@ -177,6 +220,7 @@
             "allow_policy:count": 154,
             "spam:count": 1,
             "clean:size": 4616853941,
+<<<<<<< HEAD
 =======
             "allow_policy:size": 69055398,
             "clean:count": 9722,
@@ -186,6 +230,8 @@
             "spam:count": 1,
             "clean:size": 5276918241,
 >>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
+=======
+>>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "spam:size": 124732,
             "deny_policy:size": 0,
             "threat:size": 0,
@@ -194,19 +240,27 @@
         {
             "allow_policy:size": 550899,
 <<<<<<< HEAD
+<<<<<<< HEAD
             "clean:count": 8442,
 =======
             "clean:count": 9151,
 >>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
+=======
+            "clean:count": 8442,
+>>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "deny_policy:count": 0,
             "address": "parliament.govt.nz",
             "allow_policy:count": 8,
             "spam:count": 0,
 <<<<<<< HEAD
+<<<<<<< HEAD
             "clean:size": 7527067210,
 =======
             "clean:size": 7998484969,
 >>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
+=======
+            "clean:size": 7527067210,
+>>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "spam:size": 0,
             "deny_policy:size": 0,
             "threat:size": 0,
@@ -214,20 +268,28 @@
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             "clean:count": 7110,
 =======
             "clean:count": 7144,
 >>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
+=======
+            "clean:count": 7110,
+>>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "allow_policy:size": 0,
             "deny_policy:count": 0,
             "address": "kupu.maori.nz",
             "spam:count": 0,
             "allow_policy:count": 0,
 <<<<<<< HEAD
+<<<<<<< HEAD
             "clean:size": 101157697,
 =======
             "clean:size": 101377657,
 >>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
+=======
+            "clean:size": 101157697,
+>>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "spam:size": 0,
             "deny_policy:size": 0,
             "threat:size": 0,
