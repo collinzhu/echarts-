@@ -4,6 +4,7 @@ import ReactEcharts from "echarts-for-react";
 
 interface ISmartRuleHitsCount{
     srd: any[];
+    color:any[];
 }
 
 // let data = [
@@ -36,7 +37,7 @@ function SmartRuleHitsCount (props:ISmartRuleHitsCount){
     
     ]
     const head = [
-      "rule", "rules"
+      "rule", "execution count"
     ]
     const body = haha.map((data) =>{
       return [
@@ -48,6 +49,10 @@ function SmartRuleHitsCount (props:ISmartRuleHitsCount){
      
     const data = [head, ...body];
     const option = {
+        color: props.color,
+        title: {
+          text:"Count of hits for each smart rule"
+        },
         legend: {},
         tooltip: {},
         dataset: {

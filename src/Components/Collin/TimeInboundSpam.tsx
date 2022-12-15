@@ -2,6 +2,7 @@ import React from "react";
 import ReactEcharts from "echarts-for-react";
 
 interface ITimeInboundSpam{
+    color: any[];
     tis: any[];
 }
 
@@ -112,6 +113,11 @@ function TimeInboundSpam(props:ITimeInboundSpam){
     console.log("body", body);
     const data = [head,...body];
     const Option = {
+        title:{
+          text:"Amount of inbound spam messages",
+
+        },
+        color: props.color,
         legend: {},
         tooltip: {},
         dataset: {
@@ -122,6 +128,8 @@ function TimeInboundSpam(props:ITimeInboundSpam){
             axisLabel: {
                 rotate: 30
             },
+            fontSize: 30,
+            fontFamily: 'Microsoft YaHei',
         },
         yAxis: { },
         series: [

@@ -10,7 +10,7 @@ import outboundpo from "./data/Set1/3.json";
 import smartRuleData from "./data/Set1/4.json"
 import TimeInboundSpam from "./Components/Collin/TimeInboundSpam";
 import { useState, useEffect } from "react";
-import { DataStore, Period } from './DataStore'
+//import { DataStore, Period } from './DataStore'
 
 
 // "totalthreat": 0,
@@ -30,28 +30,25 @@ import { DataStore, Period } from './DataStore'
 //   totalClean: number | any;
 //   totalAllowPolicy: number | any;
 // }
-
+let colorTheme = 
+['#003F5C',
+'#2F4B7C',
+'#665191',
+'#A05195',
+'#D45087',
+'#F95D6A',
+'#FF7C43',
+'#FFA600']
 function App() {
   // const [data, setData] = useState(Object)
-  const [graphData, setGraphData] = useState(Object)
 
-  useEffect( () => {
-
-    const fetchData = async () => {
-      const data = await DataStore.global.request(1, 'a', Period.M1)
-      return Promise.resolve(data)
-    }
-
-    fetchData().then( data => console.log(data) )
-
-  })
 
   return (
     <div>
-      <TimeInboundSpam tis={smartRuleData.data}/>
-      {/* <BarChart imc={inboundJson.data}></BarChart>
-      <PieChart up={unusedPolicy.data}></PieChart> */}
-      {/* <SmartRuleHitsCount srd = {smartRuleData.data}/> */}
+      <TimeInboundSpam tis={smartRuleData.data} color = {colorTheme}/>
+      {/* <BarChart imc={inboundJson.data}></BarChart> */}
+      <PieChart up={unusedPolicy.data} color = {colorTheme}></PieChart> 
+      <SmartRuleHitsCount srd = {smartRuleData.data} color = {colorTheme}/>
       {/* <TypeOfEvent
         inbound={inboundpo.data}
         outbound={outboundpo.data}
