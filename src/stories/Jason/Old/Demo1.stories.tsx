@@ -2,7 +2,7 @@ import Demo1 from "../../../Components/Jason/Old/Demo1";
 import { Story, Meta } from "@storybook/react";
 
 export default {
-  title: "OLD/Old/Demo1",
+  title: "Unused Policies",
   component: Demo1,
 } as Meta;
 

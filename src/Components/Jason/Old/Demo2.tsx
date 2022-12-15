@@ -36,7 +36,7 @@ const Demo2 = ({
       },
     },
     legend: {
-      bottom: 10,
+      bottom: 0,
     },
     xAxis: {
       type: "value",
