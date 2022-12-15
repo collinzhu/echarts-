@@ -1,41 +1,37 @@
-import React from "react";
-import ReactEcharts from "echarts-for-react";
+// import React, { useState, useEffect } from 'react'
+import ReactECharts from 'echarts-for-react'
 
-function LineChart(){
 
-    const d = new Date(1668164400000);
+export default function LineChart(title: string, xAxisType: 'time' | 'value', data: any[]) {
 
-    console.log ("This is the date", d);
-    const option = {
-        tooltip: {
-          trigger: 'item'
-        },
-        legend: {
-        },
-        xAxis: {},
-        yAxis: { type: "category" },
+    //.const [options, setOptions] = useState({})
+    let units: any[] = data.filter(e => (e.rule === "Inbound - Quarantine Unscannable Attachments"))
+    let times: number[] = units.map(e => e.date)
 
-        dataset:{
-            source: [
-                ['product', '2015', '2016', '2017'],
-                ['Matcha Latte', 43.3, 85.8, 93.7],
-                ['Milk Tea', 83.1, 73.4, 55.1],
-                //['Cheese Cocoa', 86.4, 65.2, 82.5],
-                ['Walnut Brownie', 72.4, 53.9, 39.1]
-              ]
-        },
-        series: [
-          {type: "line"},
-          {type: "line"},
-          {type: "line"},
-          {type: "line"}
-        ]
-      }
+    // gather times into an array if it is time series data
+    // let times: number[] = []
+    // if (props.xAxisType == 'time') {
+    //     times = props.data.map(e => e.date)
+    //     // console.log('asd', times)
+    // }
+
+    const opts = {
+        title: { text: title },
+        xAxis: { type: xAxisType, data: times, splitLine: { show: false } },
+        yAxis: { type: 'value', splitLine: { show: false } },
+        series: {
+            // data: props.data.map( (element) => {
+            //     return element
+            // })
+            data: units
+        }
+    }
+
+    //setOptions(opts)
+
     return (
         <div>
-           <ReactEcharts option={option} />;
+            <ReactECharts option={opts} lazyUpdate={true} />
         </div>
     )
 }
-
-export default LineChart;

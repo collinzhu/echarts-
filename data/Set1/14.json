@@ -1,0 +1,289 @@
+{
+    "id": "unusedpolicies",
+    "isEmpty": false,
+    "title": "Unused Policies",
+    "data": [
+        {
+            "policyoperand": "cheryl@tehikuiwi.com",
+            "policyaction": "ALLOW FROM USER"
+        },
+        {
+            "policyoperand": "jeffw@tech-q.co.nz",
+            "policyaction": "ALLOW FROM USER"
+        },
+        {
+            "policyoperand": "tertiaryinsight.nz",
+            "policyaction": "ALLOW FROM DOMAIN"
+        },
+        {
+            "policyoperand": "orders@uview.co.nz",
+            "policyaction": "ALLOW FROM USER"
+        },
+        {
+            "policyoperand": "jeffw@tech-q.co.nz",
+            "policyaction": "ALLOW FROM USER"
+        },
+        {
+            "policyoperand": "office@kaiforkids.org.nz",
+            "policyaction": "ALLOW FROM USER"
+        },
+        {
+            "policyoperand": "no-reply@mail.consider.co.nz",
+            "policyaction": "ALLOW FROM USER"
+        },
+        {
+            "policyoperand": "no-reply@mail.consider.co.nz",
+            "policyaction": "ALLOW FROM USER"
+        },
+        {
+            "policyoperand": "core-ed.ac.nz",
+            "policyaction": "ALLOW FROM DOMAIN"
+        },
+        {
+            "policyoperand": "angela@learningmatters.co.nz",
+            "policyaction": "ALLOW FROM USER"
+        },
+        {
+            "policyoperand": "monique.petersen@education.govt.nz",
+            "policyaction": "ALLOW FROM USER"
+        },
+        {
+            "policyoperand": "163.7.138.102",
+            "policyaction": "ALLOW IP ADDRESS"
+        },
+        {
+            "policyoperand": "michael.hockey@education.govt.nz",
+            "policyaction": "ALLOW FROM USER"
+        },
+        {
+            "policyoperand": "neville.robb@nz.rlb.com",
+            "policyaction": "ALLOW FROM USER"
+        },
+        {
+            "policyoperand": "yaelfriedlander@rogers.com",
+            "policyaction": "ALLOW FROM USER"
+        },
+        {
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
+            "policyoperand": "libraryrsvps@dcc.govt.nz",
+            "policyaction": "ALLOW FROM USER"
+        },
+        {
+<<<<<<< HEAD
+=======
+>>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
+=======
+>>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
+            "policyoperand": "dimensiondata.com",
+            "policyaction": "ALLOW TO DOMAIN"
+        },
+        {
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            "policyoperand": "libraryrsvps@dcc.govt.nz",
+            "policyaction": "ALLOW FROM USER"
+        },
+        {
+>>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
+=======
+>>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
+            "policyoperand": "jules@jhaconsulting.org",
+            "policyaction": "ALLOW TO USER"
+        },
+        {
+            "policyoperand": "moeservicedesk@techtime.co.nz",
+            "policyaction": "ALLOW FROM USER"
+        },
+        {
+            "policyoperand": "infringements@police.govt.nz",
+            "policyaction": "ALLOW FROM USER"
+        },
+        {
+            "policyoperand": "ginadoak@xtra.co.nz",
+            "policyaction": "ALLOW FROM USER"
+        },
+        {
+            "policyoperand": "kkmadmin@twt.ac.nz",
+            "policyaction": "ALLOW FROM USER"
+        },
+        {
+            "policyoperand": "global.ntt",
+            "policyaction": "ALLOW TO DOMAIN"
+        },
+        {
+            "policyoperand": "moe-eoi-no-reply@bubbleapps.io",
+            "policyaction": "ALLOW FROM USER"
+        },
+        {
+            "policyoperand": "oss-group.co.nz",
+            "policyaction": "ALLOW TO DOMAIN"
+        },
+        {
+            "policyoperand": "office@lms.education.govt.nz",
+            "policyaction": "ALLOW FROM USER"
+        },
+        {
+            "policyoperand": "receivables@fusion.education.govt.nz",
+            "policyaction": "ALLOW FROM USER"
+        },
+        {
+            "policyoperand": "office@training.education.govt.nz",
+            "policyaction": "ALLOW FROM USER"
+        },
+        {
+            "policyoperand": "no-reply@web.careers.govt.nz",
+            "policyaction": "ALLOW FROM USER"
+        },
+        {
+            "policyoperand": "emailsupport@smxemail.com",
+            "policyaction": "ALLOW TO USER"
+        },
+        {
+            "policyoperand": "no-reply@wfiam.dev.education.govt.nz",
+            "policyaction": "ALLOW FROM USER"
+        },
+        {
+            "policyoperand": "amelia.pullen@randstad.co.nz",
+            "policyaction": "ALLOW FROM USER"
+        },
+        {
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            "policyoperand": "im-c.com",
+            "policyaction": "ALLOW FROM DOMAIN"
+        },
+        {
+>>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
+=======
+>>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
+            "policyoperand": "reservations@bayplaza.co.nz",
+            "policyaction": "ALLOW FROM USER"
+        },
+        {
+            "policyoperand": "patsi.hudson@sunnydene.school.nz",
+            "policyaction": "ALLOW FROM USER"
+        },
+        {
+            "policyoperand": "govt.nz",
+            "policyaction": "ALLOW FROM DOMAIN"
+        },
+        {
+            "policyoperand": "webmaster@fuseworks.co.nz",
+            "policyaction": "ALLOW FROM USER"
+        },
+        {
+            "policyoperand": "oss.co.nz",
+            "policyaction": "ALLOW TO DOMAIN"
+        },
+        {
+            "policyoperand": "wade.charman@tts.co.nz",
+            "policyaction": "ALLOW FROM USER"
+        },
+        {
+            "policyoperand": "online@sparkdigitalcommunications.co.nz",
+            "policyaction": "ALLOW FROM USER"
+        },
+        {
+            "policyoperand": "mo.patel2@vodafone.com",
+            "policyaction": "ALLOW FROM USER"
+        },
+        {
+            "policyoperand": "em3458.comms.businessconnect.govt.nz",
+            "policyaction": "ALLOW FROM DOMAIN"
+        },
+        {
+            "policyoperand": "kohanga.ac.nz",
+            "policyaction": "ALLOW TO DOMAIN"
+        },
+        {
+            "policyoperand": "no-reply@comms.businessconnect.govt.nz",
+            "policyaction": "ALLOW FROM USER"
+        },
+        {
+            "policyoperand": "christina@terraceconference.co.nz",
+            "policyaction": "ALLOW TO USER"
+        },
+        {
+            "policyoperand": "dmarcalerts@education.govt.nz",
+            "policyaction": "ALLOW TO USER"
+        },
+        {
+            "policyoperand": "ispservices.org",
+            "policyaction": "ALLOW FROM DOMAIN"
+        },
+        {
+            "policyoperand": "careers@jobs.education.govt.nz",
+            "policyaction": "ALLOW FROM USER"
+        },
+        {
+            "policyoperand": "oob.edu.govt.nz",
+            "policyaction": "ALLOW FROM DOMAIN"
+        },
+        {
+            "policyoperand": "cisco.com",
+            "policyaction": "ALLOW TO DOMAIN"
+        },
+        {
+            "policyoperand": "support@fleetwise.co.nz",
+            "policyaction": "ALLOW FROM USER"
+        },
+        {
+            "policyoperand": "mail.consider.co.nz",
+            "policyaction": "ALLOW FROM DOMAIN"
+        },
+        {
+            "policyoperand": "mail.consider.co.nz",
+            "policyaction": "ALLOW FROM DOMAIN"
+        },
+        {
+            "policyoperand": "no-reply@pourato.education.govt.nz",
+            "policyaction": "ALLOW FROM USER"
+        },
+        {
+            "policyoperand": "no-reply@pourato.education.govt.nz",
+            "policyaction": "ALLOW FROM USER"
+        },
+        {
+            "policyoperand": "ebscohost@ill.ebsco-gss.net",
+            "policyaction": "ALLOW FROM USER"
+        },
+        {
+            "policyoperand": "helpdesk.nz@global.ntt",
+            "policyaction": "ALLOW TO USER"
+        },
+        {
+            "policyoperand": "helpdesk.nz@dimensiondata.com",
+            "policyaction": "ALLOW TO USER"
+        },
+        {
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
+            "policyoperand": "sue.thomas@education.govt.nz",
+            "policyaction": "ALLOW FROM USER"
+        },
+        {
+<<<<<<< HEAD
+=======
+>>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
+=======
+>>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
+            "policyoperand": "neville.robb@nz.rlb.com",
+            "policyaction": "ALLOW TO USER"
+        },
+        {
+            "policyoperand": "kelly.b@eastbayreap.org.nz",
+            "policyaction": "ALLOW FROM USER"
+        },
+        {
+            "policyoperand": "careers@jobs.education.govt.nz",
+            "policyaction": "ALLOW FROM USER"
+        }
+    ]
+}
