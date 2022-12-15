@@ -10,10 +10,10 @@ interface GenericProps {
 }
 
 const Generic = ({
-  title = "Example Title",
-  description = "Example Description",
-  barHeight = 50,
-  displayMax = 8,
+  title = "A Generic Graph",
+  description = "=That displays generic data=",
+  barHeight = 60,
+  displayMax = 10,
   keyValue,
   data,
 }: GenericProps) => {
