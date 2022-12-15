@@ -2,39 +2,9 @@ import ReactECharts from 'echarts-for-react'
 import { Story, Meta } from '@storybook/react'
 import senderData from '../../../data/Set1/11.json'
 import receiveData from '../../../data/Set1/12.json'
+import EChartsReact from 'echarts-for-react'
 
-type prototype = {
-    "unknown:size": number,
-    "deny_policy:count": number,
-    "address": string,
-    "clean:size": number,
-    "deny_policy:size": number,
-    "threat:count": number,
-    "allow_policy:size": number,
-    "clean:count": number,
-    "allow_policy:count": number,
-    "spam:count": number,
-    "spam:size": number,
-    "unknown:count": number,
-    "threat:size": number
-}
-
-// type keys = "unknown:size"|"deny_policy:count"|"address"|"clean:size"|"deny_policy:size"|"threat:count"|"allow_policy:size"|"clean:count"|"allow_policy:count"|"spam:count"|"spam:size"|"unknown:count"|"threat:size"
 const protkeys = [ "deny_policy:count", "clean:size", "deny_policy:size", "threat:count", "allow_policy:size", "clean:count", "allow_policy:count", "spam:count", "spam:size", "unknown:count", "threat:size"]
-
-export const parameters = {
-    viewport: { 
-        viewports: {
-            custom: {
-                name: 'Kindle Fire 2',
-                styles: {
-                  width: '2560px',
-                  height: '1440px',
-                },
-              },
-        }
-     },
-  };
 
 // Overlap of outbound and inbound top users
 export default {
@@ -43,9 +13,7 @@ export default {
 } as Meta
 
 const Template: Story = ({ options, ...args }) => (
-    
-    <ReactECharts option={options} {...args} />
-
+    <EChartsReact option={options} {...args} />
 );
 
 const [overlap, unique, send, rec] = prepareData()
@@ -53,6 +21,7 @@ const [overlap, unique, send, rec] = prepareData()
 export const SenderComposition = Template.bind( {} );
 SenderComposition.args = {
     options: {
+        // height: 400,
         title: {
             text: 'Top ten sending users'
         },
@@ -63,10 +32,11 @@ SenderComposition.args = {
         toolbox: {
             right: 10,
             feature: {
-              saveAsImage: {}
+                saveAsImage: {},
+                magicType: { show: true, type: ['bar', 'stack'] },
             }
           },
-        // legend: {},
+        legend: {},
         tooltip: {
             trigger: 'axis',
             axisPointer: {
@@ -77,7 +47,7 @@ SenderComposition.args = {
             type: 'category',
             data: unique,
             axisLabel: {
-                rotate: 45
+                rotate: 35
             }
         },
         yAxis: {
