@@ -12,7 +12,7 @@ import Generic from "../../../Components/Jason/Generic/Generic";
 import { Story, Meta } from "@storybook/react";
 
 export default {
-  title: "OLD/Generic",
+  title: "Generic",
   component: Generic,
 } as Meta;
 
