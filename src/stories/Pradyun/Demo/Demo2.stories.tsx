@@ -3,6 +3,8 @@ import { Story, Meta } from '@storybook/react'
 import senderData from '../../../data/Set1/11.json'
 import receiveData from '../../../data/Set1/12.json'
 import EChartsReact from 'echarts-for-react'
+import theme from "../../../data/theme.json";
+import { registerTheme } from "echarts";
 
 const protkeys = [ "deny_policy:count", "threat:count", "clean:count", "allow_policy:count", "spam:count", "unknown:count"]
 
@@ -21,8 +23,10 @@ export default {
     component: EChartsReact
 } as Meta
 
+registerTheme('theme', theme)
+
 const Template: Story = ({ options, ...args }) => (
-    <EChartsReact option={options} style={{ height: 750 }} {...args} />
+    <EChartsReact option={options} style={{ height: 750 }} theme={theme} {...args} />
 );
 
 const [overlap, unique, send, rec] = prepareData()

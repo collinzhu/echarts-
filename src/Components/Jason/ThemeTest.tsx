@@ -43,8 +43,8 @@ const SpamThreat = ({
   // display data
   const option = {
     title: {
-      text: `TOP TEN (${direction})`,
-      subtext: `By ${scope}`,
+      text: `Top ten ${direction}`,
+      subtext: `Limited by ${scope}`,
       left: "center",
       top: 10,
     },

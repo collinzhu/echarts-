@@ -2,12 +2,13 @@ import ReactECharts from 'echarts-for-react'
 import { Story, Meta } from '@storybook/react'
 import data14 from '../../../data/Set1/14.json'
 import data15 from '../../../data/Set1/15.json'
+// import gradient from '../../../gradient.png'
 
 // Unused policies, coloured by severity
 
 function polToCol(pol: string): string {
     // severities
-    const sev = ['#003f5c', '#374c80', '#7a5195', '#bc5090', '#ef5675', '#ff764a', '#ffa600']
+    const sev = ["#C1E7FF", "#A7CFE9", "#8EB8D3", "#5D8BA9", "#296080", "#004c6d"]
 
     switch (pol) {
         case 'ALLOW FROM USER':
@@ -35,7 +36,11 @@ export default {
 } as Meta
 
 const Template: Story = ({ options, ...args }) => (
-    <ReactECharts option={options} {...args} />
+    <div>
+        <ReactECharts option={options} style={{ height: 500 }}{...args} />
+
+        Less Severe <img src={ require('../../../gradient.png') } alt='gradient'/> More Severe
+    </div>
 );
 
 const [actions, counts] = prepareData()
@@ -48,7 +53,7 @@ UnusedPoliciesSeverity.args = {
         },
         legend: {},
         grid: {
-            bottom: 100,
+            bottom: 105,
         },
         tooltip: {
             trigger: 'axis',
