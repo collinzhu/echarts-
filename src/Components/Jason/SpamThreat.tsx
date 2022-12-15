@@ -13,22 +13,22 @@ const SpamThreat = ({
   data,
   scope,
   direction,
-  height = 500,
+  height = 600,
 }: SpamThreatProps) => {
   // narrow data
   const [graphData, setGraphData] = useState(data[scope][direction]);
 
   // re-apply narrowing on prop change
   useEffect(() => {
-    // automatically sort data by spam count
     let newData = data[scope][direction];
+
+    // sort data by spam count
     newData = newData.sort(
       (objectOne: any, objectTwo: any) =>
         objectOne["spam:count"] - objectTwo["spam:count"]
     );
 
     setGraphData(newData);
-    console.log("Narrowed graph data");
   }, [scope, direction]);
 
   // display data
@@ -58,6 +58,10 @@ const SpamThreat = ({
     yAxis: {
       type: "category",
       data: graphData.map((dataObject: any) => dataObject.address),
+      axisLabel: {
+        width: 150,
+        overflow: "break",
+      },
     },
     series: [
       {
