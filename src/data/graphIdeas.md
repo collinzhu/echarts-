@@ -28,7 +28,6 @@ Blended reports
 ### Pradyun
 - Inbound/outbound message counts at a specific period (bar)
 - Smart rules filtered by type, plotted against time (line?)
-- Count of hits for each smart rule? (bar)
 
 ### Jason
 - top targets for spam/threat
