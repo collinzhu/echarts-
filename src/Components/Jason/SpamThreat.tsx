@@ -1,5 +1,7 @@
 import ReactEcharts from "echarts-for-react";
 import { useEffect, useState } from "react";
+import theme from "../../data/theme.json";
+import { registerTheme } from "echarts";
 
 interface SpamThreatProps {
   data: any;
@@ -84,7 +86,9 @@ const SpamThreat = ({
     ],
   };
 
-  return <ReactEcharts option={option} style={{ height }} />;
+  registerTheme("theme", theme);
+
+  return <ReactEcharts option={option} style={{ height }} theme="theme" />;
 };
 
 export default SpamThreat;
