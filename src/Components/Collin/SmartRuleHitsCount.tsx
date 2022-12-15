@@ -3,8 +3,10 @@ import ReactEcharts from "echarts-for-react";
 import theme from "../../data/theme.json";
 import { registerTheme } from "echarts";
 
-interface ISmartRuleHitsCount {
-  srd: any[];
+
+interface ISmartRuleHitsCount{
+    srd: any[];
+    color:any[];
 }
 
 // let data = [
@@ -14,6 +16,7 @@ interface ISmartRuleHitsCount {
 //     ['Cheese Cocoa', 86.4],
 //     ['Walnut Brownie', 72.4]
 //   ]
+
 function SmartRuleHitsCount(props: ISmartRuleHitsCount) {
   let ok = props.srd;
   // console.log("data", ok);
@@ -47,6 +50,7 @@ function SmartRuleHitsCount(props: ISmartRuleHitsCount) {
 
   const data = [head, ...body];
   const option = {
+    color: props.color,
     title: {
       text: "Smart Rules by Hit-Count",
       subtext: "Displays the total hit-count for each Smart Rule",

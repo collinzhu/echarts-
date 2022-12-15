@@ -43,8 +43,8 @@ const SpamThreat = ({
   // display data
   const option = {
     title: {
-      text: `Top Ten (${direction.toLocaleUpperCase()})`,
-      subtext: `By ${scope.toLocaleUpperCase()}`,
+      text: `TOP TEN (${direction})`,
+      subtext: `By ${scope}`,
       left: "center",
       top: 10,
     },

@@ -3,8 +3,10 @@ import ReactEcharts from "echarts-for-react";
 import theme from "../../data/theme.json";
 import { registerTheme } from "echarts";
 
-interface ITimeInboundSpam {
-  tis: any[];
+
+interface ITimeInboundSpam{
+    color: any[];
+    tis: any[];
 }
 
 function TimeInboundSpam(props: ITimeInboundSpam) {
@@ -125,6 +127,7 @@ function TimeInboundSpam(props: ITimeInboundSpam) {
         filterMode: "filter",
       },
     ],
+    color: props.color,
     legend: {},
     tooltip: {},
     dataset: {
@@ -134,7 +137,9 @@ function TimeInboundSpam(props: ITimeInboundSpam) {
       type: "category",
       axisLabel: {
         rotate: 30,
-      },
+      }, 
+      fontSize: 30,
+      fontFamily: 'Microsoft YaHei',
     },
     yAxis: {},
     series: [{ type: "line" }],

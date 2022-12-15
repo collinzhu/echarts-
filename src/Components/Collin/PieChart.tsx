@@ -10,6 +10,7 @@ import ReactEcharts from "echarts-for-react";
 //   ],
 interface IPieChartProps{
     up:any;
+    color:any[];
 }
 
 function PieChart(props: IPieChartProps){
@@ -34,9 +35,13 @@ function PieChart(props: IPieChartProps){
    
    // const [option, setOption] = useState({});
     const option = {
+      color: props.color,
         tooltip: {
           trigger: 'item'
         },
+        fontSize: 55,
+        fontFamily: 'Arial',
+
         legend: {
    
         },

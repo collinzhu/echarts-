@@ -7,7 +7,7 @@ export default {
 };
 
 const Template: Story<typeof TimeInboundSpam> = (args) => (
-    <TimeInboundSpam tis={[]} {...args} />
+    <TimeInboundSpam tis={[]} color = {[]} {...args} />
   );
 
   export const sample1 = Template.bind({});

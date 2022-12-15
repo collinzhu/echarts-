@@ -1,0 +1,18 @@
+{
+  "create an echarts component": {
+    "scope": "javascript,typescipt,typescriptreact",
+    "prefix": "echartsc",
+    "body": [
+      "import ReactEcharts from \"echarts-for-react\";",
+      "",
+      "const $1 = () => {",
+      "  const option = {$2};",
+      "",
+      "  return <ReactEcharts option={option} />;",
+      "};",
+      "",
+      "export default $1;"
+    ],
+    "description": "create an echarts component"
+  }
+}

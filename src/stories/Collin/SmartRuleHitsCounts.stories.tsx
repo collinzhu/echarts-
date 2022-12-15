@@ -7,9 +7,9 @@ export default {
 };
 
 const Template: Story<typeof SmartRuleHitsCount> = (args) => (
-  <SmartRuleHitsCount srd={[]} {...args} />
-);
-
+    <SmartRuleHitsCount srd={[]} color ={[]} {...args} />
+  );
+  
 //   sample1.args = {
 //     up: data.data
 // }
