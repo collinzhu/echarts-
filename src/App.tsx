@@ -30,6 +30,20 @@ import TimeInboundSpam from "./Components/Collin/TimeInboundSpam";
 // }
 
 function App() {
+  // const [data, setData] = useState(Object)
+  const [graphData, setGraphData] = useState(Object)
+
+  useEffect( () => {
+
+    const fetchData = async () => {
+      const data = await DataStore.global.request(1, 'a', Period.M1)
+      return Promise.resolve(data)
+    }
+
+    fetchData().then( data => console.log(data) )
+
+  })
+
   return (
     <div>
       <TimeInboundSpam tis={smartRuleData.data}/>
@@ -40,6 +54,7 @@ function App() {
         inbound={inboundpo.data}
         outbound={outboundpo.data}
       ></TypeOfEvent> */}
+
     </div>
   );
 }
