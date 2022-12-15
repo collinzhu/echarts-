@@ -9,6 +9,8 @@ import SmartRuleHitsCount from "./Components/Collin/SmartRuleHitsCount";
 import outboundpo from "./data/Set1/3.json";
 import smartRuleData from "./data/Set1/4.json"
 import TimeInboundSpam from "./Components/Collin/TimeInboundSpam";
+import { useState, useEffect } from "react";
+import { DataStore, Period } from './DataStore'
 
 
 // "totalthreat": 0,

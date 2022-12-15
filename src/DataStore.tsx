@@ -1,5 +1,5 @@
 import axios from "axios"
-import data from './Data/inbound-message-counts.json'
+import data from './data/inbound-message-counts.json'
 
 export enum Period {
     W1 = '1W',
