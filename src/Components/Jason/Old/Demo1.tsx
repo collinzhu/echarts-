@@ -1,18 +1,22 @@
 import ReactEcharts from "echarts-for-react";
 import unusedpolicies from "../../../data/Set0/unusedpolicies.json";
+import theme2 from "../../../data/theme2.json";
+import { registerTheme } from "echarts";
 
 interface Props {
   title?: string;
   description?: string;
   displayMax?: number;
   height?: number;
+  color?: string[];
 }
 
 const Demo1 = ({
   title = "Unused Policies",
-  description = "The proportion of unused policies, by hitcount",
+  description = "The proportion of Unused Policies, grouped by total hit-count",
   displayMax = 15,
   height = 500,
+  color = [],
 }: Props) => {
   const allData = unusedpolicies.data;
 
@@ -39,6 +43,7 @@ const Demo1 = ({
   });
 
   const option = {
+    color,
     title: {
       text: title,
       subtext: description,
@@ -54,6 +59,9 @@ const Demo1 = ({
       data: policies,
       bottom: 10,
       selectedMode: false,
+    },
+    grid: {
+      containLabel: true,
     },
     series: [
       {
@@ -73,12 +81,15 @@ const Demo1 = ({
     ],
   };
 
+  registerTheme("theme2", theme2);
+
   return (
     <ReactEcharts
       option={option}
       style={{
         height,
       }}
+      theme="theme2"
     />
   );
 };

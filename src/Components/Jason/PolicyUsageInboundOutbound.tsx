@@ -36,8 +36,8 @@ const PolicyUsageInboundOutbound = ({
 
   const option = {
     title: {
-      text: `Policy usage for ${state} data`,
-      subtext: `The total hitcount of each policy action`,
+      text: `Policy usage for ${state.toUpperCase()} data`,
+      subtext: `The total hit-count of each policy action`,
       left: "center",
       top: 10,
     },
@@ -69,7 +69,7 @@ const PolicyUsageInboundOutbound = ({
 
   registerTheme("theme", theme);
 
-  return <ReactEcharts option={option} theme="theme" />;
+  return <ReactEcharts option={option} style={{ height: 600 }} theme="theme" />;
 };
 
 export default PolicyUsageInboundOutbound;

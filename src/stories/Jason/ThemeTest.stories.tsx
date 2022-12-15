@@ -18,7 +18,7 @@ const data = {
 };
 
 export default {
-  title: "Theme Test",
+  title: "OLD/Theme Test",
   component: ThemeTest,
 } as Meta;
 
