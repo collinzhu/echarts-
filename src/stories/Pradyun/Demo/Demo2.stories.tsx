@@ -19,7 +19,7 @@ type series = {
 
 // Overlap of outbound and inbound top users
 export default {
-    title: 'Pradyun/Demo2',
+    title: 'Composition of sender emails',
     component: EChartsReact
 } as Meta
 

@@ -31,7 +31,7 @@ function polToCol(pol: string): string {
 }
 
 export default {
-    title: 'Pradyun/Demo1',
+    title: 'Severity of Unused Policies',
     component: ReactECharts
 } as Meta
 
