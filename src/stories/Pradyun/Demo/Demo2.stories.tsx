@@ -9,11 +9,11 @@ const protkeys = [ "deny_policy:count", "clean:size", "deny_policy:size", "threa
 // Overlap of outbound and inbound top users
 export default {
     title: 'Pradyun/Demo2',
-    component: ReactECharts
+    component: EChartsReact
 } as Meta
 
 const Template: Story = ({ options, ...args }) => (
-    <EChartsReact option={options} {...args} />
+    <EChartsReact option={options} style={{ height: 600 }} {...args} />
 );
 
 const [overlap, unique, send, rec] = prepareData()
