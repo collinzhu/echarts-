@@ -21,7 +21,15 @@ const Generic = ({
   data = data.filter((dataObject, index) => index < displayMax);
 
   // map the keyValue as categories
-  let categories: any[] = data.map((dataObject) => dataObject[keyValue]);
+  let categories: any[] = data.map((dataObject) => {
+    let category = dataObject[keyValue];
+
+    if (category === "<>" || category === "<>@<>") {
+      category = "(null sender)";
+    }
+
+    return category;
+  });
 
   // set the chart height to accomodate the categories
   const height = categories.length * barHeight;
