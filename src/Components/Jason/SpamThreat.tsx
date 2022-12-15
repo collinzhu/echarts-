@@ -28,6 +28,14 @@ const SpamThreat = ({
         objectOne["spam:count"] - objectTwo["spam:count"]
     );
 
+    // replace null senders
+    newData = newData.map((dataObject: any) => {
+      if (dataObject.address === "<>" || dataObject.address === "<>@<>") {
+        dataObject.address = "(null sender)";
+      }
+      return dataObject;
+    });
+
     setGraphData(newData);
   }, [scope, direction]);
 
