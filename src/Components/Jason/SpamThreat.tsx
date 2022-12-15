@@ -14,7 +14,7 @@ const SpamThreat = ({
   data,
   scope,
   direction,
-  height = 600,
+  height = 700,
 }: SpamThreatProps) => {
   // narrow data
   const [graphData, setGraphData] = useState(data[scope][direction]);
@@ -29,11 +29,16 @@ const SpamThreat = ({
         objectOne["spam:count"] - objectTwo["spam:count"]
     );
 
-    // replace null senders
+    // apply formatting to the adresses
     newData = newData.map((dataObject: any) => {
+      // replace null senders with (null sender)
       if (dataObject.address === "<>" || dataObject.address === "<>@<>") {
         dataObject.address = "(null sender)";
       }
+
+      // break at @
+      dataObject.address = dataObject.address.replace("@", "\n@");
+
       return dataObject;
     });
 
@@ -68,7 +73,7 @@ const SpamThreat = ({
       type: "category",
       data: graphData.map((dataObject: any) => dataObject.address),
       axisLabel: {
-        width: 140,
+        width: 150,
         overflow: "break",
       },
     },
