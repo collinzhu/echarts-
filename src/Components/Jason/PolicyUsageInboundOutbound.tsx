@@ -1,4 +1,6 @@
 import ReactEcharts from "echarts-for-react";
+import theme from "../../data/theme.json";
+import { registerTheme } from "echarts";
 
 interface PolicyUsageInboundOutboundProps {
   data: any;
@@ -65,7 +67,9 @@ const PolicyUsageInboundOutbound = ({
     ],
   };
 
-  return <ReactEcharts option={option} />;
+  registerTheme("theme", theme);
+
+  return <ReactEcharts option={option} theme="theme" />;
 };
 
 export default PolicyUsageInboundOutbound;
