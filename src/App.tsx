@@ -5,7 +5,9 @@ import BarChart from "./Components/Collin/BarChart";
 import PieChart from "./Components/Collin/PieChart";
 import TypeOfEvent from "./Components/Collin/TypeOfEvent";
 import inboundpo from "./data/Set1/2.json";
+import SmartRuleHitsCount from "./Components/Collin/SmartRuleHitsCount";
 import outboundpo from "./data/Set1/3.json";
+import smartRuleData from "./data/Set1/4.json"
 // "totalthreat": 0,
 // "totaldenypolicy": 0,
 // "domain": "fbl.vadesecure.com",
@@ -26,12 +28,13 @@ import outboundpo from "./data/Set1/3.json";
 function App() {
   return (
     <div>
-      <BarChart imc={inboundJson.data}></BarChart>
-      <PieChart up={unusedPolicy.data}></PieChart>
-      <TypeOfEvent
+      {/* <BarChart imc={inboundJson.data}></BarChart>
+      <PieChart up={unusedPolicy.data}></PieChart> */}
+      <SmartRuleHitsCount srd = {smartRuleData.data}/>
+      {/* <TypeOfEvent
         inbound={inboundpo.data}
         outbound={outboundpo.data}
-      ></TypeOfEvent>
+      ></TypeOfEvent> */}
     </div>
   );
 }
