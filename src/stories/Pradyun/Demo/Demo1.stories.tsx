@@ -17,13 +17,13 @@ function polToCol(pol: string): string {
         case 'ALLOW IP ADDRESS':
             return sev[4]
         case 'ALLOW TO DOMAIN':
-            return sev[1]
+            return sev[2]
         case 'ALLOW TO USER':
             return sev[1]
         case 'DENY FROM USER':
             return sev[3]
         case 'DENY FROM DOMAIN':
-            return sev[1]
+            return sev[5]
         default:
             return '#000';
     }
