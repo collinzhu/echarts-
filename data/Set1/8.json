@@ -4,10 +4,6 @@
     "title": "Top Domains - Limit By = Top 10 Recipient Domains",
     "data": [
         {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "dmarc_spam:size": 12003262,
             "deny_policy:count": 2234,
             "unknown:size": 0,
@@ -64,81 +60,12 @@
         },
         {
             "clean:count": 5978,
-<<<<<<< HEAD
-=======
-            "dmarc_spam:size": 11326866,
-            "deny_policy:count": 2418,
-            "unknown:size": 3036563,
-            "address": "education.govt.nz",
-            "spf_spam:size": 128068525,
-            "clean:size": 383357424148,
-            "deny_policy:size": 274779482,
-            "threat:count": 246,
-            "allow_policy:size": 24021985248,
-            "clean:count": 1073800,
-            "allow_policy:count": 134781,
-            "dmarc_spam:count": 286,
-            "spam:count": 43372,
-            "spf_spam:count": 914,
-            "spam:size": 3602413852,
-            "threat:size": 180931717,
-            "unknown:count": 157
-        },
-        {
-            "dmarc_spam:size": 54317417,
-            "deny_policy:count": 96,
-            "unknown:size": 0,
-            "address": "minedu.govt.nz",
-            "spf_spam:size": 8196509,
-            "clean:size": 5617141420,
-            "deny_policy:size": 20059065,
-            "threat:count": 27,
-            "allow_policy:size": 10337522,
-            "clean:count": 43250,
-            "allow_policy:count": 33,
-            "dmarc_spam:count": 293,
-            "spam:count": 44966,
-            "spf_spam:count": 430,
-            "spam:size": 5474446756,
-            "threat:size": 5648522,
-            "unknown:count": 38
-        },
-        {
-            "dmarc_spam:size": 31641,
-            "deny_policy:count": 5,
-            "address": "moe.govt.nz",
-            "spf_spam:size": 79169,
-            "clean:size": 634936085,
-            "deny_policy:size": 510251,
-            "threat:count": 0,
-            "allow_policy:size": 165549,
-            "clean:count": 11346,
-            "allow_policy:count": 2,
-            "dmarc_spam:count": 4,
-            "spam:count": 17,
-            "spf_spam:count": 3,
-            "spam:size": 1465098,
-            "threat:size": 0
-        },
-        {
-            "clean:count": 6214,
->>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
-=======
->>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "allow_policy:size": 0,
             "deny_policy:count": 0,
             "address": "taku.education.govt.nz",
             "spam:count": 0,
             "allow_policy:count": 0,
-<<<<<<< HEAD
-<<<<<<< HEAD
             "clean:size": 490170999,
-=======
-            "clean:size": 497105236,
->>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
-=======
-            "clean:size": 490170999,
->>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "spam:size": 0,
             "deny_policy:size": 0,
             "threat:size": 0,
@@ -149,10 +76,6 @@
             "deny_policy:count": 0,
             "address": "esl.education.govt.nz",
             "spf_spam:size": 5682,
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "clean:size": 50547601,
             "deny_policy:size": 0,
             "threat:count": 0,
@@ -163,77 +86,31 @@
             "spam:count": 0,
             "allow_policy:count": 0,
             "spam:size": 0,
-<<<<<<< HEAD
-=======
-            "clean:size": 50994521,
-            "deny_policy:size": 0,
-            "threat:count": 0,
-            "clean:count": 992,
-            "allow_policy:size": 0,
-            "dmarc_spam:count": 3,
-            "spam:count": 3,
-            "spf_spam:count": 1,
-            "allow_policy:count": 0,
-            "spam:size": 151788,
->>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
-=======
->>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "threat:size": 0
         },
         {
             "dmarc_spam:size": 75956,
             "deny_policy:count": 0,
             "address": "fusion.education.govt.nz",
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "clean:size": 22082188,
             "deny_policy:size": 0,
             "threat:count": 0,
             "allow_policy:size": 1325819,
             "clean:count": 620,
             "allow_policy:count": 15,
-<<<<<<< HEAD
-=======
-            "clean:size": 29830553,
-            "deny_policy:size": 0,
-            "threat:count": 0,
-            "allow_policy:size": 1547524,
-            "clean:count": 679,
-            "allow_policy:count": 17,
->>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
-=======
->>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "dmarc_spam:count": 1,
             "spam:count": 1,
             "spam:size": 28793,
             "threat:size": 0
         },
         {
-<<<<<<< HEAD
-<<<<<<< HEAD
             "clean:count": 586,
-=======
-            "clean:count": 645,
->>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
-=======
-            "clean:count": 586,
->>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "allow_policy:size": 0,
             "deny_policy:count": 0,
             "address": "library.education.govt.nz",
             "spam:count": 2,
             "allow_policy:count": 0,
-<<<<<<< HEAD
-<<<<<<< HEAD
             "clean:size": 2333946,
-=======
-            "clean:size": 2579581,
->>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
-=======
-            "clean:size": 2333946,
->>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "spam:size": 10617,
             "deny_policy:size": 0,
             "threat:size": 0,
@@ -243,23 +120,10 @@
             "dmarc_spam:size": 12265,
             "deny_policy:count": 0,
             "address": "jobs.education.govt.nz",
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "clean:size": 58236814,
             "deny_policy:size": 0,
             "threat:count": 0,
             "clean:count": 513,
-<<<<<<< HEAD
-=======
-            "clean:size": 58376229,
-            "deny_policy:size": 0,
-            "threat:count": 0,
-            "clean:count": 525,
->>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
-=======
->>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "allow_policy:size": 0,
             "dmarc_spam:count": 1,
             "spam:count": 5,
@@ -268,39 +132,19 @@
             "threat:size": 0
         },
         {
-<<<<<<< HEAD
-<<<<<<< HEAD
             "clean:count": 219,
-=======
-            "clean:count": 224,
->>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
-=======
-            "clean:count": 219,
->>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "allow_policy:size": 0,
             "deny_policy:count": 0,
             "address": "remediate.education.govt.nz",
             "spam:count": 0,
             "allow_policy:count": 0,
-<<<<<<< HEAD
-<<<<<<< HEAD
             "clean:size": 123160087,
-=======
-            "clean:size": 122868073,
->>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
-=======
-            "clean:size": 123160087,
->>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "spam:size": 0,
             "deny_policy:size": 0,
             "threat:size": 0,
             "threat:count": 0
         },
         {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "clean:count": 116,
             "allow_policy:size": 0,
             "deny_policy:count": 0,
@@ -309,19 +153,6 @@
             "allow_policy:count": 0,
             "clean:size": 2264735,
             "spam:size": 3782,
-<<<<<<< HEAD
-=======
-            "allow_policy:size": 14281,
-            "clean:count": 133,
-            "deny_policy:count": 0,
-            "address": "news.education.govt.nz",
-            "allow_policy:count": 1,
-            "spam:count": 0,
-            "clean:size": 3900235,
-            "spam:size": 0,
->>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
-=======
->>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "deny_policy:size": 0,
             "threat:size": 0,
             "threat:count": 0
