@@ -36,6 +36,9 @@ const SpamThreat = ({
         dataObject.address = "(null sender)";
       }
 
+      // hack for removing the previous \n
+      dataObject.address = dataObject.address.replace("\n@", "@");
+
       // break at @
       dataObject.address = dataObject.address.replace("@", "\n@");
 
