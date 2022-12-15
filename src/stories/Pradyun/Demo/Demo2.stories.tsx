@@ -4,7 +4,16 @@ import senderData from '../../../data/Set1/11.json'
 import receiveData from '../../../data/Set1/12.json'
 import EChartsReact from 'echarts-for-react'
 
-const protkeys = [ "deny_policy:count", "clean:size", "deny_policy:size", "threat:count", "allow_policy:size", "clean:count", "allow_policy:count", "spam:count", "spam:size", "unknown:count", "threat:size"]
+const protkeys = [ "deny_policy:count", "threat:count", "clean:count", "allow_policy:count", "spam:count", "unknown:count"]
+
+type series = {
+    name: string,
+    type: 'bar',
+    stack: 'total',
+    // label: { show: true },
+    emphasis: { focus: 'series' },
+    data: number[]
+}
 
 // Overlap of outbound and inbound top users
 export default {
@@ -33,7 +42,7 @@ SenderComposition.args = {
             right: 10,
             feature: {
                 saveAsImage: {},
-                magicType: { show: true, type: ['bar', 'stack'] },
+                magicType: { show: true, type: ['stack'] },
             }
           },
         legend: { right: 10, top: 50, orient: 'vertical' },
@@ -47,7 +56,7 @@ SenderComposition.args = {
             type: 'category',
             data: senderData.data.map( val => val.address ),
             axisLabel: {
-                rotate: 35
+                rotate: 45
             }
         },
         yAxis: {
@@ -70,21 +79,12 @@ function prepareData() {
     const unique = send.concat(rec).map( val => val.address ).filter(val => !overlap.includes(val) )
     overlap.forEach(val => unique.push(val))
 
-    type series = {
-        name: string,
-        type: 'bar',
-        stack: 'total',
-        // label: { show: true },
-        emphasis: { focus: 'series' },
-        data: number[]
-    }
-
     const sendSeries: series[] = []
     const recSeries: series[] = []
     
     protkeys.forEach( key => {
         sendSeries.push({
-            name: key,
+            name: key.slice(0, -6),
             type: 'bar',
             stack: 'total',
             // label: { show: true },
@@ -93,7 +93,7 @@ function prepareData() {
         })
 
         recSeries.push({
-            name: key,
+            name: key.slice(0, -6),
             type: 'bar',
             stack: 'total',
             // label: { show: true },
