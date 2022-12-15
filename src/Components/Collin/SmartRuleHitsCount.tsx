@@ -54,7 +54,13 @@ function SmartRuleHitsCount (props:ISmartRuleHitsCount){
           source: data,
         },
         xAxis: {},
-        yAxis: {  type: "category"},
+        yAxis: {  
+          type: "category",
+          axisLabel: {
+            rotate: 30
+          },
+      
+      },
         series: [
           { type: "bar" },
       
