@@ -8,7 +8,11 @@ import inboundpo from "./data/Set1/2.json";
 import SmartRuleHitsCount from "./Components/Collin/SmartRuleHitsCount";
 import outboundpo from "./data/Set1/3.json";
 import smartRuleData from "./data/Set1/4.json"
+import TimeInboundSpam from "./Components/Collin/TimeInboundSpam";
+
+
 // "totalthreat": 0,
+
 // "totaldenypolicy": 0,
 // "domain": "fbl.vadesecure.com",
 // "totalspam": 0,
@@ -28,9 +32,10 @@ import smartRuleData from "./data/Set1/4.json"
 function App() {
   return (
     <div>
+      <TimeInboundSpam tis={smartRuleData.data}/>
       {/* <BarChart imc={inboundJson.data}></BarChart>
       <PieChart up={unusedPolicy.data}></PieChart> */}
-      <SmartRuleHitsCount srd = {smartRuleData.data}/>
+      {/* <SmartRuleHitsCount srd = {smartRuleData.data}/> */}
       {/* <TypeOfEvent
         inbound={inboundpo.data}
         outbound={outboundpo.data}
