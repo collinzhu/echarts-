@@ -1,5 +1,4 @@
 import ReactEcharts from "echarts-for-react";
-import SpamThreatStories from "../../stories/Jason/SpamThreat.stories";
 import { useEffect, useState } from "react";
 
 interface SpamThreatProps {
@@ -67,7 +66,7 @@ const SpamThreat = ({
       type: "category",
       data: graphData.map((dataObject: any) => dataObject.address),
       axisLabel: {
-        width: 150,
+        width: 140,
         overflow: "break",
       },
     },
