@@ -8,6 +8,7 @@ interface Props {
   description?: string;
   displayMax?: number;
   height?: number;
+  color?: string[];
 }
 
 const Demo1 = ({
@@ -15,6 +16,7 @@ const Demo1 = ({
   description = "The proportion of Unused Policies, grouped by total hit-count",
   displayMax = 15,
   height = 500,
+  color = [],
 }: Props) => {
   const allData = unusedpolicies.data;
 
@@ -41,6 +43,7 @@ const Demo1 = ({
   });
 
   const option = {
+    color,
     title: {
       text: title,
       subtext: description,
