@@ -10,7 +10,7 @@ interface Props {
 
 const Demo1 = ({
   title = "Unused Policies",
-  description = "Proportion of unused policies",
+  description = "The proportion of unused policies, by hitcount",
   displayMax = 15,
   height = 500,
 }: Props) => {
