@@ -4,10 +4,6 @@
     "title": "Top Users - Limit By = Top 10 Sender Users",
     "data": [
         {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "unknown:size": 638893,
             "deny_policy:count": 0,
             "address": "<>@<>",
@@ -30,62 +26,19 @@
             "allow_policy:count": 24057,
             "spam:count": 0,
             "clean:size": 614256264,
-<<<<<<< HEAD
-=======
-            "unknown:size": 4346943,
-            "deny_policy:count": 0,
-            "address": "<>@<>",
-            "clean:size": 9160455086,
-            "deny_policy:size": 0,
-            "threat:count": 0,
-            "allow_policy:size": 2638617,
-            "clean:count": 110533,
-            "allow_policy:count": 93,
-            "spam:count": 628,
-            "spam:size": 40247474,
-            "unknown:count": 1379,
-            "threat:size": 0
-        },
-        {
-            "allow_policy:size": 552394794,
-            "clean:count": 27714,
-            "deny_policy:count": 0,
-            "address": "nagios@minedu.govt.nz",
-            "allow_policy:count": 28009,
-            "spam:count": 0,
-            "clean:size": 538982191,
->>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
-=======
->>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "spam:size": 0,
             "deny_policy:size": 0,
             "threat:size": 0,
             "threat:count": 0
         },
         {
-<<<<<<< HEAD
-<<<<<<< HEAD
             "clean:count": 18690,
-=======
-            "clean:count": 18803,
->>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
-=======
-            "clean:count": 18690,
->>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "allow_policy:size": 0,
             "deny_policy:count": 0,
             "address": "enrol.support@education.govt.nz",
             "spam:count": 0,
             "allow_policy:count": 0,
-<<<<<<< HEAD
-<<<<<<< HEAD
             "clean:size": 64507746,
-=======
-            "clean:size": 65037414,
->>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
-=======
-            "clean:size": 64507746,
->>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "spam:size": 0,
             "deny_policy:size": 0,
             "threat:size": 0,
@@ -94,40 +47,11 @@
         {
             "unknown:size": 0,
             "deny_policy:count": 0,
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "address": "noreply@pact.education.govt.nz",
             "clean:size": 47800809,
             "deny_policy:size": 0,
             "threat:count": 0,
             "clean:count": 16216,
-<<<<<<< HEAD
-=======
-            "address": "accountspayable.invoices@education.govt.nz",
-            "clean:size": 310776842,
-            "deny_policy:size": 0,
-            "threat:count": 0,
-            "allow_policy:size": 638103,
-            "clean:count": 16153,
-            "allow_policy:count": 34,
-            "spam:count": 0,
-            "spam:size": 0,
-            "unknown:count": 1,
-            "threat:size": 0
-        },
-        {
-            "unknown:size": 0,
-            "deny_policy:count": 0,
-            "address": "noreply@pact.education.govt.nz",
-            "clean:size": 45741513,
-            "deny_policy:size": 0,
-            "threat:count": 0,
-            "clean:count": 15460,
->>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
-=======
->>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "allow_policy:size": 0,
             "spam:count": 0,
             "allow_policy:count": 0,
@@ -136,10 +60,6 @@
             "threat:size": 0
         },
         {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "unknown:size": 0,
             "deny_policy:count": 0,
             "address": "accountspayable.invoices@education.govt.nz",
@@ -156,55 +76,25 @@
         },
         {
             "clean:count": 13690,
-<<<<<<< HEAD
-=======
-            "clean:count": 12950,
->>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
-=======
->>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "allow_policy:size": 0,
             "deny_policy:count": 0,
             "address": "d1-a9kr1@education.govt.nz",
             "spam:count": 0,
             "allow_policy:count": 0,
-<<<<<<< HEAD
-<<<<<<< HEAD
             "clean:size": 68677269,
-=======
-            "clean:size": 65522311,
->>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
-=======
-            "clean:size": 68677269,
->>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "spam:size": 0,
             "deny_policy:size": 0,
             "threat:size": 0,
             "threat:count": 0
         },
         {
-<<<<<<< HEAD
-<<<<<<< HEAD
             "clean:count": 9449,
-=======
-            "clean:count": 8798,
->>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
-=======
-            "clean:count": 9449,
->>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "allow_policy:size": 0,
             "deny_policy:count": 0,
             "address": "moed2a9kr1@education.govt.nz",
             "spam:count": 0,
             "allow_policy:count": 0,
-<<<<<<< HEAD
-<<<<<<< HEAD
             "clean:size": 48257751,
-=======
-            "clean:size": 45441835,
->>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
-=======
-            "clean:size": 48257751,
->>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "spam:size": 0,
             "deny_policy:size": 0,
             "threat:size": 0,
@@ -214,23 +104,10 @@
             "unknown:size": 0,
             "deny_policy:count": 0,
             "address": "school.transport@education.govt.nz",
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "clean:size": 344687776,
             "deny_policy:size": 0,
             "threat:count": 0,
             "clean:count": 5957,
-<<<<<<< HEAD
-=======
-            "clean:size": 388736130,
-            "deny_policy:size": 0,
-            "threat:count": 0,
-            "clean:count": 6395,
->>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
-=======
->>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "allow_policy:size": 0,
             "spam:count": 0,
             "allow_policy:count": 0,
@@ -239,39 +116,19 @@
             "threat:size": 0
         },
         {
-<<<<<<< HEAD
-<<<<<<< HEAD
             "clean:count": 5198,
-=======
-            "clean:count": 5491,
->>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
-=======
-            "clean:count": 5198,
->>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "allow_policy:size": 0,
             "deny_policy:count": 0,
             "address": "asa.2ndlvlsupport@education.govt.nz",
             "spam:count": 0,
             "allow_policy:count": 0,
-<<<<<<< HEAD
-<<<<<<< HEAD
             "clean:size": 13322534,
-=======
-            "clean:size": 14090282,
->>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
-=======
-            "clean:size": 13322534,
->>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "spam:size": 0,
             "deny_policy:size": 0,
             "threat:size": 0,
             "threat:count": 0
         },
         {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "clean:count": 4664,
             "allow_policy:size": 0,
             "deny_policy:count": 0,
@@ -283,24 +140,6 @@
             "deny_policy:size": 0,
             "threat:size": 0,
             "threat:count": 0
-<<<<<<< HEAD
-=======
-            "unknown:size": 0,
-            "deny_policy:count": 0,
-            "address": "service.desk@education.govt.nz",
-            "clean:size": 910299007,
-            "deny_policy:size": 0,
-            "threat:count": 0,
-            "allow_policy:size": 2021526,
-            "clean:count": 4907,
-            "allow_policy:count": 7,
-            "spam:count": 0,
-            "spam:size": 0,
-            "unknown:count": 9,
-            "threat:size": 0
->>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
-=======
->>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
         }
     ]
 }

@@ -4,68 +4,32 @@
     "title": "Top Users - Limit By = Top 10 Sender Users",
     "data": [
         {
-<<<<<<< HEAD
-<<<<<<< HEAD
             "clean:count": 55156,
-=======
-            "clean:count": 59537,
->>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
-=======
-            "clean:count": 55156,
->>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "allow_policy:size": 0,
             "deny_policy:count": 0,
             "address": "noreply@email.teams.microsoft.com",
             "spam:count": 0,
             "allow_policy:count": 0,
-<<<<<<< HEAD
-<<<<<<< HEAD
             "clean:size": 4137795222,
-=======
-            "clean:size": 4472246259,
->>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
-=======
-            "clean:size": 4137795222,
->>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "spam:size": 0,
             "deny_policy:size": 0,
             "threat:size": 0,
             "threat:count": 0
         },
         {
-<<<<<<< HEAD
-<<<<<<< HEAD
             "clean:count": 25108,
-=======
-            "clean:count": 26185,
->>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
-=======
-            "clean:count": 25108,
->>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "allow_policy:size": 0,
             "deny_policy:count": 0,
             "address": "azure-noreply@microsoft.com",
             "spam:count": 0,
             "allow_policy:count": 0,
-<<<<<<< HEAD
-<<<<<<< HEAD
             "clean:size": 2050731683,
-=======
-            "clean:size": 2138751374,
->>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
-=======
-            "clean:size": 2050731683,
->>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "spam:size": 0,
             "deny_policy:size": 0,
             "threat:size": 0,
             "threat:count": 0
         },
         {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "clean:count": 19531,
             "allow_policy:size": 0,
             "deny_policy:count": 0,
@@ -74,74 +38,24 @@
             "allow_policy:count": 0,
             "clean:size": 2612435033,
             "spam:size": 21432325,
-<<<<<<< HEAD
-=======
-            "clean:count": 20851,
-            "allow_policy:size": 0,
-            "deny_policy:count": 0,
-            "address": "no-reply@sharepointonline.com",
-            "spam:count": 294,
-            "allow_policy:count": 0,
-            "clean:size": 2804401053,
-            "spam:size": 24036833,
->>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
-=======
->>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "deny_policy:size": 0,
             "threat:size": 0,
             "threat:count": 0
         },
         {
-<<<<<<< HEAD
-<<<<<<< HEAD
             "clean:count": 18437,
-=======
-            "dmarc_spam:size": 3984849,
-            "deny_policy:count": 0,
-            "address": "<>@<>",
-            "spf_spam:size": 81592,
-            "clean:size": 1094516749,
-            "deny_policy:size": 0,
-            "threat:count": 7,
-            "allow_policy:size": 196039,
-            "clean:count": 19187,
-            "allow_policy:count": 14,
-            "dmarc_spam:count": 37,
-            "spam:count": 766,
-            "spf_spam:count": 5,
-            "spam:size": 15495653,
-            "threat:size": 193539
-        },
-        {
-            "clean:count": 18429,
->>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
-=======
-            "clean:count": 18437,
->>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "allow_policy:size": 0,
             "deny_policy:count": 0,
             "address": "kaitiaki@kupu.maori.nz",
             "spam:count": 0,
             "allow_policy:count": 0,
-<<<<<<< HEAD
-<<<<<<< HEAD
             "clean:size": 81795409,
-=======
-            "clean:size": 81398415,
->>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
-=======
-            "clean:size": 81795409,
->>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "spam:size": 0,
             "deny_policy:size": 0,
             "threat:size": 0,
             "threat:count": 0
         },
         {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "dmarc_spam:size": 5496034,
             "deny_policy:count": 0,
             "address": "<>@<>",
@@ -160,142 +74,64 @@
         },
         {
             "clean:count": 17467,
-<<<<<<< HEAD
-=======
-            "clean:count": 17296,
->>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
-=======
->>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "allow_policy:size": 0,
             "deny_policy:count": 0,
             "address": "ectq-dev1.fa.sender@workflow.mail.ap1.cloud.oracle.com",
             "spam:count": 0,
             "allow_policy:count": 0,
-<<<<<<< HEAD
-<<<<<<< HEAD
             "clean:size": 1012110772,
-=======
-            "clean:size": 995671574,
->>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
-=======
-            "clean:size": 1012110772,
->>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "spam:size": 0,
             "deny_policy:size": 0,
             "threat:size": 0,
             "threat:count": 0
         },
         {
-<<<<<<< HEAD
-<<<<<<< HEAD
             "clean:count": 13252,
-=======
-            "clean:count": 14454,
->>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
-=======
-            "clean:count": 13252,
->>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "allow_policy:size": 0,
             "deny_policy:count": 0,
             "address": "sy-variables@my020518.mail.payroll.ondemand.com",
             "spam:count": 0,
             "allow_policy:count": 0,
-<<<<<<< HEAD
-<<<<<<< HEAD
             "clean:size": 54949979,
-=======
-            "clean:size": 57878509,
->>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
-=======
-            "clean:size": 54949979,
->>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "spam:size": 0,
             "deny_policy:size": 0,
             "threat:size": 0,
             "threat:count": 0
         },
         {
-<<<<<<< HEAD
-<<<<<<< HEAD
             "clean:count": 11365,
-=======
-            "clean:count": 12498,
->>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
-=======
-            "clean:count": 11365,
->>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "allow_policy:size": 0,
             "deny_policy:count": 0,
             "address": "azuredevops@microsoft.com",
             "spam:count": 0,
             "allow_policy:count": 0,
-<<<<<<< HEAD
-<<<<<<< HEAD
             "clean:size": 401006156,
-=======
-            "clean:size": 441932381,
->>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
-=======
-            "clean:size": 401006156,
->>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "spam:size": 0,
             "deny_policy:size": 0,
             "threat:size": 0,
             "threat:count": 0
         },
         {
-<<<<<<< HEAD
-<<<<<<< HEAD
             "clean:count": 10286,
-=======
-            "clean:count": 8721,
->>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
-=======
-            "clean:count": 10286,
->>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "allow_policy:size": 0,
             "deny_policy:count": 0,
             "address": "maccount@microsoft.com",
             "spam:count": 2,
             "allow_policy:count": 0,
-<<<<<<< HEAD
-<<<<<<< HEAD
             "clean:size": 1331048654,
-=======
-            "clean:size": 1121018305,
->>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
-=======
-            "clean:size": 1331048654,
->>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "spam:size": 57966,
             "deny_policy:size": 0,
             "threat:size": 0,
             "threat:count": 0
         },
         {
-<<<<<<< HEAD
-<<<<<<< HEAD
             "clean:count": 7964,
-=======
-            "clean:count": 8573,
->>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
-=======
-            "clean:count": 7964,
->>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "allow_policy:size": 0,
             "deny_policy:count": 0,
             "address": "jira@mail-us.atlassian.net",
             "spam:count": 5,
             "allow_policy:count": 0,
-<<<<<<< HEAD
-<<<<<<< HEAD
             "clean:size": 165037245,
-=======
-            "clean:size": 177930707,
->>>>>>> 3cf9ce5de58a1332e5824c2b0107e53ef0be6568
-=======
-            "clean:size": 165037245,
->>>>>>> 4dd2d92543f66e5ea1e57e1608d9a7ab674350d4
             "spam:size": 24045,
             "deny_policy:size": 0,
             "threat:size": 0,
