@@ -20,6 +20,7 @@ const SpamThreat = ({
 
   // re-apply narrowing on prop change
   useEffect(() => {
+    // automatically sort data by spam count
     let newData = data[scope][direction];
     newData = newData.sort(
       (objectOne: any, objectTwo: any) =>
