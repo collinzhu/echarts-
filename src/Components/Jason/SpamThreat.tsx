@@ -1,6 +1,6 @@
 import ReactEcharts from "echarts-for-react";
 import SpamThreatStories from "../../stories/Jason/SpamThreat.stories";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 interface SpamThreatProps {
   data: any;
@@ -17,7 +17,18 @@ const SpamThreat = ({
 }: SpamThreatProps) => {
   // narrow data
   const [graphData, setGraphData] = useState(data[scope][direction]);
-  console.log(graphData);
+
+  // re-apply narrowing on prop change
+  useEffect(() => {
+    let newData = data[scope][direction];
+    newData = newData.sort(
+      (objectOne: any, objectTwo: any) =>
+        objectOne["spam:count"] - objectTwo["spam:count"]
+    );
+
+    setGraphData(newData);
+    console.log("Narrowed graph data");
+  }, [scope, direction]);
 
   // display data
   const option = {
@@ -61,15 +72,7 @@ const SpamThreat = ({
     ],
   };
 
-  const onEvents = {
-    legendselectchanged: (args: any) => {
-      console.log(args);
-    },
-  };
-
-  return (
-    <ReactEcharts option={option} style={{ height }} onEvents={onEvents} />
-  );
+  return <ReactEcharts option={option} style={{ height }} />;
 };
 
 export default SpamThreat;
