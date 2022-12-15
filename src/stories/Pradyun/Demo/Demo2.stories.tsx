@@ -13,7 +13,7 @@ export default {
 } as Meta
 
 const Template: Story = ({ options, ...args }) => (
-    <EChartsReact option={options} style={{ height: 600 }} {...args} />
+    <EChartsReact option={options} style={{ height: 750 }} {...args} />
 );
 
 const [overlap, unique, send, rec] = prepareData()
@@ -36,7 +36,7 @@ SenderComposition.args = {
                 magicType: { show: true, type: ['bar', 'stack'] },
             }
           },
-        legend: {},
+        legend: { right: 10, top: 50, orient: 'vertical' },
         tooltip: {
             trigger: 'axis',
             axisPointer: {
@@ -45,7 +45,7 @@ SenderComposition.args = {
         },
         xAxis: {
             type: 'category',
-            data: unique,
+            data: senderData.data.map( val => val.address ),
             axisLabel: {
                 rotate: 35
             }
