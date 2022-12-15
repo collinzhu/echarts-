@@ -2,7 +2,7 @@ import TypeOfEvent from "../../Components/Collin/TypeOfEvent";
 import { Story, ComponentMeta } from "@storybook/react";
 
 export default {
-  title: "TypeOfEvent",
+  title: "OLD/TypeOfEvent",
   component: TypeOfEvent,
 };
 

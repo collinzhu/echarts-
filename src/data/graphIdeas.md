@@ -37,3 +37,11 @@ Blended reports
 ### Haotian
 - Count of hits for each smart rule? (bar)
 - Amount of inbound spam messages over a time period (heatmap/line)
+- Count of hits for each smart rule? 
+(bar)
+(4.json)
+(y:executioncount, x : rule)
+- Amount of inbound spam messages over a time period 
+(heatmap/line)
+(4.json)
+(x: date, y: executioncount?)
