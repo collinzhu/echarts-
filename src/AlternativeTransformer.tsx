@@ -27,11 +27,28 @@ export default function transform(
   let data: dataShape[] = applyMapper(inputData, mapper);
 
   // 2. standardize each object in the data array
-  return data;
+  return getDefaultObject(data);
 }
 
 const getDefaultObject = (data: dataShape[]) => {
   let defaultObject: dataShape = {};
+
+  data.forEach((value) => {
+    defaultObject = { ...defaultObject, ...value };
+  });
+
+  // make fields default
+  Object.keys(defaultObject).forEach((field: string) => {
+    let fieldType = typeof defaultObject[field];
+
+    if (fieldType === "string") {
+      defaultObject[field] = "";
+    } else if (fieldType === "number") {
+      defaultObject[field] = 0;
+    }
+  });
+
+  return defaultObject;
 };
 
 const applyMapper = (
