@@ -1,0 +1,107 @@
+/* SMX format
+{
+    id: number
+    isEmpty: bool
+    title: string
+    data: object[]
+}
+*/
+
+/**
+ * Transform SMX data to the ECharts format, designed to be a temporary solution
+ * @param inputData The `data` field from an SMX API request.
+ * @param xKey The key to be used for the X Axis
+ * @param yKey The key to be used for the Y Axis
+ * @param mapper Optional mapper function to be run before any filtering happens
+ */
+export default function transform(
+  inputData: Object[],
+  xKey: string,
+  yKey: string,
+  mapper?: (val: Object) => Object
+) {
+  // 1. preprocess using parameters
+  let data: Object[] = applyMapper(inputData, mapper);
+
+  // 2. standardize the fields in each data object
+  let fields: string[] = extractFields(data);
+
+  // 2. extract keys from data
+  let xData: (number | string)[] = [];
+  let yData: (number | string)[] = [];
+
+  data.forEach((val) => {
+    xData.push(val[xKey]);
+    yData.push(val[yKey]);
+  });
+
+  return [xData, yData];
+}
+
+const applyMapper = (data: Object[], mapper?: (val: Object) => Object) => {
+  if (mapper !== undefined) {
+    return data.map(mapper);
+  } else {
+    return data;
+  }
+};
+
+const printDataLengths = (data: any) => {
+  let dataLengths: number[] = [];
+
+  data.forEach((item: any) => {
+    dataLengths.push(Object.keys(item).length);
+  });
+
+  console.log(dataLengths);
+  console.log(data);
+};
+
+const extractFields = (data: Object[]): string[] => {
+  let fields = new Set();
+
+  data.forEach((item: any) => {
+    Object.keys(item).forEach((field: string) => {
+      fields.add(field);
+    });
+  });
+
+  return Array.from(fields) as string[];
+};
+
+const getLargestObject = (data: Object[]) => {
+  let largestObject: Object = {};
+  data.forEach((val) => {
+    if (Object.keys(val).length > Object.keys(largestObject).length) {
+      largestObject = val;
+    }
+  });
+  return largestObject;
+};
+
+const standardizeFields = (data: any) => {
+  let fields: string[] = extractFields(data);
+  data.forEach((item: any) => {
+    fields.forEach((field: string) => {
+      item[field] = item[field] || 0;
+    });
+  });
+};
+
+const extractDimensions = (data: any): string[] => {
+  return Object.keys(data[0]);
+};
+
+const makeTwoDimensionalArray = (data: any): string[] => {
+  let demensions = extractDimensions(data);
+  data = data.map((item: any) =>
+    Object.keys(item).map((key: string) => item[key])
+  );
+
+  return [demensions, ...data];
+};
+
+const processData = (data: any) => {
+  standardizeFields(data);
+  return makeTwoDimensionalArray(data);
+};
