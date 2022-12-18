@@ -3,7 +3,7 @@
     "scope": "javascript,typescipt,typescriptreact",
     "prefix": "echartss",
     "body": [
-      "import $1 from \"../../../Components$2\";",
+      "import $1 from \"../../Components$2\";",
       "import { Story, Meta } from \"@storybook/react\";",
       "",
       "export default {",
