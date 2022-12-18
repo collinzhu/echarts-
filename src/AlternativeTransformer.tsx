@@ -7,6 +7,10 @@
 }
 */
 
+interface dataShape {
+  [index: string]: string | number;
+}
+
 /**
  * Transform SMX data to the ECharts format, designed to be a temporary solution
  * @param inputData The `data` field from an SMX API request.
@@ -15,22 +19,25 @@
  * @param mapper Optional mapper function to be run before any filtering happens
  */
 export default function transform(
-  inputData: Object[],
+  inputData: dataShape[],
   xKey: string,
-  mapper?: (val: Object) => Object
+  mapper?: (val: dataShape) => dataShape
 ) {
   // 1. preprocess using parameters
-  let data: Object[] = applyMapper(inputData, mapper);
+  let data: dataShape[] = applyMapper(inputData, mapper);
 
   // 2. standardize each object in the data array
   return data;
 }
 
-const getDefaultObject = (data: Object[]) => {
-  let defaultObject: { [index: string]: string | number } = {};
+const getDefaultObject = (data: dataShape[]) => {
+  let defaultObject: dataShape = {};
 };
 
-const applyMapper = (data: Object[], mapper?: (val: Object) => Object) => {
+const applyMapper = (
+  data: dataShape[],
+  mapper?: (val: dataShape) => dataShape
+) => {
   if (mapper !== undefined) {
     return data.map(mapper);
   } else {
