@@ -17,13 +17,13 @@
 export default function transform(
   inputData: Object[],
   xKey: string,
-  yKey: string,
   mapper?: (val: Object) => Object
 ) {
   // 1. preprocess using parameters
   let data: Object[] = applyMapper(inputData, mapper);
 
   // 2. standardize each object in the data array
+  return data;
 }
 
 const getDefaultObject = (data: Object[]) => {
