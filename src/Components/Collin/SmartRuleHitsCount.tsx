@@ -21,33 +21,33 @@ function SmartRuleHitsCount (props:ISmartRuleHitsCount){
       'name': data.rule, 'value': data.executioncount
     }))
     //console.log("yes",yes);
-    
-    let haha = [
-      {name:"Inbound - Quarantine Unscannable Attachments",value:2969},
-      {name: "Inbound - Quarantine Executables", value:76},
-      {name:"Inbound - Quarantine Suspicious Attachments",value:12},
-      {name: "Bypass Offensive Content Filter for Scheduled Reports", value:26338},
-      {name:"Inbound - Explicit Address Block List",value:7712},
-      {name:"Inbound - Bypass Explicit Address Block List",value:619},
-      {name:"Gmail Spam",value:111},
-      {name:"Drop Emails",value:136},
-      {name:"Inbound - Strip oledata files",value:60},
-      {name:"Whaling Protection",value:2},
-      {name:"icloud Spam",value:7}
-    
+
+      let haha = [
+        {name:"Inbound - Quarantine Unscannable Attachments",value:2969},
+        {name: "Inbound - Quarantine Executables", value:76},
+        {name:"Inbound - Quarantine Suspicious Attachments",value:12},
+        {name: "Bypass Offensive Content Filter for Scheduled Reports", value:26338},
+        {name:"Inbound - Explicit Address Block List",value:7712},
+        {name:"Inbound - Bypass Explicit Address Block List",value:619},
+        {name:"Gmail Spam",value:111},
+        {name:"Drop Emails",value:136},
+        {name:"Inbound - Strip oledata files",value:60},
+        {name:"Whaling Protection",value:2},
+        {name:"icloud Spam",value:7}
+      
     ]
     const head = [
       "rule", "execution count"
-    ]
-    const body = haha.map((data) =>{
-      return [
-        data.name,
-        data.value
       ]
-    })
+      const body = haha.map((data) =>{
+        return [
+          data.name,
+          data.value
+        ]
+      })
     console.log(body);
      
-    const data = [head, ...body];
+      const data = [head, ...body];
     const option = {
         color: props.color,
         title: {
