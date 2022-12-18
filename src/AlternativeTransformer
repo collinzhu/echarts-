@@ -23,20 +23,12 @@ export default function transform(
   // 1. preprocess using parameters
   let data: Object[] = applyMapper(inputData, mapper);
 
-  // 2. standardize the fields in each data object
-  let fields: string[] = extractFields(data);
-
-  // 2. extract keys from data
-  let xData: (number | string)[] = [];
-  let yData: (number | string)[] = [];
-
-  data.forEach((val) => {
-    xData.push(val[xKey]);
-    yData.push(val[yKey]);
-  });
-
-  return [xData, yData];
+  // 2. standardize each object in the data array
 }
+
+const getDefaultObject = (data: Object[]) => {
+  let defaultObject: { [index: string]: string | number } = {};
+};
 
 const applyMapper = (data: Object[], mapper?: (val: Object) => Object) => {
   if (mapper !== undefined) {
