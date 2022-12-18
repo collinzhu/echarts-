@@ -1,6 +1,6 @@
 import ReactEcharts from "echarts-for-react";
 import transform from "../../AlternativeTransformer";
-import { data } from "../../data/Set1/13.json";
+import { data } from "../../data/Set1/12.json";
 
 const TestComponent = () => {
   const option = {};

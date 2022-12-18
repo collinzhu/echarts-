@@ -8,7 +8,7 @@
 */
 
 interface dataShape {
-  [index: string]: string | number;
+  [index: string]: string | number | undefined;
 }
 
 /**
@@ -27,9 +27,7 @@ export default function transform(
   let data: dataShape[] = applyMapper(inputData, mapper);
 
   // 2. standardize each object in the data array
-  printDataLengths(data);
   data = standardizeFields(data);
-  printDataLengths(data);
 
   return data;
 }
