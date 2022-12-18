@@ -27,7 +27,11 @@ export default function transform(
   let data: dataShape[] = applyMapper(inputData, mapper);
 
   // 2. standardize each object in the data array
-  return getDefaultObject(data);
+  printDataLengths(data);
+  data = standardizeFields(data);
+  printDataLengths(data);
+
+  return data;
 }
 
 const getDefaultObject = (data: dataShape[]) => {
@@ -51,6 +55,14 @@ const getDefaultObject = (data: dataShape[]) => {
   return defaultObject;
 };
 
+const standardizeFields = (data: dataShape[]) => {
+  let defaultObject: dataShape = getDefaultObject(data);
+
+  return data.map((value) => {
+    return { ...defaultObject, ...value };
+  });
+};
+
 const applyMapper = (
   data: dataShape[],
   mapper?: (val: dataShape) => dataShape
@@ -65,12 +77,11 @@ const applyMapper = (
 const printDataLengths = (data: any) => {
   let dataLengths: number[] = [];
 
-  data.forEach((item: any) => {
-    dataLengths.push(Object.keys(item).length);
+  data.forEach((value: dataShape) => {
+    dataLengths.push(Object.keys(value).length);
   });
 
   console.log(dataLengths);
-  console.log(data);
 };
 
 const extractFields = (data: Object[]): string[] => {
@@ -95,7 +106,7 @@ const getLargestObject = (data: Object[]) => {
   return largestObject;
 };
 
-const standardizeFields = (data: any) => {
+const standardizeFieldsLegacy = (data: any) => {
   let fields: string[] = extractFields(data);
   data.forEach((item: any) => {
     fields.forEach((field: string) => {
