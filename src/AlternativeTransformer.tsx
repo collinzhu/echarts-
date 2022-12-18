@@ -29,7 +29,14 @@ export default function transform(
   // 2. standardize each object in the data array
   data = standardizeFields(data);
 
-  return data;
+  // 3. make it into a two dimensional array
+  let fields = extractFields(data);
+
+  // order xKey at the front
+  fields.splice(fields.indexOf(xKey), 1);
+  fields.unshift(xKey);
+
+  return data.map((item: dataShape) => fields.map((field) => item[field]));
 }
 
 const getDefaultObject = (data: dataShape[]) => {
@@ -82,16 +89,23 @@ const printDataLengths = (data: any) => {
   console.log(dataLengths);
 };
 
-const extractFields = (data: Object[]): string[] => {
+const extractFields = (data: dataShape[]): string[] => {
   let fields = new Set();
 
-  data.forEach((item: any) => {
-    Object.keys(item).forEach((field: string) => {
+  data.forEach((value: dataShape) => {
+    Object.keys(value).forEach((field: string) => {
       fields.add(field);
     });
   });
 
   return Array.from(fields) as string[];
+};
+
+/*
+const makeTwoDimensionalArray = (data: dataShape[], xKey: string) => {
+  let fields = extractFields(data);
+
+  // order fields
 };
 
 const getLargestObject = (data: Object[]) => {
@@ -117,7 +131,7 @@ const extractDimensions = (data: any): string[] => {
   return Object.keys(data[0]);
 };
 
-const makeTwoDimensionalArray = (data: any): string[] => {
+const makeTwoDimensionalArrayLegacy = (data: any): string[] => {
   let demensions = extractDimensions(data);
   data = data.map((item: any) =>
     Object.keys(item).map((key: string) => item[key])
@@ -130,3 +144,4 @@ const processData = (data: any) => {
   standardizeFields(data);
   return makeTwoDimensionalArray(data);
 };
+*/
