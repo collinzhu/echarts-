@@ -1,4 +1,6 @@
 import ReactEcharts from "echarts-for-react";
+import theme from "../../data/theme.json";
+import { registerTheme } from "echarts";
 
 interface PolicyUsageInboundOutboundProps {
   data: any;
@@ -34,8 +36,8 @@ const PolicyUsageInboundOutbound = ({
 
   const option = {
     title: {
-      text: `Policy usage for ${state} data`,
-      subtext: `The total hitcount of each policy action`,
+      text: `Policy usage for ${state.toUpperCase()} data`,
+      subtext: `The total hit-count of each policy action`,
       left: "center",
       top: 10,
     },
@@ -65,7 +67,9 @@ const PolicyUsageInboundOutbound = ({
     ],
   };
 
-  return <ReactEcharts option={option} />;
+  registerTheme("theme", theme);
+
+  return <ReactEcharts option={option} style={{ height: 600 }} theme="theme" />;
 };
 
 export default PolicyUsageInboundOutbound;

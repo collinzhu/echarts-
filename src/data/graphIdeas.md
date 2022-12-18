@@ -1,7 +1,7 @@
 Basic metrics
 - inbound/outbound count/size
 
-What have SMX done for me
+What has SMX done for me
 - blocked spam/threats
 - smartrules usage
 - policy deny report

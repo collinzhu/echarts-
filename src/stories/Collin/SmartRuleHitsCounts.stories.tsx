@@ -2,8 +2,8 @@ import SmartRuleHitsCount from "../../Components/Collin/SmartRuleHitsCount";
 import { Story, ComponentMeta } from "@storybook/react";
 import data from '../../data/Set1/4.json'
 export default {
-    title: "smartRuleHitsCount",
-    component: SmartRuleHitsCount,
+  title: "Smart Rules by Hit Count",
+  component: SmartRuleHitsCount,
 };
 
 
@@ -21,7 +21,8 @@ const Template: Story<typeof SmartRuleHitsCount> = (args) => (
     <SmartRuleHitsCount srd={[]} color ={[]} {...args} />
   );
   
-  export const sample1 = Template.bind({});
+export const sample1 = Template.bind({});
+
   sample1.args = {
     up: data.data,
     color: colorTheme

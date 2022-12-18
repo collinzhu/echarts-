@@ -1,0 +1,21 @@
+{
+  "create an echarts story": {
+    "scope": "javascript,typescipt,typescriptreact",
+    "prefix": "echartss",
+    "body": [
+      "import $1 from \"../../../Components$2\";",
+      "import { Story, Meta } from \"@storybook/react\";",
+      "",
+      "export default {",
+      "  title: \"$1\",",
+      "  component: $1,",
+      "} as Meta;",
+      "",
+      "const Template: Story = (args) => <$1 {...args} />;",
+      "",
+      "export const basic = Template.bind({});",
+      "basic.args = {};"
+    ],
+    "description": "create an echarts story"
+  }
+}
