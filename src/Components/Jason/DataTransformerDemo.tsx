@@ -1,31 +1,57 @@
 import ReactEcharts from "echarts-for-react";
+import { useEffect, useState } from "react";
 import transform from "../../AlternativeTransformer";
-import { data } from "../../data/Set1/9.json";
+import { data6, data7, data8, data9, data10 } from "../../data/Set1";
 
-const TestComponent = () => {
-  let data2D = transform(data, "address");
+const TestComponent = ({
+  datastream,
+}: {
+  datastream: "data6" | "data7" | "data8" | "data9" | "data10";
+}) => {
+  const [data, setData] = useState(transform(data7.data, "address"));
 
-  console.log(data2D);
+  useEffect(() => {
+    switch (datastream) {
+      case "data6":
+        setData(transform(data6.data, "address"));
+        break;
+      case "data7":
+        setData(transform(data7.data, "address"));
+        break;
+      case "data8":
+        setData(transform(data8.data, "address"));
+        break;
+      case "data9":
+        setData(transform(data9.data, "address"));
+        break;
+      case "data10":
+        setData(transform(data10.data, "address"));
+        break;
+      default:
+        setData(transform(data6.data, "address"));
+        break;
+    }
+  }, [datastream]);
+
+  console.log(data);
 
   const option = {
     legend: {},
     tooltip: {},
     dataset: {
-      source: data2D,
+      source: data,
     },
-    xAxis: { type: "category" },
-    yAxis: {},
-    series: data2D.map((row: (number | string | undefined)[]) => {
-      return { type: "bar" };
+    xAxis: {},
+    yAxis: { type: "category" },
+    series: data.map((row: (number | string | undefined)[]) => {
+      return { type: "bar", seriesLayoutBy: "column" };
     }),
   };
-
-  console.log(transform(data, "address"));
 
   return (
     <>
       <h1>See console</h1>
-      <ReactEcharts option={option} />
+      <ReactEcharts option={option} style={{ height: 600 }} />
     </>
   );
 };
