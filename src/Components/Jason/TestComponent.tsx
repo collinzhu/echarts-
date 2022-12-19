@@ -1,11 +1,24 @@
 import ReactEcharts from "echarts-for-react";
 import transform from "../../AlternativeTransformer";
-import { data } from "../../data/Set1/12.json";
+import { data } from "../../data/Set1/9.json";
 
 const TestComponent = () => {
-  const option = {};
+  let data2D = transform(data, "address");
 
-  console.log(transform(data, "clean:size"));
+  const option = {
+    legend: {},
+    tooltip: {},
+    dataset: {
+      source: data2D,
+    },
+    xAxis: { type: "category" },
+    yAxis: {},
+    series: data2D.map((row: (number | string | undefined)[]) => {
+      return { type: "bar" };
+    }),
+  };
+
+  console.log(transform(data, "address"));
 
   return (
     <>
