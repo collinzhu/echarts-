@@ -5,6 +5,8 @@ import { data } from "../../data/Set1/9.json";
 const TestComponent = () => {
   let data2D = transform(data, "address");
 
+  console.log(data2D);
+
   const option = {
     legend: {},
     tooltip: {},
