@@ -1,15 +1,15 @@
+interface dataShape {
+  [index: string]: string | number | undefined;
+}
+
 /* SMX format
 {
     id: number
     isEmpty: bool
     title: string
-    data: object[]
+    data: dataShape[]
 }
 */
-
-interface dataShape {
-  [index: string]: string | number | undefined;
-}
 
 /**
  * Transform SMX data to the ECharts format, designed to be a temporary solution
@@ -30,13 +30,7 @@ export default function transform(
   data = standardizeFields(data);
 
   // 3. make it into a two dimensional array
-  let fields = extractFields(data);
-
-  // order xKey at the front
-  fields.splice(fields.indexOf(xKey), 1);
-  fields.unshift(xKey);
-
-  return data.map((item: dataShape) => fields.map((field) => item[field]));
+  return makeTwoDimensionalArray(data, xKey);
 }
 
 const getDefaultObject = (data: dataShape[]) => {
@@ -79,16 +73,6 @@ const applyMapper = (
   }
 };
 
-const printDataLengths = (data: any) => {
-  let dataLengths: number[] = [];
-
-  data.forEach((value: dataShape) => {
-    dataLengths.push(Object.keys(value).length);
-  });
-
-  console.log(dataLengths);
-};
-
 const extractFields = (data: dataShape[]): string[] => {
   let fields = new Set();
 
@@ -101,11 +85,34 @@ const extractFields = (data: dataShape[]): string[] => {
   return Array.from(fields) as string[];
 };
 
-/*
 const makeTwoDimensionalArray = (data: dataShape[], xKey: string) => {
+  // extract fields
   let fields = extractFields(data);
 
-  // order fields
+  // order the xKey at the front
+  fields.splice(fields.indexOf(xKey), 1);
+  fields.unshift(xKey);
+
+  // create a two dimensional array with the field structure
+  let twoDimensionalArray = data.map((item: dataShape) =>
+    fields.map((field) => item[field])
+  );
+
+  // put the fields the first row
+  twoDimensionalArray.unshift(fields);
+
+  return twoDimensionalArray;
+};
+
+/*
+const printDataLengths = (data: any) => {
+  let dataLengths: number[] = [];
+
+  data.forEach((value: dataShape) => {
+    dataLengths.push(Object.keys(value).length);
+  });
+
+  console.log(dataLengths);
 };
 
 const getLargestObject = (data: Object[]) => {

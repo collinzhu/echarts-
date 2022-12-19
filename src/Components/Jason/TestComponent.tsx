@@ -5,7 +5,7 @@ import { data } from "../../data/Set1/12.json";
 const TestComponent = () => {
   const option = {};
 
-  console.log(transform(data, "address"));
+  console.log(transform(data, "clean:size"));
 
   return (
     <>
