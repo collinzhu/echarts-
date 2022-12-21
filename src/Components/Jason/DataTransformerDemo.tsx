@@ -1,37 +1,34 @@
 import ReactEcharts from "echarts-for-react";
-import { useEffect, useState } from "react";
 import transform from "../../AlternativeTransformer";
 import { data6, data7, data8, data9, data10 } from "../../data/Set1";
 
-const TestComponent = ({
-  datastream,
-}: {
+interface TestComponentProps {
   datastream: "data6" | "data7" | "data8" | "data9" | "data10";
-}) => {
-  const [data, setData] = useState(transform(data7.data, "address"));
+}
 
-  useEffect(() => {
-    switch (datastream) {
-      case "data6":
-        setData(transform(data6.data, "address"));
-        break;
-      case "data7":
-        setData(transform(data7.data, "address"));
-        break;
-      case "data8":
-        setData(transform(data8.data, "address"));
-        break;
-      case "data9":
-        setData(transform(data9.data, "address"));
-        break;
-      case "data10":
-        setData(transform(data10.data, "address"));
-        break;
-      default:
-        setData(transform(data6.data, "address"));
-        break;
-    }
-  }, [datastream]);
+const TestComponent = ({ datastream }: TestComponentProps) => {
+  let data;
+
+  switch (datastream) {
+    case "data6":
+      data = transform(data6.data, "address");
+      break;
+    case "data7":
+      data = transform(data7.data, "address");
+      break;
+    case "data8":
+      data = transform(data8.data, "address");
+      break;
+    case "data9":
+      data = transform(data9.data, "address");
+      break;
+    case "data10":
+      data = transform(data10.data, "address");
+      break;
+    default:
+      data = transform(data6.data, "address");
+      break;
+  }
 
   console.log(data);
 
