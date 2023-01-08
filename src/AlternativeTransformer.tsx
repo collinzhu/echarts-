@@ -15,7 +15,6 @@ interface dataShape {
  * Transform SMX data to the ECharts format, designed to be a temporary solution
  * @param inputData The `data` field from an SMX API request.
  * @param xKey The key to be used for the X Axis
- * @param yKey The key to be used for the Y Axis
  * @param mapper Optional mapper function to be run before any filtering happens
  */
 export default function transform(
@@ -33,6 +32,13 @@ export default function transform(
   return makeTwoDimensionalArray(data, xKey);
 }
 
+/**
+ * Produces an object, from a set of objects, that contains every field in the object set.
+ * Each field will be set to a 'default value' based on their type. For example number fields
+ * will be set to 0.
+ * @param data A set of objects with various fields.
+ * @returns A default object, an object containing every possible field with default values.
+ */
 const getDefaultObject = (data: dataShape[]) => {
   let defaultObject: dataShape = {};
 
@@ -54,6 +60,13 @@ const getDefaultObject = (data: dataShape[]) => {
   return defaultObject;
 };
 
+/**
+ * Makes every object in a set of objects have the same fields. If an object previously
+ * did not have the field it will be intialized to a default value based on the field type.
+ * For example, 0 for numbers.
+ * @param data A set of objects.
+ * @returns A set of objects, where every object has the same fields.
+ */
 const standardizeFields = (data: dataShape[]) => {
   let defaultObject: dataShape = getDefaultObject(data);
 
@@ -73,6 +86,11 @@ const applyMapper = (
   }
 };
 
+/**
+ * Get's all the fieldnames present in a set of objects
+ * @param data A set of objects
+ * @returns All the fieldnames
+ */
 const extractFields = (data: dataShape[]): string[] => {
   let fields = new Set();
 
@@ -85,6 +103,13 @@ const extractFields = (data: dataShape[]): string[] => {
   return Array.from(fields) as string[];
 };
 
+/**
+ * Makes a two dimensional array from a set of objects
+ * @param data A set of objects
+ * @param xKey The fieldname that will be mapped to the leftmost column in the resulting 2d array
+ * @returns A two dimensional array. The first row is the header, containing all the field names.
+ * The remaining rows contain data for each object.
+ */
 const makeTwoDimensionalArray = (data: dataShape[], xKey: string) => {
   // extract fields
   let fields = extractFields(data);
