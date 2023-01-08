@@ -19,6 +19,7 @@ interface dataShape {
  */
 export default function transform(
   inputData: dataShape[],
+  header: boolean = false,
   xKey?: string,
   mapper?: (val: dataShape) => dataShape
 ) {
@@ -29,7 +30,7 @@ export default function transform(
   data = standardizeFields(data);
 
   // 3. make it into a two dimensional array
-  return makeTwoDimensionalArray(data, xKey);
+  return makeTwoDimensionalArray(data, header, xKey);
 }
 
 /**
@@ -110,7 +111,11 @@ const extractFields = (data: dataShape[]): string[] => {
  * @returns A two dimensional array. The first row is the header, containing all the field names.
  * The remaining rows contain data for each object.
  */
-const makeTwoDimensionalArray = (data: dataShape[], xKey?: string) => {
+const makeTwoDimensionalArray = (
+  data: dataShape[],
+  header?: boolean,
+  xKey?: string
+) => {
   // extract fields
   let fields = extractFields(data);
 
@@ -125,8 +130,10 @@ const makeTwoDimensionalArray = (data: dataShape[], xKey?: string) => {
     fields.map((field) => item[field])
   );
 
-  // put the fields the first row
-  twoDimensionalArray.unshift(fields);
+  if (header) {
+    // put the fields the first row
+    twoDimensionalArray.unshift(fields);
+  }
 
   return twoDimensionalArray;
 };

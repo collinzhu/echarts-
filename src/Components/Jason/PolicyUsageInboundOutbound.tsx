@@ -1,6 +1,7 @@
 import ReactEcharts from "echarts-for-react";
 import theme from "../../data/theme.json";
 import { registerTheme } from "echarts";
+import transform from "../../AlternativeTransformer";
 
 interface PolicyUsageInboundOutboundProps {
   data: any;
@@ -12,22 +13,27 @@ const PolicyUsageInboundOutbound = ({
   state = "inbound",
 }: PolicyUsageInboundOutboundProps) => {
   console.log(data);
-  data = data[state];
+  data = transform(data[state], false, "action");
 
-  let actions = data.map((dataObject: any) => dataObject.action);
+  // extract actions
+  let actions = data.map((row: (string | number)[]) => {
+    return row[0];
+  });
 
   // remove duplicates
   actions = actions.filter(
     (value: string, index: number) => actions.indexOf(value) === index
   );
 
+  console.log(data);
+
   let totalCountOfHits = actions.map((action: string) => {
     let hitCount = 0;
 
     data
-      .filter((dataObject: any) => dataObject.action === action)
-      .map((dataObject: any) => {
-        hitCount += dataObject.countofhits;
+      .filter((row: any) => row[0] === action)
+      .map((row: any) => {
+        hitCount += row[3];
         return null;
       });
 
