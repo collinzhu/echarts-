@@ -19,7 +19,7 @@ interface dataShape {
  */
 export default function transform(
   inputData: dataShape[],
-  xKey: string,
+  xKey?: string,
   mapper?: (val: dataShape) => dataShape
 ) {
   // 1. preprocess using parameters
@@ -110,13 +110,15 @@ const extractFields = (data: dataShape[]): string[] => {
  * @returns A two dimensional array. The first row is the header, containing all the field names.
  * The remaining rows contain data for each object.
  */
-const makeTwoDimensionalArray = (data: dataShape[], xKey: string) => {
+const makeTwoDimensionalArray = (data: dataShape[], xKey?: string) => {
   // extract fields
   let fields = extractFields(data);
 
-  // order the xKey at the front
-  fields.splice(fields.indexOf(xKey), 1);
-  fields.unshift(xKey);
+  if (typeof xKey !== "undefined") {
+    // order the xKey at the front
+    fields.splice(fields.indexOf(xKey), 1);
+    fields.unshift(xKey);
+  }
 
   // create a two dimensional array with the field structure
   let twoDimensionalArray = data.map((item: dataShape) =>
