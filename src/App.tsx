@@ -10,6 +10,8 @@ import outboundpo from "./data/Set1/3.json";
 import smartRuleData from "./data/Set1/4.json"
 import TimeInboundSpam from "./Components/Collin/TimeInboundSpam";
 import { useState, useEffect } from "react";
+import file from './data/Set1/11.json'
+import echartsify from "./Transformer";
 //import { DataStore, Period } from './DataStore'
 
 
@@ -42,18 +44,23 @@ let colorTheme =
 function App() {
   // const [data, setData] = useState(Object)
 
+  const [x, y] = echartsify(file.data, 'clean:count', 'address')
 
   return (
-    <div>
-      <TimeInboundSpam tis={smartRuleData.data} color = {colorTheme}/>
-      {/* <BarChart imc={inboundJson.data}></BarChart> */}
-      <PieChart up={unusedPolicy.data} color = {colorTheme}></PieChart> 
-      <SmartRuleHitsCount srd = {smartRuleData.data} color = {colorTheme}/>
-      {/* <TypeOfEvent
-        inbound={inboundpo.data}
-        outbound={outboundpo.data}
-      ></TypeOfEvent> */}
+    // <div>
+    //   <TimeInboundSpam tis={smartRuleData.data} color = {colorTheme}/>
+    //   {/* <BarChart imc={inboundJson.data}></BarChart> */}
+    //   <PieChart up={unusedPolicy.data} color = {colorTheme}></PieChart> 
+    //   <SmartRuleHitsCount srd = {smartRuleData.data} color = {colorTheme}/>
+    //   {/* <TypeOfEvent
+    //     inbound={inboundpo.data}
+    //     outbound={outboundpo.data}
+    //   ></TypeOfEvent> */}
 
+    // </div>
+
+    <div>
+      { x }
     </div>
   );
 }

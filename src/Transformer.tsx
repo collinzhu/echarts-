@@ -13,26 +13,34 @@
  * @param data The `data` field from an SMX API request.
  * @param xKey The key to be used for the X Axis
  * @param yKey The key to be used for the Y Axis
- * @param mapper Optional mapper function to be run before any filterng happens
+ * @param mapper Optional map function to be run before any filtering happens
+ * 
+ * ### Example
+ * ```
+ * import file from 'data/11.json'
+ * import echartsify from 'Transformer'
+ * 
+ * const [x, y] = echartsify(file.data, 'clean:count', 'address')
+ * ```
+ * 
+ *  
  */
 export default function echartsify(
-    inputData: Object[],
+    inputData: {[key: string]: string|number}[],
     xKey: string,
+          
     yKey: string,
-    mapper?: (val: Object) => Object,
+    mapper: ( (val: Object) => Object ) = ( val => { return val } ),
     ) {
 
+    const types = inputData.keys
+
     // 1. preprocess using parameters
-    let data: Object[]
-    if (mapper !== undefined) {
-        data = inputData.map(mapper)
-    } else {
-        data = inputData
-    }
+    let data: {}[] = inputData.map(mapper)
     
     // 2. extract keys from data
-    let xData: (number|string)[] = []
-    let yData: (number|string)[] = []
+    let xData: any[] = []
+    let yData: any[] = []
 
     data.forEach( (val) => {
         xData.push(val[xKey])
