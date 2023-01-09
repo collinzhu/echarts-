@@ -11,6 +11,9 @@ interface dataShape {
   }
   */
 
+/**
+ * WARNING - THIS IS INSANELY UNOPTIMISED
+ */
 export default class Transformer {
   rawData: dataShape[];
   header: string[];

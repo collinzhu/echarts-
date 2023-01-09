@@ -1,6 +1,6 @@
 import PolicyUsageInboundOutbound from "../../Components/Jason/PolicyUsageInboundOutbound";
-import { data as inboundData } from "../../data/Set1/2.json";
-import { data as outboundData } from "../../data/Set1/3.json";
+import { data2 as inboundData } from "../../data/Set1";
+import { data3 as outboundData } from "../../data/Set1";
 import { Story, Meta } from "@storybook/react";
 
 export default {
@@ -11,8 +11,8 @@ export default {
 const Template: Story = ({ data, ...args }) => (
   <PolicyUsageInboundOutbound
     data={{
-      inbound: inboundData,
-      outbound: outboundData,
+      inbound: inboundData.data,
+      outbound: outboundData.data,
     }}
     {...args}
   />

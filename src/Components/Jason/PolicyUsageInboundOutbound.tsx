@@ -1,7 +1,8 @@
 import ReactEcharts from "echarts-for-react";
 import theme from "../../data/theme.json";
 import { registerTheme } from "echarts";
-import transform from "../../AlternativeTransformer";
+import Transformer from "../../AlternativeAlternativeTransformer";
+import SmartRuleHitsCount from "../Collin/SmartRuleHitsCount";
 
 interface PolicyUsageInboundOutboundProps {
   data: any;
@@ -12,8 +13,11 @@ const PolicyUsageInboundOutbound = ({
   data,
   state = "inbound",
 }: PolicyUsageInboundOutboundProps) => {
-  console.log(data);
-  data = transform(data[state], false, "action");
+  data = data[state];
+  const transformer = new Transformer(data);
+  transformer.setXAxis("action");
+
+  data = transformer.data;
 
   // extract actions
   let actions = data.map((row: (string | number)[]) => {
@@ -25,20 +29,14 @@ const PolicyUsageInboundOutbound = ({
     (value: string, index: number) => actions.indexOf(value) === index
   );
 
-  console.log(data);
-
-  let totalCountOfHits = actions.map((action: string) => {
-    let hitCount = 0;
-
+  // count hits for each action
+  let hitCounts = actions.map((action: string) =>
     data
       .filter((row: any) => row[0] === action)
-      .map((row: any) => {
-        hitCount += row[3];
-        return null;
-      });
-
-    return hitCount;
-  });
+      .reduce((accumulator: number, row: any) => {
+        return accumulator + row[3];
+      }, 0)
+  );
 
   const option = {
     title: {
@@ -60,7 +58,7 @@ const PolicyUsageInboundOutbound = ({
     },
     series: [
       {
-        data: totalCountOfHits,
+        data: hitCounts,
         type: "bar",
         emphasis: {
           itemStyle: {
